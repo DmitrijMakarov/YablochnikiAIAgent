@@ -1,0 +1,4 @@
+id	kind	origin	accessed_utc	status	method	snapshot	sha256	error
+S-001@1	own	inputs/scenario.docx	2026-11-09T19:18:35.970+00:00	available	file:a466f846d5e5be2b1671be8b3f87d34edf9e21d618cd7c9888d5408a0dc0ed10	evidence/S-001@1.jsonl	25d1e46515ad44f275a0f80400f470cffa14a1a0ff0180496cd5686032232771	
+S-002@1	own	inputs/compatibility.csv	2026-11-09T19:18:36.106+00:00	available	file:15362ac9ad683ec5afa98deaf699af95fc76d58e4543b119e6dcd7c29987c728	evidence/S-002@1.jsonl	f6e520701bfbb5d0b14874a52741f3eba35e3fd4c9cd9f4ee5dd0f9f7ae327b8	
+S-003@1	public	https://www.rfc-editor.org/rfc/rfc4180.html#section-2	2026-11-09T19:18:36.184+00:00	available	capture: 2026-11-09, встроенный веб-инструмент Codex, два проверенных фрагмента §2, не полная копия	evidence/S-003@1.jsonl	85d582e2568d4d8da5dff284edd722ab2c3aec1d531c1866a455191964aa2439	

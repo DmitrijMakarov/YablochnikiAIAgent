@@ -1,0 +1,17 @@
+step	attempt	started_utc	ended_utc	seconds	status	environment	tool	input	outputs	model	tokens	tokens_kind	cost	cost_kind	measurement	human	detail
+scope	236be7c0d4fb	2026-11-09T19:18:35.794+00:00			started	Codex	agent			unknown		unknown		unknown			
+scope	236be7c0d4fb	2026-11-09T19:18:35.794+00:00	2026-11-09T19:18:35.837+00:00	0.043	ok	Codex	agent		"{""brief.md"": ""215ac3e1c45a4e3572bece7c203de0c8bf9bfe97fa3f95fa59afdfffcef46976""}"	unknown		unknown		unknown			
+research	3a3ad46581f3	2026-11-09T19:18:35.879+00:00			started	Codex	agent			unknown		unknown		unknown			
+research	a1a7335d9043	2026-11-09T19:18:35.969+00:00			started	Codex	source	S-001@1				unknown		unknown			inputs/scenario.docx
+research	a1a7335d9043	2026-11-09T19:18:35.969+00:00	2026-11-09T19:18:36.061+00:00	0.092	ok	Codex	source	S-001@1	evidence/S-001@1.jsonl			unknown		unknown			file:a466f846d5e5be2b1671be8b3f87d34edf9e21d618cd7c9888d5408a0dc0ed10
+research	9410599e615f	2026-11-09T19:18:36.106+00:00			started	Codex	source	S-002@1				unknown		unknown			inputs/compatibility.csv
+research	9410599e615f	2026-11-09T19:18:36.106+00:00	2026-11-09T19:18:36.107+00:00	0.001	ok	Codex	source	S-002@1	evidence/S-002@1.jsonl			unknown		unknown			file:15362ac9ad683ec5afa98deaf699af95fc76d58e4543b119e6dcd7c29987c728
+research	ccaafcda6dc4	2026-11-09T19:18:36.144+00:00			started	Codex	web	S-003@1				unknown		unknown			https://www.rfc-editor.org/rfc/rfc4180.html#section-2
+research	ccaafcda6dc4	2026-11-09T19:18:36.144+00:00	2026-11-09T19:18:36.147+00:00	0.003	error	Codex	web	S-003@1				unknown		unknown			gaierror: [Errno 8] nodename nor servname provided, or not known
+research	01afda8d0e41	2026-11-09T19:18:36.183+00:00			started	Codex	source	S-003@1				unknown		unknown			https://www.rfc-editor.org/rfc/rfc4180.html#section-2
+research	01afda8d0e41	2026-11-09T19:18:36.183+00:00	2026-11-09T19:18:36.185+00:00	0.002	ok	Codex	source	S-003@1	evidence/S-003@1.jsonl			unknown		unknown			capture: 2026-11-09, встроенный веб-инструмент Codex, два проверенных фрагмента §2, не полная копия
+research	576f7143c14d	2026-11-09T19:18:36+0000	2026-11-09T19:18:36.266+00:00	0.266	ok	Codex	python	S-002@1		unknown		unknown		unknown			Воспроизведена сводка таблицы. Расход модели неизвестен.
+research	3a3ad46581f3	2026-11-09T19:18:35.879+00:00	2026-11-09T19:19:17.714+00:00	41.835	ok	Codex	agent		"{""research.md"": ""a468630ceb196b0d3a15223d8b4fcde74d9fec07ad3548198e9522e0b4ccd2e4"", ""sources.tsv"": ""48d777c726d67f462a617e3c0324047c20a048af4a2b4e7196a549e4f6f9510a"", ""claims.tsv"": ""f60e85b32a73da78bbfe9fe20b0c5f478769392702c554ac73f80674908dac55""}"	unknown		unknown		unknown			Три источника зарегистрированы; DNS-сбой сохранён, RFC использован по подтверждённому снимку.
+strategy	c8647817d731	2026-11-09T19:19:17.754+00:00	2026-11-09T19:19:57.830+00:00	40.076	resumed	Codex	checkpoint					unknown		unknown			Контрольная остановка после исследования; дальше стратегия.
+strategy	081e84208e47	2026-11-09T19:19:57.880+00:00			started	Codex	agent			unknown		unknown		unknown			
+strategy	081e84208e47	2026-11-09T19:19:57.880+00:00	2026-11-09T19:19:58.058+00:00	0.178	ok	Codex	agent		"{""strategy.md"": ""9a87d48080fbe000ccb502980983a01dc5888b7b79482e44f4ffd330df636807"", ""quality.md"": ""bdce2d2ce4fcf7c1c9c83297301c18e03b2c8d1c9b576eeb271a68604e26e6ed""}"	unknown		unknown		unknown			Верификация ссылок и отдельная содержательная проверка выполнены. Решение ожидает пользователя.

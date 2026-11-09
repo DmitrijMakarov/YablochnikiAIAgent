@@ -1,0 +1,14 @@
+{
+  "web_requests": 0,
+  "sources": [
+    {"id": "S-001@1", "kind": "own", "path": "scenario.docx"},
+    {"id": "S-002@1", "kind": "own", "path": "compatibility.csv"},
+    {
+      "id": "S-003@2",
+      "kind": "public",
+      "url": "https://www.rfc-editor.org/rfc/rfc4180.html#section-2",
+      "snapshot": "rfc4180-v2.jsonl",
+      "capture_note": "2026-11-09, встроенный веб-инструмент Codex, фрагмент пункта 4 и первое предложение пункта 6 §2, с. 3"
+    }
+  ]
+}

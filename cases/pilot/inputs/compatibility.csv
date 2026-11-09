@@ -1,0 +1,9 @@
+sample,expected,observed,detail
+plain,accepted,accepted,schema_ok
+quoted_comma,accepted,accepted,schema_ok
+quoted_multiline,accepted,accepted,schema_ok
+escaped_quote,accepted,accepted,schema_ok
+utf8_bom,accepted,accepted,schema_ok
+semicolon_export,rejected,rejected,header_mismatch
+ragged_row,rejected,rejected,row_width
+missing_source,rejected,rejected,empty_required_field

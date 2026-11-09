@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "status": "awaiting_decision",
+  "next": "decision",
+  "completed": {
+    "scope": {
+      "brief.md": "215ac3e1c45a4e3572bece7c203de0c8bf9bfe97fa3f95fa59afdfffcef46976"
+    },
+    "research": {
+      "research.md": "a468630ceb196b0d3a15223d8b4fcde74d9fec07ad3548198e9522e0b4ccd2e4",
+      "sources.tsv": "48d777c726d67f462a617e3c0324047c20a048af4a2b4e7196a549e4f6f9510a",
+      "claims.tsv": "f60e85b32a73da78bbfe9fe20b0c5f478769392702c554ac73f80674908dac55"
+    },
+    "strategy": {
+      "strategy.md": "9a87d48080fbe000ccb502980983a01dc5888b7b79482e44f4ffd330df636807",
+      "quality.md": "bdce2d2ce4fcf7c1c9c83297301c18e03b2c8d1c9b576eeb271a68604e26e6ed"
+    }
+  },
+  "pending": null,
+  "reason": ""
+}
