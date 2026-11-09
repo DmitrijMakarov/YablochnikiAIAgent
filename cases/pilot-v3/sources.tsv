@@ -1,0 +1,6 @@
+id	kind	origin	accessed_utc	status	method	snapshot	sha256	error
+S-001@1	own	inputs/scenario.docx	2026-11-09T21:26:37.360+00:00	available	file:a466f846d5e5be2b1671be8b3f87d34edf9e21d618cd7c9888d5408a0dc0ed10	evidence/S-001@1.jsonl	25d1e46515ad44f275a0f80400f470cffa14a1a0ff0180496cd5686032232771	
+S-002@1	own	inputs/compatibility.csv	2026-11-09T21:26:37.466+00:00	available	file:15362ac9ad683ec5afa98deaf699af95fc76d58e4543b119e6dcd7c29987c728	evidence/S-002@1.jsonl	f6e520701bfbb5d0b14874a52741f3eba35e3fd4c9cd9f4ee5dd0f9f7ae327b8	
+S-003@2	public	https://www.rfc-editor.org/rfc/rfc4180.html#section-2	2026-11-09T21:26:37.515+00:00	available	capture: 2026-11-09, встроенный веб-инструмент Codex, фрагмент пункта 4 и первое предложение пункта 6 §2, с. 3	evidence/S-003@2.jsonl	3748d19c82b70c19c3b0b4cbd6a8d8697251070b6eff5e8e2613127baf4013e8	
+S-004@1	synthetic	inputs/synthetic-paired-tasks.csv	2026-11-09T21:26:37.561+00:00	available	file:723a44400b137285d956c1d60afff18124d201a30a029e1c3b8bb222fab7ddc2	evidence/S-004@1.jsonl	d1418d2e718039832633341f350923770e5f2cba0420011f4aa3ae37b3c2fff7	
+S-005@1	own	inputs/demo-icons.md	2026-11-09T21:26:37.605+00:00	available	file:5e0c014bfb545465fb5ad4141cc33a5f2c55b2ac69fb093476db6982905d4500	evidence/S-005@1.jsonl	96fdf353b65c00703e57283e7a2546ce2418ae77814c12a842297c4b0d394571	

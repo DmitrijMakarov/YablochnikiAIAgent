@@ -336,6 +336,46 @@ class PrototypeTest(unittest.TestCase):
             self.assertNotEqual(before[index]["quote"], after[index]["quote"])
         self.assertEqual(after[12]["source"], "S-003@2")
 
+    def test_t7_review_fixture_reproduces_metrics_without_unrelated_input(self):
+        review = Path(__file__).resolve().parents[1] / "cases/pilot-v3"
+        fixture = self.directory / "paired.csv"
+        fixture.write_bytes((review / "inputs/synthetic-paired-tasks.csv").read_bytes())
+        result = subprocess.run(
+            [sys.executable, str(review / "measure_fixture.py"), str(fixture)],
+            cwd=self.directory, check=True, capture_output=True, text=True,
+        )
+        self.assertEqual(json.loads(result.stdout), {
+            "pairs": 12, "completed_pairs": 12, "median_reduction_pct": 11.5,
+            "manual_completed": 12, "csv_completed": 12, "completion_minimum_fixture": 11,
+            "csv_conversion_required": 4, "links_lost": 0, "links_substituted": 0,
+        })
+
+    def test_t7_review_resumes_with_pinned_parent_and_explicit_decision_boundary(self):
+        root = Path(__file__).resolve().parents[1]
+        review = root / "cases/pilot-v3"
+        parent = review.with_name("pilot-v2")
+        parent_state = case.state(parent)
+        case.check_completed(parent, parent_state)
+        self.assertEqual(parent_state["status"], "decided")
+        brief = (review / "brief.md").read_text()
+        self.assertIn(case.digest(parent / "state.json"), brief)
+        self.assertIn(parent_state["completed"]["decision"]["decisions.md"], brief)
+        result = subprocess.run(
+            [sys.executable, "-m", "tools.case", "resume", str(review)],
+            cwd=root, check=True, capture_output=True, text=True,
+        )
+        checkpoint = json.loads(result.stdout)
+        self.assertIn((checkpoint["status"], checkpoint["next"]),
+                      {("awaiting_decision", "decision"), ("decided", None)})
+        decision_rows = [row for row in case.table(review / "run.tsv", case.RUN_FIELDS)
+                         if row["step"] == "decision" and row["tool"] == "agent"]
+        if checkpoint["status"] == "awaiting_decision":
+            self.assertFalse((review / "decisions.md").exists())
+            self.assertEqual(decision_rows, [])
+        else:
+            self.assertTrue(any(row["status"] == "ok" and row["human"] for row in decision_rows))
+        self.assertEqual(case.check(review)["audit_structure"], "checked")
+
 
 if __name__ == "__main__":
     unittest.main()

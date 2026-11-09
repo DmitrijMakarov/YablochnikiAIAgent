@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "status": "awaiting_decision",
+  "next": "decision",
+  "completed": {
+    "scope": {
+      "brief.md": "36ace13f461f85ffb6174e08fe72049b03adaa9729726846ee1567d66a8c36a4"
+    },
+    "research": {
+      "research.md": "0606e0b33838319bad0d8d60b26e53f217fb2c17f16ecd9b56848f5094758ddb",
+      "sources.tsv": "a60e9b5741e8e86c31d16d15f14e871c758fbac6a64dbe1224d5538b7c9c749e",
+      "claims.tsv": "73a096f8670ec5036cf70eab6beb08f1eaae71ac108ed2bffd5b5a8c49f3e793"
+    },
+    "strategy": {
+      "strategy.md": "9add6ec24c65d1c2532e674f31bb9b06965ac280601f9d4ab7370cd691dbb690",
+      "quality.md": "13fbe43326c53ca826f3625025db1c99a15b13474da35060ffed0f8a0a071152",
+      "audit.tsv": "3202cc58c5d29fab73b89d6d3e21f4a263bd3235559291aa6757f8f26ed847a6"
+    }
+  },
+  "pending": null,
+  "reason": "",
+  "audit_required": true
+}
