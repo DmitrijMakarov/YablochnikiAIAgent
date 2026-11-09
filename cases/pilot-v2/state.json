@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "status": "awaiting_decision",
-  "next": "decision",
+  "status": "decided",
+  "next": null,
   "completed": {
     "scope": {
       "brief.md": "b43399f28de0ded6ee6fd36f79ec336e5f883f55b7cc1b49d097d305109a5631"
@@ -15,6 +15,9 @@
       "strategy.md": "9a87d48080fbe000ccb502980983a01dc5888b7b79482e44f4ffd330df636807",
       "quality.md": "0b212d22b3e8f4efac16818b1e5d7bf8eefa2e7f42c131ab183f55898c865753",
       "audit.tsv": "0dbcbcc24d36f5fe4ee0632d52b7e13aa3d67d7d14f427ad27ec35f4bfe3691f"
+    },
+    "decision": {
+      "decisions.md": "cb46893e34a79981c9292e47fed3ab37ebe4e766f4ed935e357b0ef3a013d620"
     }
   },
   "pending": null,

@@ -322,9 +322,13 @@ class PrototypeTest(unittest.TestCase):
     def test_pilot_revision_preserves_strategy_and_pins_corrected_evidence(self):
         pilot = Path(__file__).resolve().parents[1] / "cases/pilot"
         revision = pilot.with_name("pilot-v2")
-        case.check_completed(revision, case.state(revision))
+        checkpoint = case.state(revision)
+        case.check_completed(revision, checkpoint)
         self.assertEqual(case.check(revision)["audit_structure"], "checked")
-        self.assertEqual(case.state(revision)["status"], "awaiting_decision")
+        self.assertIn((checkpoint["status"], checkpoint["next"]),
+                      {("awaiting_decision", "decision"), ("decided", None)})
+        if checkpoint["status"] == "decided":
+            self.assertIn("decisions.md", checkpoint["completed"]["decision"])
         self.assertEqual(case.digest(revision / "strategy.md"), case.digest(pilot / "strategy.md"))
         before, after = (case.table(path / "claims.tsv", case.CLAIM_FIELDS) for path in (pilot, revision))
         self.assertEqual([row["id"] for row in before], [row["id"] for row in after])
