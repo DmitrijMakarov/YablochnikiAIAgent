@@ -1,0 +1,793 @@
+{
+  "by_week": {
+    "2026-06-01": {
+      "d30": {
+        "app_open": 90,
+        "eligible": 242,
+        "eligible_open_rate": 0.371901,
+        "eligible_task_rate": 0.210744,
+        "headline_task_rate": 0.210744,
+        "incomplete_telemetry": 0,
+        "registered": 242,
+        "right_censored": 0,
+        "task_completed": 51
+      },
+      "d7": {
+        "app_open": 111,
+        "eligible": 242,
+        "eligible_open_rate": 0.458678,
+        "eligible_task_rate": 0.285124,
+        "headline_task_rate": 0.285124,
+        "incomplete_telemetry": 0,
+        "registered": 242,
+        "right_censored": 0,
+        "task_completed": 69
+      }
+    },
+    "2026-06-08": {
+      "d30": {
+        "app_open": 89,
+        "eligible": 275,
+        "eligible_open_rate": 0.323636,
+        "eligible_task_rate": 0.192727,
+        "headline_task_rate": 0.192727,
+        "incomplete_telemetry": 0,
+        "registered": 275,
+        "right_censored": 0,
+        "task_completed": 53
+      },
+      "d7": {
+        "app_open": 126,
+        "eligible": 275,
+        "eligible_open_rate": 0.458182,
+        "eligible_task_rate": 0.341818,
+        "headline_task_rate": 0.341818,
+        "incomplete_telemetry": 0,
+        "registered": 275,
+        "right_censored": 0,
+        "task_completed": 94
+      }
+    },
+    "2026-06-15": {
+      "d30": {
+        "app_open": 100,
+        "eligible": 259,
+        "eligible_open_rate": 0.3861,
+        "eligible_task_rate": 0.243243,
+        "headline_task_rate": 0.243243,
+        "incomplete_telemetry": 0,
+        "registered": 259,
+        "right_censored": 0,
+        "task_completed": 63
+      },
+      "d7": {
+        "app_open": 120,
+        "eligible": 259,
+        "eligible_open_rate": 0.46332,
+        "eligible_task_rate": 0.320463,
+        "headline_task_rate": 0.320463,
+        "incomplete_telemetry": 0,
+        "registered": 259,
+        "right_censored": 0,
+        "task_completed": 83
+      }
+    },
+    "2026-06-22": {
+      "d30": {
+        "app_open": 77,
+        "eligible": 242,
+        "eligible_open_rate": 0.318182,
+        "eligible_task_rate": 0.206612,
+        "headline_task_rate": 0.206612,
+        "incomplete_telemetry": 53,
+        "registered": 295,
+        "right_censored": 0,
+        "task_completed": 50
+      },
+      "d7": {
+        "app_open": 129,
+        "eligible": 295,
+        "eligible_open_rate": 0.437288,
+        "eligible_task_rate": 0.277966,
+        "headline_task_rate": 0.277966,
+        "incomplete_telemetry": 0,
+        "registered": 295,
+        "right_censored": 0,
+        "task_completed": 82
+      }
+    },
+    "2026-06-29": {
+      "d30": {
+        "app_open": 93,
+        "eligible": 318,
+        "eligible_open_rate": 0.292453,
+        "eligible_task_rate": 0.144654,
+        "headline_task_rate": 0.144654,
+        "incomplete_telemetry": 0,
+        "registered": 318,
+        "right_censored": 0,
+        "task_completed": 46
+      },
+      "d7": {
+        "app_open": 141,
+        "eligible": 318,
+        "eligible_open_rate": 0.443396,
+        "eligible_task_rate": 0.286164,
+        "headline_task_rate": 0.286164,
+        "incomplete_telemetry": 0,
+        "registered": 318,
+        "right_censored": 0,
+        "task_completed": 91
+      }
+    },
+    "2026-07-06": {
+      "d30": {
+        "app_open": 111,
+        "eligible": 288,
+        "eligible_open_rate": 0.385417,
+        "eligible_task_rate": 0.215278,
+        "headline_task_rate": 0.215278,
+        "incomplete_telemetry": 0,
+        "registered": 288,
+        "right_censored": 0,
+        "task_completed": 62
+      },
+      "d7": {
+        "app_open": 122,
+        "eligible": 288,
+        "eligible_open_rate": 0.423611,
+        "eligible_task_rate": 0.25,
+        "headline_task_rate": 0.25,
+        "incomplete_telemetry": 0,
+        "registered": 288,
+        "right_censored": 0,
+        "task_completed": 72
+      }
+    },
+    "2026-07-13": {
+      "d30": {
+        "app_open": 7,
+        "eligible": 40,
+        "eligible_open_rate": 0.175,
+        "eligible_task_rate": 0.1,
+        "headline_task_rate": null,
+        "incomplete_telemetry": 0,
+        "registered": 340,
+        "right_censored": 300,
+        "task_completed": 4
+      },
+      "d7": {
+        "app_open": 109,
+        "eligible": 286,
+        "eligible_open_rate": 0.381119,
+        "eligible_task_rate": 0.248252,
+        "headline_task_rate": 0.248252,
+        "incomplete_telemetry": 54,
+        "registered": 340,
+        "right_censored": 0,
+        "task_completed": 71
+      }
+    },
+    "2026-07-20": {
+      "d30": {
+        "app_open": 0,
+        "eligible": 0,
+        "eligible_open_rate": null,
+        "eligible_task_rate": null,
+        "headline_task_rate": null,
+        "incomplete_telemetry": 0,
+        "registered": 315,
+        "right_censored": 315,
+        "task_completed": 0
+      },
+      "d7": {
+        "app_open": 141,
+        "eligible": 315,
+        "eligible_open_rate": 0.447619,
+        "eligible_task_rate": 0.288889,
+        "headline_task_rate": 0.288889,
+        "incomplete_telemetry": 0,
+        "registered": 315,
+        "right_censored": 0,
+        "task_completed": 91
+      }
+    },
+    "2026-07-27": {
+      "d30": {
+        "app_open": 0,
+        "eligible": 0,
+        "eligible_open_rate": null,
+        "eligible_task_rate": null,
+        "headline_task_rate": null,
+        "incomplete_telemetry": 0,
+        "registered": 356,
+        "right_censored": 356,
+        "task_completed": 0
+      },
+      "d7": {
+        "app_open": 160,
+        "eligible": 356,
+        "eligible_open_rate": 0.449438,
+        "eligible_task_rate": 0.258427,
+        "headline_task_rate": 0.258427,
+        "incomplete_telemetry": 0,
+        "registered": 356,
+        "right_censored": 0,
+        "task_completed": 92
+      }
+    },
+    "2026-08-03": {
+      "d30": {
+        "app_open": 0,
+        "eligible": 0,
+        "eligible_open_rate": null,
+        "eligible_task_rate": null,
+        "headline_task_rate": null,
+        "incomplete_telemetry": 0,
+        "registered": 332,
+        "right_censored": 332,
+        "task_completed": 0
+      },
+      "d7": {
+        "app_open": 55,
+        "eligible": 144,
+        "eligible_open_rate": 0.381944,
+        "eligible_task_rate": 0.236111,
+        "headline_task_rate": null,
+        "incomplete_telemetry": 0,
+        "registered": 332,
+        "right_censored": 188,
+        "task_completed": 34
+      }
+    }
+  },
+  "channel_standardization": {
+    "d30": {
+      "baseline_rate": 0.215206,
+      "mix_pp": -1.5244,
+      "recent_rate": 0.186321,
+      "recent_rate_baseline_mix": 0.201565,
+      "total_change_pp": -2.8885,
+      "within_channel_pp": -1.3642
+    },
+    "d7": {
+      "baseline_rate": 0.31701,
+      "mix_pp": -1.6899,
+      "recent_rate": 0.27192,
+      "recent_rate_baseline_mix": 0.28882,
+      "total_change_pp": -4.509,
+      "within_channel_pp": -2.8191
+    }
+  },
+  "cutoff_inclusive_utc": "2026-08-12",
+  "data_label": "SYNTHETIC TEST DATA",
+  "matched_periods": {
+    "baseline": {
+      "by_activation": {
+        "created": {
+          "d30": {
+            "app_open": 230,
+            "eligible": 572,
+            "eligible_open_rate": 0.402098,
+            "eligible_task_rate": 0.248252,
+            "headline_task_rate": 0.248252,
+            "incomplete_telemetry": 0,
+            "registered": 572,
+            "right_censored": 0,
+            "task_completed": 142
+          },
+          "d7": {
+            "app_open": 275,
+            "eligible": 572,
+            "eligible_open_rate": 0.480769,
+            "eligible_task_rate": 0.340909,
+            "headline_task_rate": 0.340909,
+            "incomplete_telemetry": 0,
+            "registered": 572,
+            "right_censored": 0,
+            "task_completed": 195
+          }
+        },
+        "not_created": {
+          "d30": {
+            "app_open": 49,
+            "eligible": 204,
+            "eligible_open_rate": 0.240196,
+            "eligible_task_rate": 0.122549,
+            "headline_task_rate": 0.122549,
+            "incomplete_telemetry": 0,
+            "registered": 204,
+            "right_censored": 0,
+            "task_completed": 25
+          },
+          "d7": {
+            "app_open": 82,
+            "eligible": 204,
+            "eligible_open_rate": 0.401961,
+            "eligible_task_rate": 0.25,
+            "headline_task_rate": 0.25,
+            "incomplete_telemetry": 0,
+            "registered": 204,
+            "right_censored": 0,
+            "task_completed": 51
+          }
+        }
+      },
+      "by_channel": {
+        "organic": {
+          "activation": {
+            "created": 306,
+            "observable": 404,
+            "rate": 0.757426
+          },
+          "d30": {
+            "app_open": 158,
+            "eligible": 404,
+            "eligible_open_rate": 0.391089,
+            "eligible_task_rate": 0.25495,
+            "headline_task_rate": 0.25495,
+            "incomplete_telemetry": 0,
+            "registered": 404,
+            "right_censored": 0,
+            "task_completed": 103
+          },
+          "d7": {
+            "app_open": 202,
+            "eligible": 404,
+            "eligible_open_rate": 0.5,
+            "eligible_task_rate": 0.341584,
+            "headline_task_rate": 0.341584,
+            "incomplete_telemetry": 0,
+            "registered": 404,
+            "right_censored": 0,
+            "task_completed": 138
+          }
+        },
+        "paid_social": {
+          "activation": {
+            "created": 124,
+            "observable": 199,
+            "rate": 0.623116
+          },
+          "d30": {
+            "app_open": 64,
+            "eligible": 199,
+            "eligible_open_rate": 0.321608,
+            "eligible_task_rate": 0.155779,
+            "headline_task_rate": 0.155779,
+            "incomplete_telemetry": 0,
+            "registered": 199,
+            "right_censored": 0,
+            "task_completed": 31
+          },
+          "d7": {
+            "app_open": 75,
+            "eligible": 199,
+            "eligible_open_rate": 0.376884,
+            "eligible_task_rate": 0.256281,
+            "headline_task_rate": 0.256281,
+            "incomplete_telemetry": 0,
+            "registered": 199,
+            "right_censored": 0,
+            "task_completed": 51
+          }
+        },
+        "referral": {
+          "activation": {
+            "created": 129,
+            "observable": 154,
+            "rate": 0.837662
+          },
+          "d30": {
+            "app_open": 52,
+            "eligible": 154,
+            "eligible_open_rate": 0.337662,
+            "eligible_task_rate": 0.188312,
+            "headline_task_rate": 0.188312,
+            "incomplete_telemetry": 0,
+            "registered": 154,
+            "right_censored": 0,
+            "task_completed": 29
+          },
+          "d7": {
+            "app_open": 74,
+            "eligible": 154,
+            "eligible_open_rate": 0.480519,
+            "eligible_task_rate": 0.337662,
+            "headline_task_rate": 0.337662,
+            "incomplete_telemetry": 0,
+            "registered": 154,
+            "right_censored": 0,
+            "task_completed": 52
+          }
+        },
+        "unknown": {
+          "activation": {
+            "created": 13,
+            "observable": 19,
+            "rate": 0.684211
+          },
+          "d30": {
+            "app_open": 5,
+            "eligible": 19,
+            "eligible_open_rate": 0.263158,
+            "eligible_task_rate": 0.210526,
+            "headline_task_rate": 0.210526,
+            "incomplete_telemetry": 0,
+            "registered": 19,
+            "right_censored": 0,
+            "task_completed": 4
+          },
+          "d7": {
+            "app_open": 6,
+            "eligible": 19,
+            "eligible_open_rate": 0.315789,
+            "eligible_task_rate": 0.263158,
+            "headline_task_rate": 0.263158,
+            "incomplete_telemetry": 0,
+            "registered": 19,
+            "right_censored": 0,
+            "task_completed": 5
+          }
+        }
+      },
+      "by_platform": {
+        "android": {
+          "activation": {
+            "created": 321,
+            "observable": 441,
+            "rate": 0.727891
+          },
+          "d30": {
+            "app_open": 168,
+            "eligible": 441,
+            "eligible_open_rate": 0.380952,
+            "eligible_task_rate": 0.21542,
+            "headline_task_rate": 0.21542,
+            "incomplete_telemetry": 0,
+            "registered": 441,
+            "right_censored": 0,
+            "task_completed": 95
+          },
+          "d7": {
+            "app_open": 208,
+            "eligible": 441,
+            "eligible_open_rate": 0.471655,
+            "eligible_task_rate": 0.306122,
+            "headline_task_rate": 0.306122,
+            "incomplete_telemetry": 0,
+            "registered": 441,
+            "right_censored": 0,
+            "task_completed": 135
+          }
+        },
+        "ios": {
+          "activation": {
+            "created": 251,
+            "observable": 335,
+            "rate": 0.749254
+          },
+          "d30": {
+            "app_open": 111,
+            "eligible": 335,
+            "eligible_open_rate": 0.331343,
+            "eligible_task_rate": 0.214925,
+            "headline_task_rate": 0.214925,
+            "incomplete_telemetry": 0,
+            "registered": 335,
+            "right_censored": 0,
+            "task_completed": 72
+          },
+          "d7": {
+            "app_open": 149,
+            "eligible": 335,
+            "eligible_open_rate": 0.444776,
+            "eligible_task_rate": 0.331343,
+            "headline_task_rate": 0.331343,
+            "incomplete_telemetry": 0,
+            "registered": 335,
+            "right_censored": 0,
+            "task_completed": 111
+          }
+        }
+      },
+      "overall": {
+        "d30": {
+          "app_open": 279,
+          "eligible": 776,
+          "eligible_open_rate": 0.359536,
+          "eligible_task_rate": 0.215206,
+          "headline_task_rate": 0.215206,
+          "incomplete_telemetry": 0,
+          "registered": 776,
+          "right_censored": 0,
+          "task_completed": 167
+        },
+        "d7": {
+          "app_open": 357,
+          "eligible": 776,
+          "eligible_open_rate": 0.460052,
+          "eligible_task_rate": 0.31701,
+          "headline_task_rate": 0.31701,
+          "incomplete_telemetry": 0,
+          "registered": 776,
+          "right_censored": 0,
+          "task_completed": 246
+        }
+      },
+      "weeks": [
+        "2026-06-01",
+        "2026-06-08",
+        "2026-06-15"
+      ]
+    },
+    "recent": {
+      "by_activation": {
+        "created": {
+          "d30": {
+            "app_open": 216,
+            "eligible": 542,
+            "eligible_open_rate": 0.398524,
+            "eligible_task_rate": 0.228782,
+            "headline_task_rate": 0.228782,
+            "incomplete_telemetry": 29,
+            "registered": 571,
+            "right_censored": 0,
+            "task_completed": 124
+          },
+          "d7": {
+            "app_open": 279,
+            "eligible": 571,
+            "eligible_open_rate": 0.488616,
+            "eligible_task_rate": 0.316988,
+            "headline_task_rate": 0.316988,
+            "incomplete_telemetry": 0,
+            "registered": 571,
+            "right_censored": 0,
+            "task_completed": 181
+          }
+        },
+        "not_created": {
+          "d30": {
+            "app_open": 65,
+            "eligible": 306,
+            "eligible_open_rate": 0.212418,
+            "eligible_task_rate": 0.111111,
+            "headline_task_rate": 0.111111,
+            "incomplete_telemetry": 24,
+            "registered": 330,
+            "right_censored": 0,
+            "task_completed": 34
+          },
+          "d7": {
+            "app_open": 113,
+            "eligible": 330,
+            "eligible_open_rate": 0.342424,
+            "eligible_task_rate": 0.193939,
+            "headline_task_rate": 0.193939,
+            "incomplete_telemetry": 0,
+            "registered": 330,
+            "right_censored": 0,
+            "task_completed": 64
+          }
+        }
+      },
+      "by_channel": {
+        "organic": {
+          "activation": {
+            "created": 239,
+            "observable": 342,
+            "rate": 0.69883
+          },
+          "d30": {
+            "app_open": 114,
+            "eligible": 324,
+            "eligible_open_rate": 0.351852,
+            "eligible_task_rate": 0.225309,
+            "headline_task_rate": 0.225309,
+            "incomplete_telemetry": 18,
+            "registered": 342,
+            "right_censored": 0,
+            "task_completed": 73
+          },
+          "d7": {
+            "app_open": 155,
+            "eligible": 342,
+            "eligible_open_rate": 0.453216,
+            "eligible_task_rate": 0.289474,
+            "headline_task_rate": 0.289474,
+            "incomplete_telemetry": 0,
+            "registered": 342,
+            "right_censored": 0,
+            "task_completed": 99
+          }
+        },
+        "paid_social": {
+          "activation": {
+            "created": 190,
+            "observable": 358,
+            "rate": 0.530726
+          },
+          "d30": {
+            "app_open": 89,
+            "eligible": 334,
+            "eligible_open_rate": 0.266467,
+            "eligible_task_rate": 0.140719,
+            "headline_task_rate": 0.140719,
+            "incomplete_telemetry": 24,
+            "registered": 358,
+            "right_censored": 0,
+            "task_completed": 47
+          },
+          "d7": {
+            "app_open": 130,
+            "eligible": 358,
+            "eligible_open_rate": 0.363128,
+            "eligible_task_rate": 0.206704,
+            "headline_task_rate": 0.206704,
+            "incomplete_telemetry": 0,
+            "registered": 358,
+            "right_censored": 0,
+            "task_completed": 74
+          }
+        },
+        "referral": {
+          "activation": {
+            "created": 113,
+            "observable": 154,
+            "rate": 0.733766
+          },
+          "d30": {
+            "app_open": 61,
+            "eligible": 147,
+            "eligible_open_rate": 0.414966,
+            "eligible_task_rate": 0.231293,
+            "headline_task_rate": 0.231293,
+            "incomplete_telemetry": 7,
+            "registered": 154,
+            "right_censored": 0,
+            "task_completed": 34
+          },
+          "d7": {
+            "app_open": 87,
+            "eligible": 154,
+            "eligible_open_rate": 0.564935,
+            "eligible_task_rate": 0.402597,
+            "headline_task_rate": 0.402597,
+            "incomplete_telemetry": 0,
+            "registered": 154,
+            "right_censored": 0,
+            "task_completed": 62
+          }
+        },
+        "unknown": {
+          "activation": {
+            "created": 29,
+            "observable": 47,
+            "rate": 0.617021
+          },
+          "d30": {
+            "app_open": 17,
+            "eligible": 43,
+            "eligible_open_rate": 0.395349,
+            "eligible_task_rate": 0.093023,
+            "headline_task_rate": 0.093023,
+            "incomplete_telemetry": 4,
+            "registered": 47,
+            "right_censored": 0,
+            "task_completed": 4
+          },
+          "d7": {
+            "app_open": 20,
+            "eligible": 47,
+            "eligible_open_rate": 0.425532,
+            "eligible_task_rate": 0.212766,
+            "headline_task_rate": 0.212766,
+            "incomplete_telemetry": 0,
+            "registered": 47,
+            "right_censored": 0,
+            "task_completed": 10
+          }
+        }
+      },
+      "by_platform": {
+        "android": {
+          "activation": {
+            "created": 326,
+            "observable": 549,
+            "rate": 0.593807
+          },
+          "d30": {
+            "app_open": 150,
+            "eligible": 496,
+            "eligible_open_rate": 0.302419,
+            "eligible_task_rate": 0.173387,
+            "headline_task_rate": 0.173387,
+            "incomplete_telemetry": 53,
+            "registered": 549,
+            "right_censored": 0,
+            "task_completed": 86
+          },
+          "d7": {
+            "app_open": 226,
+            "eligible": 549,
+            "eligible_open_rate": 0.411658,
+            "eligible_task_rate": 0.260474,
+            "headline_task_rate": 0.260474,
+            "incomplete_telemetry": 0,
+            "registered": 549,
+            "right_censored": 0,
+            "task_completed": 143
+          }
+        },
+        "ios": {
+          "activation": {
+            "created": 245,
+            "observable": 352,
+            "rate": 0.696023
+          },
+          "d30": {
+            "app_open": 131,
+            "eligible": 352,
+            "eligible_open_rate": 0.372159,
+            "eligible_task_rate": 0.204545,
+            "headline_task_rate": 0.204545,
+            "incomplete_telemetry": 0,
+            "registered": 352,
+            "right_censored": 0,
+            "task_completed": 72
+          },
+          "d7": {
+            "app_open": 166,
+            "eligible": 352,
+            "eligible_open_rate": 0.471591,
+            "eligible_task_rate": 0.289773,
+            "headline_task_rate": 0.289773,
+            "incomplete_telemetry": 0,
+            "registered": 352,
+            "right_censored": 0,
+            "task_completed": 102
+          }
+        }
+      },
+      "overall": {
+        "d30": {
+          "app_open": 281,
+          "eligible": 848,
+          "eligible_open_rate": 0.331368,
+          "eligible_task_rate": 0.186321,
+          "headline_task_rate": 0.186321,
+          "incomplete_telemetry": 53,
+          "registered": 901,
+          "right_censored": 0,
+          "task_completed": 158
+        },
+        "d7": {
+          "app_open": 392,
+          "eligible": 901,
+          "eligible_open_rate": 0.435072,
+          "eligible_task_rate": 0.27192,
+          "headline_task_rate": 0.27192,
+          "incomplete_telemetry": 0,
+          "registered": 901,
+          "right_censored": 0,
+          "task_completed": 245
+        }
+      },
+      "weeks": [
+        "2026-06-22",
+        "2026-06-29",
+        "2026-07-06"
+      ]
+    }
+  },
+  "quality": {
+    "distinct_event_ids": 83738,
+    "duplicate_event_rows": 1342,
+    "early_activation_unobservable": 89,
+    "missing_channel": 155,
+    "missing_legacy_setup_flag": 246,
+    "missing_stated_goal": 404,
+    "registrations": 3020
+  }
+}
