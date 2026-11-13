@@ -1,0 +1,314 @@
+{
+  "status": "passed",
+  "independent_cells": 40,
+  "cells": [
+    {
+      "cohort": "2026-06-01",
+      "metric": "D7",
+      "k": 74,
+      "n": 242
+    },
+    {
+      "cohort": "2026-06-01",
+      "metric": "D30",
+      "k": 56,
+      "n": 242
+    },
+    {
+      "cohort": "2026-06-01",
+      "metric": "W7",
+      "k": 218,
+      "n": 242
+    },
+    {
+      "cohort": "2026-06-01",
+      "metric": "W30",
+      "k": 195,
+      "n": 242
+    },
+    {
+      "cohort": "2026-06-08",
+      "metric": "D7",
+      "k": 98,
+      "n": 275
+    },
+    {
+      "cohort": "2026-06-08",
+      "metric": "D30",
+      "k": 56,
+      "n": 275
+    },
+    {
+      "cohort": "2026-06-08",
+      "metric": "W7",
+      "k": 232,
+      "n": 275
+    },
+    {
+      "cohort": "2026-06-08",
+      "metric": "W30",
+      "k": 223,
+      "n": 275
+    },
+    {
+      "cohort": "2026-06-15",
+      "metric": "D7",
+      "k": 86,
+      "n": 259
+    },
+    {
+      "cohort": "2026-06-15",
+      "metric": "D30",
+      "k": 71,
+      "n": 259
+    },
+    {
+      "cohort": "2026-06-15",
+      "metric": "W7",
+      "k": 221,
+      "n": 259
+    },
+    {
+      "cohort": "2026-06-15",
+      "metric": "W30",
+      "k": 141,
+      "n": 169
+    },
+    {
+      "cohort": "2026-06-22",
+      "metric": "D7",
+      "k": 87,
+      "n": 295
+    },
+    {
+      "cohort": "2026-06-22",
+      "metric": "D30",
+      "k": 53,
+      "n": 242
+    },
+    {
+      "cohort": "2026-06-22",
+      "metric": "W7",
+      "k": 245,
+      "n": 295
+    },
+    {
+      "cohort": "2026-06-22",
+      "metric": "W30",
+      "k": 143,
+      "n": 189
+    },
+    {
+      "cohort": "2026-06-29",
+      "metric": "D7",
+      "k": 97,
+      "n": 318
+    },
+    {
+      "cohort": "2026-06-29",
+      "metric": "D30",
+      "k": 47,
+      "n": 318
+    },
+    {
+      "cohort": "2026-06-29",
+      "metric": "W7",
+      "k": 257,
+      "n": 318
+    },
+    {
+      "cohort": "2026-06-29",
+      "metric": "W30",
+      "k": 239,
+      "n": 318
+    },
+    {
+      "cohort": "2026-07-06",
+      "metric": "D7",
+      "k": 82,
+      "n": 288
+    },
+    {
+      "cohort": "2026-07-06",
+      "metric": "D30",
+      "k": 65,
+      "n": 288
+    },
+    {
+      "cohort": "2026-07-06",
+      "metric": "W7",
+      "k": 149,
+      "n": 184
+    },
+    {
+      "cohort": "2026-07-06",
+      "metric": "W30",
+      "k": 124,
+      "n": 164
+    },
+    {
+      "cohort": "2026-07-13",
+      "metric": "D7",
+      "k": 74,
+      "n": 286
+    },
+    {
+      "cohort": "2026-07-13",
+      "metric": "D30",
+      "k": 4,
+      "n": 40
+    },
+    {
+      "cohort": "2026-07-13",
+      "metric": "W7",
+      "k": 191,
+      "n": 233
+    },
+    {
+      "cohort": "2026-07-13",
+      "metric": "W30",
+      "k": 0,
+      "n": 0
+    },
+    {
+      "cohort": "2026-07-20",
+      "metric": "D7",
+      "k": 95,
+      "n": 315
+    },
+    {
+      "cohort": "2026-07-20",
+      "metric": "D30",
+      "k": 0,
+      "n": 0
+    },
+    {
+      "cohort": "2026-07-20",
+      "metric": "W7",
+      "k": 263,
+      "n": 315
+    },
+    {
+      "cohort": "2026-07-20",
+      "metric": "W30",
+      "k": 0,
+      "n": 0
+    },
+    {
+      "cohort": "2026-07-27",
+      "metric": "D7",
+      "k": 104,
+      "n": 356
+    },
+    {
+      "cohort": "2026-07-27",
+      "metric": "D30",
+      "k": 0,
+      "n": 0
+    },
+    {
+      "cohort": "2026-07-27",
+      "metric": "W7",
+      "k": 171,
+      "n": 203
+    },
+    {
+      "cohort": "2026-07-27",
+      "metric": "W30",
+      "k": 0,
+      "n": 0
+    },
+    {
+      "cohort": "2026-08-03",
+      "metric": "D7",
+      "k": 37,
+      "n": 144
+    },
+    {
+      "cohort": "2026-08-03",
+      "metric": "D30",
+      "k": 0,
+      "n": 0
+    },
+    {
+      "cohort": "2026-08-03",
+      "metric": "W7",
+      "k": 0,
+      "n": 0
+    },
+    {
+      "cohort": "2026-08-03",
+      "metric": "W30",
+      "k": 0,
+      "n": 0
+    }
+  ],
+  "associations": {
+    "D7/value/False": {
+      "k": 123,
+      "n": 598
+    },
+    "D7/value/True": {
+      "k": 572,
+      "n": 1661
+    },
+    "D7/reminder/False": {
+      "k": 420,
+      "n": 1598
+    },
+    "D7/reminder/True": {
+      "k": 275,
+      "n": 661
+    },
+    "D30/value/False": {
+      "k": 40,
+      "n": 339
+    },
+    "D30/value/True": {
+      "k": 255,
+      "n": 1043
+    },
+    "D30/reminder/False": {
+      "k": 182,
+      "n": 970
+    },
+    "D30/reminder/True": {
+      "k": 113,
+      "n": 412
+    }
+  },
+  "standardized_D7": {
+    "2026-06-01": 30.57851239669421,
+    "2026-07-27": 30.560258938900198
+  },
+  "manual_account": {
+    "signup": {
+      "data_label": "SYNTHETIC TEST DATA",
+      "user_id": "u00001",
+      "signup_date": "2026-06-02",
+      "cohort_week": "2026-06-01",
+      "platform": "ios",
+      "channel": "referral",
+      "stated_goal": "one_off",
+      "legacy_setup_flag": "1"
+    },
+    "target_D7": "2026-06-09",
+    "events": [
+      {
+        "data_label": "SYNTHETIC TEST DATA",
+        "event_id": "e0000005",
+        "user_id": "u00001",
+        "event_date": "2026-06-09",
+        "event_type": "app_open"
+      },
+      {
+        "data_label": "SYNTHETIC TEST DATA",
+        "event_id": "e0000006",
+        "user_id": "u00001",
+        "event_date": "2026-06-09",
+        "event_type": "task_completed"
+      }
+    ]
+  },
+  "original_events_sha256": "e2652a4f757eab524258ff9a37e3bb2e308a6a1c072e8a1617e93f1b93a4918c"
+}

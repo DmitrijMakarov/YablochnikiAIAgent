@@ -1,0 +1,4981 @@
+{
+  "python": "3.13.5 (v3.13.5:6cb20a219a8, Jun 11 2025, 12:23:45) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "hashes": {
+    "signups.csv": "0cb3e607f604a8196198c3033b570df340ec33cb06aa62a0c24e4669118f2ce4",
+    "events.csv": "e2652a4f757eab524258ff9a37e3bb2e308a6a1c072e8a1617e93f1b93a4918c",
+    "coverage.csv": "f9bc1c0170769edbbd1507bed0443effdfc2d574f0b9d32dc518f1b40f2a12d2"
+  },
+  "qa": {
+    "users": 3020,
+    "unique_users": 3020,
+    "raw_events": 85080,
+    "unique_events": 83738,
+    "duplicate_messages": 1342,
+    "conflicting_ids": 0,
+    "orphans": 0,
+    "pre_signup": 0,
+    "missing": {
+      "user_id": 0,
+      "signup_date": 0,
+      "cohort_week": 0,
+      "platform": 0,
+      "channel": 155,
+      "stated_goal": 404,
+      "legacy_setup_flag": 246
+    },
+    "event_types": {
+      "app_open": 41367,
+      "task_created": 8488,
+      "background_sync": 3756,
+      "task_completed": 26180,
+      "reminder_enabled": 854,
+      "reminder_opened": 3093
+    },
+    "partial_coverage": [
+      {
+        "data_label": "SYNTHETIC TEST DATA",
+        "event_date": "2026-07-22",
+        "platform": "android",
+        "status": "partial"
+      },
+      {
+        "data_label": "SYNTHETIC TEST DATA",
+        "event_date": "2026-07-23",
+        "platform": "android",
+        "status": "partial"
+      }
+    ],
+    "independent_D7_check": {
+      "k": 74,
+      "n": 242,
+      "excluded": 0,
+      "pct": 30.579
+    },
+    "cohort_mismatch": 0,
+    "create_vs_value_d1_disagreement": 208
+  },
+  "cohorts": {
+    "2026-06-01": {
+      "size": 242,
+      "channels": {
+        "referral": 44,
+        "organic": 133,
+        "paid_social": 59,
+        "": 6
+      },
+      "D7": {
+        "value": {
+          "k": 74,
+          "n": 242,
+          "excluded": 0,
+          "pct": 30.579
+        },
+        "completion": {
+          "k": 69,
+          "n": 242,
+          "excluded": 0,
+          "pct": 28.512
+        },
+        "foreground": {
+          "k": 111,
+          "n": 242,
+          "excluded": 0,
+          "pct": 45.868
+        },
+        "any": {
+          "k": 116,
+          "n": 242,
+          "excluded": 0,
+          "pct": 47.934
+        }
+      },
+      "D30": {
+        "value": {
+          "k": 56,
+          "n": 242,
+          "excluded": 0,
+          "pct": 23.14
+        },
+        "completion": {
+          "k": 51,
+          "n": 242,
+          "excluded": 0,
+          "pct": 21.074
+        },
+        "foreground": {
+          "k": 90,
+          "n": 242,
+          "excluded": 0,
+          "pct": 37.19
+        },
+        "any": {
+          "k": 93,
+          "n": 242,
+          "excluded": 0,
+          "pct": 38.43
+        }
+      },
+      "W7": {
+        "value": {
+          "k": 218,
+          "n": 242,
+          "excluded": 0,
+          "pct": 90.083
+        },
+        "completion": {
+          "k": 213,
+          "n": 242,
+          "excluded": 0,
+          "pct": 88.017
+        },
+        "foreground": {
+          "k": 239,
+          "n": 242,
+          "excluded": 0,
+          "pct": 98.76
+        },
+        "any": {
+          "k": 239,
+          "n": 242,
+          "excluded": 0,
+          "pct": 98.76
+        }
+      },
+      "W30": {
+        "value": {
+          "k": 195,
+          "n": 242,
+          "excluded": 0,
+          "pct": 80.579
+        },
+        "completion": {
+          "k": 186,
+          "n": 242,
+          "excluded": 0,
+          "pct": 76.86
+        },
+        "foreground": {
+          "k": 230,
+          "n": 242,
+          "excluded": 0,
+          "pct": 95.041
+        },
+        "any": {
+          "k": 233,
+          "n": 242,
+          "excluded": 0,
+          "pct": 96.281
+        }
+      }
+    },
+    "2026-06-08": {
+      "size": 275,
+      "channels": {
+        "organic": 139,
+        "paid_social": 77,
+        "referral": 51,
+        "": 8
+      },
+      "D7": {
+        "value": {
+          "k": 98,
+          "n": 275,
+          "excluded": 0,
+          "pct": 35.636
+        },
+        "completion": {
+          "k": 94,
+          "n": 275,
+          "excluded": 0,
+          "pct": 34.182
+        },
+        "foreground": {
+          "k": 126,
+          "n": 275,
+          "excluded": 0,
+          "pct": 45.818
+        },
+        "any": {
+          "k": 132,
+          "n": 275,
+          "excluded": 0,
+          "pct": 48.0
+        }
+      },
+      "D30": {
+        "value": {
+          "k": 56,
+          "n": 275,
+          "excluded": 0,
+          "pct": 20.364
+        },
+        "completion": {
+          "k": 53,
+          "n": 275,
+          "excluded": 0,
+          "pct": 19.273
+        },
+        "foreground": {
+          "k": 89,
+          "n": 275,
+          "excluded": 0,
+          "pct": 32.364
+        },
+        "any": {
+          "k": 93,
+          "n": 275,
+          "excluded": 0,
+          "pct": 33.818
+        }
+      },
+      "W7": {
+        "value": {
+          "k": 232,
+          "n": 275,
+          "excluded": 0,
+          "pct": 84.364
+        },
+        "completion": {
+          "k": 223,
+          "n": 275,
+          "excluded": 0,
+          "pct": 81.091
+        },
+        "foreground": {
+          "k": 266,
+          "n": 275,
+          "excluded": 0,
+          "pct": 96.727
+        },
+        "any": {
+          "k": 269,
+          "n": 275,
+          "excluded": 0,
+          "pct": 97.818
+        }
+      },
+      "W30": {
+        "value": {
+          "k": 223,
+          "n": 275,
+          "excluded": 0,
+          "pct": 81.091
+        },
+        "completion": {
+          "k": 211,
+          "n": 275,
+          "excluded": 0,
+          "pct": 76.727
+        },
+        "foreground": {
+          "k": 258,
+          "n": 275,
+          "excluded": 0,
+          "pct": 93.818
+        },
+        "any": {
+          "k": 263,
+          "n": 275,
+          "excluded": 0,
+          "pct": 95.636
+        }
+      }
+    },
+    "2026-06-15": {
+      "size": 259,
+      "channels": {
+        "paid_social": 63,
+        "organic": 132,
+        "referral": 59,
+        "": 5
+      },
+      "D7": {
+        "value": {
+          "k": 86,
+          "n": 259,
+          "excluded": 0,
+          "pct": 33.205
+        },
+        "completion": {
+          "k": 83,
+          "n": 259,
+          "excluded": 0,
+          "pct": 32.046
+        },
+        "foreground": {
+          "k": 120,
+          "n": 259,
+          "excluded": 0,
+          "pct": 46.332
+        },
+        "any": {
+          "k": 124,
+          "n": 259,
+          "excluded": 0,
+          "pct": 47.876
+        }
+      },
+      "D30": {
+        "value": {
+          "k": 71,
+          "n": 259,
+          "excluded": 0,
+          "pct": 27.413
+        },
+        "completion": {
+          "k": 63,
+          "n": 259,
+          "excluded": 0,
+          "pct": 24.324
+        },
+        "foreground": {
+          "k": 100,
+          "n": 259,
+          "excluded": 0,
+          "pct": 38.61
+        },
+        "any": {
+          "k": 104,
+          "n": 259,
+          "excluded": 0,
+          "pct": 40.154
+        }
+      },
+      "W7": {
+        "value": {
+          "k": 221,
+          "n": 259,
+          "excluded": 0,
+          "pct": 85.328
+        },
+        "completion": {
+          "k": 217,
+          "n": 259,
+          "excluded": 0,
+          "pct": 83.784
+        },
+        "foreground": {
+          "k": 250,
+          "n": 259,
+          "excluded": 0,
+          "pct": 96.525
+        },
+        "any": {
+          "k": 252,
+          "n": 259,
+          "excluded": 0,
+          "pct": 97.297
+        }
+      },
+      "W30": {
+        "value": {
+          "k": 141,
+          "n": 169,
+          "excluded": 90,
+          "pct": 83.432
+        },
+        "completion": {
+          "k": 137,
+          "n": 169,
+          "excluded": 90,
+          "pct": 81.065
+        },
+        "foreground": {
+          "k": 158,
+          "n": 169,
+          "excluded": 90,
+          "pct": 93.491
+        },
+        "any": {
+          "k": 162,
+          "n": 169,
+          "excluded": 90,
+          "pct": 95.858
+        }
+      }
+    },
+    "2026-06-22": {
+      "size": 295,
+      "channels": {
+        "paid_social": 114,
+        "referral": 52,
+        "organic": 118,
+        "": 11
+      },
+      "D7": {
+        "value": {
+          "k": 87,
+          "n": 295,
+          "excluded": 0,
+          "pct": 29.492
+        },
+        "completion": {
+          "k": 82,
+          "n": 295,
+          "excluded": 0,
+          "pct": 27.797
+        },
+        "foreground": {
+          "k": 129,
+          "n": 295,
+          "excluded": 0,
+          "pct": 43.729
+        },
+        "any": {
+          "k": 132,
+          "n": 295,
+          "excluded": 0,
+          "pct": 44.746
+        }
+      },
+      "D30": {
+        "value": {
+          "k": 53,
+          "n": 242,
+          "excluded": 53,
+          "pct": 21.901
+        },
+        "completion": {
+          "k": 50,
+          "n": 242,
+          "excluded": 53,
+          "pct": 20.661
+        },
+        "foreground": {
+          "k": 77,
+          "n": 242,
+          "excluded": 53,
+          "pct": 31.818
+        },
+        "any": {
+          "k": 87,
+          "n": 242,
+          "excluded": 53,
+          "pct": 35.95
+        }
+      },
+      "W7": {
+        "value": {
+          "k": 245,
+          "n": 295,
+          "excluded": 0,
+          "pct": 83.051
+        },
+        "completion": {
+          "k": 240,
+          "n": 295,
+          "excluded": 0,
+          "pct": 81.356
+        },
+        "foreground": {
+          "k": 280,
+          "n": 295,
+          "excluded": 0,
+          "pct": 94.915
+        },
+        "any": {
+          "k": 282,
+          "n": 295,
+          "excluded": 0,
+          "pct": 95.593
+        }
+      },
+      "W30": {
+        "value": {
+          "k": 143,
+          "n": 189,
+          "excluded": 106,
+          "pct": 75.661
+        },
+        "completion": {
+          "k": 135,
+          "n": 189,
+          "excluded": 106,
+          "pct": 71.429
+        },
+        "foreground": {
+          "k": 173,
+          "n": 189,
+          "excluded": 106,
+          "pct": 91.534
+        },
+        "any": {
+          "k": 174,
+          "n": 189,
+          "excluded": 106,
+          "pct": 92.063
+        }
+      }
+    },
+    "2026-06-29": {
+      "size": 318,
+      "channels": {
+        "organic": 118,
+        "paid_social": 126,
+        "referral": 59,
+        "": 15
+      },
+      "D7": {
+        "value": {
+          "k": 97,
+          "n": 318,
+          "excluded": 0,
+          "pct": 30.503
+        },
+        "completion": {
+          "k": 91,
+          "n": 318,
+          "excluded": 0,
+          "pct": 28.616
+        },
+        "foreground": {
+          "k": 141,
+          "n": 318,
+          "excluded": 0,
+          "pct": 44.34
+        },
+        "any": {
+          "k": 143,
+          "n": 318,
+          "excluded": 0,
+          "pct": 44.969
+        }
+      },
+      "D30": {
+        "value": {
+          "k": 47,
+          "n": 318,
+          "excluded": 0,
+          "pct": 14.78
+        },
+        "completion": {
+          "k": 46,
+          "n": 318,
+          "excluded": 0,
+          "pct": 14.465
+        },
+        "foreground": {
+          "k": 93,
+          "n": 318,
+          "excluded": 0,
+          "pct": 29.245
+        },
+        "any": {
+          "k": 102,
+          "n": 318,
+          "excluded": 0,
+          "pct": 32.075
+        }
+      },
+      "W7": {
+        "value": {
+          "k": 257,
+          "n": 318,
+          "excluded": 0,
+          "pct": 80.818
+        },
+        "completion": {
+          "k": 248,
+          "n": 318,
+          "excluded": 0,
+          "pct": 77.987
+        },
+        "foreground": {
+          "k": 299,
+          "n": 318,
+          "excluded": 0,
+          "pct": 94.025
+        },
+        "any": {
+          "k": 305,
+          "n": 318,
+          "excluded": 0,
+          "pct": 95.912
+        }
+      },
+      "W30": {
+        "value": {
+          "k": 239,
+          "n": 318,
+          "excluded": 0,
+          "pct": 75.157
+        },
+        "completion": {
+          "k": 230,
+          "n": 318,
+          "excluded": 0,
+          "pct": 72.327
+        },
+        "foreground": {
+          "k": 288,
+          "n": 318,
+          "excluded": 0,
+          "pct": 90.566
+        },
+        "any": {
+          "k": 300,
+          "n": 318,
+          "excluded": 0,
+          "pct": 94.34
+        }
+      }
+    },
+    "2026-07-06": {
+      "size": 288,
+      "channels": {
+        "paid_social": 118,
+        "organic": 106,
+        "referral": 43,
+        "": 21
+      },
+      "D7": {
+        "value": {
+          "k": 82,
+          "n": 288,
+          "excluded": 0,
+          "pct": 28.472
+        },
+        "completion": {
+          "k": 72,
+          "n": 288,
+          "excluded": 0,
+          "pct": 25.0
+        },
+        "foreground": {
+          "k": 122,
+          "n": 288,
+          "excluded": 0,
+          "pct": 42.361
+        },
+        "any": {
+          "k": 132,
+          "n": 288,
+          "excluded": 0,
+          "pct": 45.833
+        }
+      },
+      "D30": {
+        "value": {
+          "k": 65,
+          "n": 288,
+          "excluded": 0,
+          "pct": 22.569
+        },
+        "completion": {
+          "k": 62,
+          "n": 288,
+          "excluded": 0,
+          "pct": 21.528
+        },
+        "foreground": {
+          "k": 111,
+          "n": 288,
+          "excluded": 0,
+          "pct": 38.542
+        },
+        "any": {
+          "k": 117,
+          "n": 288,
+          "excluded": 0,
+          "pct": 40.625
+        }
+      },
+      "W7": {
+        "value": {
+          "k": 149,
+          "n": 184,
+          "excluded": 104,
+          "pct": 80.978
+        },
+        "completion": {
+          "k": 146,
+          "n": 184,
+          "excluded": 104,
+          "pct": 79.348
+        },
+        "foreground": {
+          "k": 170,
+          "n": 184,
+          "excluded": 104,
+          "pct": 92.391
+        },
+        "any": {
+          "k": 173,
+          "n": 184,
+          "excluded": 104,
+          "pct": 94.022
+        }
+      },
+      "W30": {
+        "value": {
+          "k": 124,
+          "n": 164,
+          "excluded": 124,
+          "pct": 75.61
+        },
+        "completion": {
+          "k": 117,
+          "n": 164,
+          "excluded": 124,
+          "pct": 71.341
+        },
+        "foreground": {
+          "k": 148,
+          "n": 164,
+          "excluded": 124,
+          "pct": 90.244
+        },
+        "any": {
+          "k": 149,
+          "n": 164,
+          "excluded": 124,
+          "pct": 90.854
+        }
+      }
+    },
+    "2026-07-13": {
+      "size": 340,
+      "channels": {
+        "referral": 56,
+        "paid_social": 153,
+        "organic": 107,
+        "": 24
+      },
+      "D7": {
+        "value": {
+          "k": 74,
+          "n": 286,
+          "excluded": 54,
+          "pct": 25.874
+        },
+        "completion": {
+          "k": 71,
+          "n": 286,
+          "excluded": 54,
+          "pct": 24.825
+        },
+        "foreground": {
+          "k": 109,
+          "n": 286,
+          "excluded": 54,
+          "pct": 38.112
+        },
+        "any": {
+          "k": 115,
+          "n": 286,
+          "excluded": 54,
+          "pct": 40.21
+        }
+      },
+      "D30": {
+        "value": {
+          "k": 4,
+          "n": 40,
+          "excluded": 300,
+          "pct": 10.0
+        },
+        "completion": {
+          "k": 4,
+          "n": 40,
+          "excluded": 300,
+          "pct": 10.0
+        },
+        "foreground": {
+          "k": 7,
+          "n": 40,
+          "excluded": 300,
+          "pct": 17.5
+        },
+        "any": {
+          "k": 7,
+          "n": 40,
+          "excluded": 300,
+          "pct": 17.5
+        }
+      },
+      "W7": {
+        "value": {
+          "k": 191,
+          "n": 233,
+          "excluded": 107,
+          "pct": 81.974
+        },
+        "completion": {
+          "k": 187,
+          "n": 233,
+          "excluded": 107,
+          "pct": 80.258
+        },
+        "foreground": {
+          "k": 220,
+          "n": 233,
+          "excluded": 107,
+          "pct": 94.421
+        },
+        "any": {
+          "k": 226,
+          "n": 233,
+          "excluded": 107,
+          "pct": 96.996
+        }
+      },
+      "W30": {
+        "value": {
+          "k": 0,
+          "n": 0,
+          "excluded": 340,
+          "pct": null
+        },
+        "completion": {
+          "k": 0,
+          "n": 0,
+          "excluded": 340,
+          "pct": null
+        },
+        "foreground": {
+          "k": 0,
+          "n": 0,
+          "excluded": 340,
+          "pct": null
+        },
+        "any": {
+          "k": 0,
+          "n": 0,
+          "excluded": 340,
+          "pct": null
+        }
+      }
+    },
+    "2026-07-20": {
+      "size": 315,
+      "channels": {
+        "paid_social": 126,
+        "referral": 60,
+        "organic": 109,
+        "": 20
+      },
+      "D7": {
+        "value": {
+          "k": 95,
+          "n": 315,
+          "excluded": 0,
+          "pct": 30.159
+        },
+        "completion": {
+          "k": 91,
+          "n": 315,
+          "excluded": 0,
+          "pct": 28.889
+        },
+        "foreground": {
+          "k": 141,
+          "n": 315,
+          "excluded": 0,
+          "pct": 44.762
+        },
+        "any": {
+          "k": 149,
+          "n": 315,
+          "excluded": 0,
+          "pct": 47.302
+        }
+      },
+      "D30": {
+        "value": {
+          "k": 0,
+          "n": 0,
+          "excluded": 315,
+          "pct": null
+        },
+        "completion": {
+          "k": 0,
+          "n": 0,
+          "excluded": 315,
+          "pct": null
+        },
+        "foreground": {
+          "k": 0,
+          "n": 0,
+          "excluded": 315,
+          "pct": null
+        },
+        "any": {
+          "k": 0,
+          "n": 0,
+          "excluded": 315,
+          "pct": null
+        }
+      },
+      "W7": {
+        "value": {
+          "k": 263,
+          "n": 315,
+          "excluded": 0,
+          "pct": 83.492
+        },
+        "completion": {
+          "k": 248,
+          "n": 315,
+          "excluded": 0,
+          "pct": 78.73
+        },
+        "foreground": {
+          "k": 300,
+          "n": 315,
+          "excluded": 0,
+          "pct": 95.238
+        },
+        "any": {
+          "k": 305,
+          "n": 315,
+          "excluded": 0,
+          "pct": 96.825
+        }
+      },
+      "W30": {
+        "value": {
+          "k": 0,
+          "n": 0,
+          "excluded": 315,
+          "pct": null
+        },
+        "completion": {
+          "k": 0,
+          "n": 0,
+          "excluded": 315,
+          "pct": null
+        },
+        "foreground": {
+          "k": 0,
+          "n": 0,
+          "excluded": 315,
+          "pct": null
+        },
+        "any": {
+          "k": 0,
+          "n": 0,
+          "excluded": 315,
+          "pct": null
+        }
+      }
+    },
+    "2026-07-27": {
+      "size": 356,
+      "channels": {
+        "organic": 120,
+        "referral": 69,
+        "paid_social": 145,
+        "": 22
+      },
+      "D7": {
+        "value": {
+          "k": 104,
+          "n": 356,
+          "excluded": 0,
+          "pct": 29.213
+        },
+        "completion": {
+          "k": 92,
+          "n": 356,
+          "excluded": 0,
+          "pct": 25.843
+        },
+        "foreground": {
+          "k": 160,
+          "n": 356,
+          "excluded": 0,
+          "pct": 44.944
+        },
+        "any": {
+          "k": 171,
+          "n": 356,
+          "excluded": 0,
+          "pct": 48.034
+        }
+      },
+      "D30": {
+        "value": {
+          "k": 0,
+          "n": 0,
+          "excluded": 356,
+          "pct": null
+        },
+        "completion": {
+          "k": 0,
+          "n": 0,
+          "excluded": 356,
+          "pct": null
+        },
+        "foreground": {
+          "k": 0,
+          "n": 0,
+          "excluded": 356,
+          "pct": null
+        },
+        "any": {
+          "k": 0,
+          "n": 0,
+          "excluded": 356,
+          "pct": null
+        }
+      },
+      "W7": {
+        "value": {
+          "k": 171,
+          "n": 203,
+          "excluded": 153,
+          "pct": 84.236
+        },
+        "completion": {
+          "k": 164,
+          "n": 203,
+          "excluded": 153,
+          "pct": 80.788
+        },
+        "foreground": {
+          "k": 195,
+          "n": 203,
+          "excluded": 153,
+          "pct": 96.059
+        },
+        "any": {
+          "k": 196,
+          "n": 203,
+          "excluded": 153,
+          "pct": 96.552
+        }
+      },
+      "W30": {
+        "value": {
+          "k": 0,
+          "n": 0,
+          "excluded": 356,
+          "pct": null
+        },
+        "completion": {
+          "k": 0,
+          "n": 0,
+          "excluded": 356,
+          "pct": null
+        },
+        "foreground": {
+          "k": 0,
+          "n": 0,
+          "excluded": 356,
+          "pct": null
+        },
+        "any": {
+          "k": 0,
+          "n": 0,
+          "excluded": 356,
+          "pct": null
+        }
+      }
+    },
+    "2026-08-03": {
+      "size": 332,
+      "channels": {
+        "paid_social": 163,
+        "organic": 93,
+        "": 23,
+        "referral": 53
+      },
+      "D7": {
+        "value": {
+          "k": 37,
+          "n": 144,
+          "excluded": 188,
+          "pct": 25.694
+        },
+        "completion": {
+          "k": 34,
+          "n": 144,
+          "excluded": 188,
+          "pct": 23.611
+        },
+        "foreground": {
+          "k": 55,
+          "n": 144,
+          "excluded": 188,
+          "pct": 38.194
+        },
+        "any": {
+          "k": 58,
+          "n": 144,
+          "excluded": 188,
+          "pct": 40.278
+        }
+      },
+      "D30": {
+        "value": {
+          "k": 0,
+          "n": 0,
+          "excluded": 332,
+          "pct": null
+        },
+        "completion": {
+          "k": 0,
+          "n": 0,
+          "excluded": 332,
+          "pct": null
+        },
+        "foreground": {
+          "k": 0,
+          "n": 0,
+          "excluded": 332,
+          "pct": null
+        },
+        "any": {
+          "k": 0,
+          "n": 0,
+          "excluded": 332,
+          "pct": null
+        }
+      },
+      "W7": {
+        "value": {
+          "k": 0,
+          "n": 0,
+          "excluded": 332,
+          "pct": null
+        },
+        "completion": {
+          "k": 0,
+          "n": 0,
+          "excluded": 332,
+          "pct": null
+        },
+        "foreground": {
+          "k": 0,
+          "n": 0,
+          "excluded": 332,
+          "pct": null
+        },
+        "any": {
+          "k": 0,
+          "n": 0,
+          "excluded": 332,
+          "pct": null
+        }
+      },
+      "W30": {
+        "value": {
+          "k": 0,
+          "n": 0,
+          "excluded": 332,
+          "pct": null
+        },
+        "completion": {
+          "k": 0,
+          "n": 0,
+          "excluded": 332,
+          "pct": null
+        },
+        "foreground": {
+          "k": 0,
+          "n": 0,
+          "excluded": 332,
+          "pct": null
+        },
+        "any": {
+          "k": 0,
+          "n": 0,
+          "excluded": 332,
+          "pct": null
+        }
+      }
+    }
+  },
+  "segments": {
+    "2026-06-01/channel/": {
+      "D7": {
+        "k": 1,
+        "n": 6,
+        "excluded": 0,
+        "pct": 16.667
+      },
+      "D30": {
+        "k": 2,
+        "n": 6,
+        "excluded": 0,
+        "pct": 33.333
+      },
+      "W7": {
+        "k": 6,
+        "n": 6,
+        "excluded": 0,
+        "pct": 100.0
+      },
+      "W30": {
+        "k": 5,
+        "n": 6,
+        "excluded": 0,
+        "pct": 83.333
+      }
+    },
+    "2026-06-01/channel/organic": {
+      "D7": {
+        "k": 44,
+        "n": 133,
+        "excluded": 0,
+        "pct": 33.083
+      },
+      "D30": {
+        "k": 34,
+        "n": 133,
+        "excluded": 0,
+        "pct": 25.564
+      },
+      "W7": {
+        "k": 119,
+        "n": 133,
+        "excluded": 0,
+        "pct": 89.474
+      },
+      "W30": {
+        "k": 110,
+        "n": 133,
+        "excluded": 0,
+        "pct": 82.707
+      }
+    },
+    "2026-06-01/channel/paid_social": {
+      "D7": {
+        "k": 13,
+        "n": 59,
+        "excluded": 0,
+        "pct": 22.034
+      },
+      "D30": {
+        "k": 10,
+        "n": 59,
+        "excluded": 0,
+        "pct": 16.949
+      },
+      "W7": {
+        "k": 53,
+        "n": 59,
+        "excluded": 0,
+        "pct": 89.831
+      },
+      "W30": {
+        "k": 44,
+        "n": 59,
+        "excluded": 0,
+        "pct": 74.576
+      }
+    },
+    "2026-06-01/channel/referral": {
+      "D7": {
+        "k": 16,
+        "n": 44,
+        "excluded": 0,
+        "pct": 36.364
+      },
+      "D30": {
+        "k": 10,
+        "n": 44,
+        "excluded": 0,
+        "pct": 22.727
+      },
+      "W7": {
+        "k": 40,
+        "n": 44,
+        "excluded": 0,
+        "pct": 90.909
+      },
+      "W30": {
+        "k": 36,
+        "n": 44,
+        "excluded": 0,
+        "pct": 81.818
+      }
+    },
+    "2026-06-01/platform/android": {
+      "D7": {
+        "k": 37,
+        "n": 128,
+        "excluded": 0,
+        "pct": 28.906
+      },
+      "D30": {
+        "k": 28,
+        "n": 128,
+        "excluded": 0,
+        "pct": 21.875
+      },
+      "W7": {
+        "k": 115,
+        "n": 128,
+        "excluded": 0,
+        "pct": 89.844
+      },
+      "W30": {
+        "k": 103,
+        "n": 128,
+        "excluded": 0,
+        "pct": 80.469
+      }
+    },
+    "2026-06-01/platform/ios": {
+      "D7": {
+        "k": 37,
+        "n": 114,
+        "excluded": 0,
+        "pct": 32.456
+      },
+      "D30": {
+        "k": 28,
+        "n": 114,
+        "excluded": 0,
+        "pct": 24.561
+      },
+      "W7": {
+        "k": 103,
+        "n": 114,
+        "excluded": 0,
+        "pct": 90.351
+      },
+      "W30": {
+        "k": 92,
+        "n": 114,
+        "excluded": 0,
+        "pct": 80.702
+      }
+    },
+    "2026-06-01/stated_goal/": {
+      "D7": {
+        "k": 10,
+        "n": 33,
+        "excluded": 0,
+        "pct": 30.303
+      },
+      "D30": {
+        "k": 8,
+        "n": 33,
+        "excluded": 0,
+        "pct": 24.242
+      },
+      "W7": {
+        "k": 30,
+        "n": 33,
+        "excluded": 0,
+        "pct": 90.909
+      },
+      "W30": {
+        "k": 25,
+        "n": 33,
+        "excluded": 0,
+        "pct": 75.758
+      }
+    },
+    "2026-06-01/stated_goal/one_off": {
+      "D7": {
+        "k": 17,
+        "n": 83,
+        "excluded": 0,
+        "pct": 20.482
+      },
+      "D30": {
+        "k": 11,
+        "n": 83,
+        "excluded": 0,
+        "pct": 13.253
+      },
+      "W7": {
+        "k": 69,
+        "n": 83,
+        "excluded": 0,
+        "pct": 83.133
+      },
+      "W30": {
+        "k": 56,
+        "n": 83,
+        "excluded": 0,
+        "pct": 67.47
+      }
+    },
+    "2026-06-01/stated_goal/routine": {
+      "D7": {
+        "k": 47,
+        "n": 126,
+        "excluded": 0,
+        "pct": 37.302
+      },
+      "D30": {
+        "k": 37,
+        "n": 126,
+        "excluded": 0,
+        "pct": 29.365
+      },
+      "W7": {
+        "k": 119,
+        "n": 126,
+        "excluded": 0,
+        "pct": 94.444
+      },
+      "W30": {
+        "k": 114,
+        "n": 126,
+        "excluded": 0,
+        "pct": 90.476
+      }
+    },
+    "2026-06-08/channel/": {
+      "D7": {
+        "k": 2,
+        "n": 8,
+        "excluded": 0,
+        "pct": 25.0
+      },
+      "D30": {
+        "k": 1,
+        "n": 8,
+        "excluded": 0,
+        "pct": 12.5
+      },
+      "W7": {
+        "k": 6,
+        "n": 8,
+        "excluded": 0,
+        "pct": 75.0
+      },
+      "W30": {
+        "k": 7,
+        "n": 8,
+        "excluded": 0,
+        "pct": 87.5
+      }
+    },
+    "2026-06-08/channel/organic": {
+      "D7": {
+        "k": 54,
+        "n": 139,
+        "excluded": 0,
+        "pct": 38.849
+      },
+      "D30": {
+        "k": 38,
+        "n": 139,
+        "excluded": 0,
+        "pct": 27.338
+      },
+      "W7": {
+        "k": 120,
+        "n": 139,
+        "excluded": 0,
+        "pct": 86.331
+      },
+      "W30": {
+        "k": 119,
+        "n": 139,
+        "excluded": 0,
+        "pct": 85.612
+      }
+    },
+    "2026-06-08/channel/paid_social": {
+      "D7": {
+        "k": 23,
+        "n": 77,
+        "excluded": 0,
+        "pct": 29.87
+      },
+      "D30": {
+        "k": 12,
+        "n": 77,
+        "excluded": 0,
+        "pct": 15.584
+      },
+      "W7": {
+        "k": 61,
+        "n": 77,
+        "excluded": 0,
+        "pct": 79.221
+      },
+      "W30": {
+        "k": 55,
+        "n": 77,
+        "excluded": 0,
+        "pct": 71.429
+      }
+    },
+    "2026-06-08/channel/referral": {
+      "D7": {
+        "k": 19,
+        "n": 51,
+        "excluded": 0,
+        "pct": 37.255
+      },
+      "D30": {
+        "k": 5,
+        "n": 51,
+        "excluded": 0,
+        "pct": 9.804
+      },
+      "W7": {
+        "k": 45,
+        "n": 51,
+        "excluded": 0,
+        "pct": 88.235
+      },
+      "W30": {
+        "k": 42,
+        "n": 51,
+        "excluded": 0,
+        "pct": 82.353
+      }
+    },
+    "2026-06-08/platform/android": {
+      "D7": {
+        "k": 58,
+        "n": 160,
+        "excluded": 0,
+        "pct": 36.25
+      },
+      "D30": {
+        "k": 37,
+        "n": 160,
+        "excluded": 0,
+        "pct": 23.125
+      },
+      "W7": {
+        "k": 136,
+        "n": 160,
+        "excluded": 0,
+        "pct": 85.0
+      },
+      "W30": {
+        "k": 132,
+        "n": 160,
+        "excluded": 0,
+        "pct": 82.5
+      }
+    },
+    "2026-06-08/platform/ios": {
+      "D7": {
+        "k": 40,
+        "n": 115,
+        "excluded": 0,
+        "pct": 34.783
+      },
+      "D30": {
+        "k": 19,
+        "n": 115,
+        "excluded": 0,
+        "pct": 16.522
+      },
+      "W7": {
+        "k": 96,
+        "n": 115,
+        "excluded": 0,
+        "pct": 83.478
+      },
+      "W30": {
+        "k": 91,
+        "n": 115,
+        "excluded": 0,
+        "pct": 79.13
+      }
+    },
+    "2026-06-08/stated_goal/": {
+      "D7": {
+        "k": 9,
+        "n": 25,
+        "excluded": 0,
+        "pct": 36.0
+      },
+      "D30": {
+        "k": 5,
+        "n": 25,
+        "excluded": 0,
+        "pct": 20.0
+      },
+      "W7": {
+        "k": 24,
+        "n": 25,
+        "excluded": 0,
+        "pct": 96.0
+      },
+      "W30": {
+        "k": 21,
+        "n": 25,
+        "excluded": 0,
+        "pct": 84.0
+      }
+    },
+    "2026-06-08/stated_goal/one_off": {
+      "D7": {
+        "k": 21,
+        "n": 108,
+        "excluded": 0,
+        "pct": 19.444
+      },
+      "D30": {
+        "k": 11,
+        "n": 108,
+        "excluded": 0,
+        "pct": 10.185
+      },
+      "W7": {
+        "k": 79,
+        "n": 108,
+        "excluded": 0,
+        "pct": 73.148
+      },
+      "W30": {
+        "k": 71,
+        "n": 108,
+        "excluded": 0,
+        "pct": 65.741
+      }
+    },
+    "2026-06-08/stated_goal/routine": {
+      "D7": {
+        "k": 68,
+        "n": 142,
+        "excluded": 0,
+        "pct": 47.887
+      },
+      "D30": {
+        "k": 40,
+        "n": 142,
+        "excluded": 0,
+        "pct": 28.169
+      },
+      "W7": {
+        "k": 129,
+        "n": 142,
+        "excluded": 0,
+        "pct": 90.845
+      },
+      "W30": {
+        "k": 131,
+        "n": 142,
+        "excluded": 0,
+        "pct": 92.254
+      }
+    },
+    "2026-06-15/channel/": {
+      "D7": {
+        "k": 3,
+        "n": 5,
+        "excluded": 0,
+        "pct": 60.0
+      },
+      "D30": {
+        "k": 1,
+        "n": 5,
+        "excluded": 0,
+        "pct": 20.0
+      },
+      "W7": {
+        "k": 5,
+        "n": 5,
+        "excluded": 0,
+        "pct": 100.0
+      },
+      "W30": {
+        "k": 5,
+        "n": 5,
+        "excluded": 0,
+        "pct": 100.0
+      }
+    },
+    "2026-06-15/channel/organic": {
+      "D7": {
+        "k": 47,
+        "n": 132,
+        "excluded": 0,
+        "pct": 35.606
+      },
+      "D30": {
+        "k": 40,
+        "n": 132,
+        "excluded": 0,
+        "pct": 30.303
+      },
+      "W7": {
+        "k": 117,
+        "n": 132,
+        "excluded": 0,
+        "pct": 88.636
+      },
+      "W30": {
+        "k": 76,
+        "n": 87,
+        "excluded": 45,
+        "pct": 87.356
+      }
+    },
+    "2026-06-15/channel/paid_social": {
+      "D7": {
+        "k": 17,
+        "n": 63,
+        "excluded": 0,
+        "pct": 26.984
+      },
+      "D30": {
+        "k": 14,
+        "n": 63,
+        "excluded": 0,
+        "pct": 22.222
+      },
+      "W7": {
+        "k": 46,
+        "n": 63,
+        "excluded": 0,
+        "pct": 73.016
+      },
+      "W30": {
+        "k": 27,
+        "n": 39,
+        "excluded": 24,
+        "pct": 69.231
+      }
+    },
+    "2026-06-15/channel/referral": {
+      "D7": {
+        "k": 19,
+        "n": 59,
+        "excluded": 0,
+        "pct": 32.203
+      },
+      "D30": {
+        "k": 16,
+        "n": 59,
+        "excluded": 0,
+        "pct": 27.119
+      },
+      "W7": {
+        "k": 53,
+        "n": 59,
+        "excluded": 0,
+        "pct": 89.831
+      },
+      "W30": {
+        "k": 33,
+        "n": 38,
+        "excluded": 21,
+        "pct": 86.842
+      }
+    },
+    "2026-06-15/platform/android": {
+      "D7": {
+        "k": 47,
+        "n": 153,
+        "excluded": 0,
+        "pct": 30.719
+      },
+      "D30": {
+        "k": 40,
+        "n": 153,
+        "excluded": 0,
+        "pct": 26.144
+      },
+      "W7": {
+        "k": 132,
+        "n": 153,
+        "excluded": 0,
+        "pct": 86.275
+      },
+      "W30": {
+        "k": 52,
+        "n": 63,
+        "excluded": 90,
+        "pct": 82.54
+      }
+    },
+    "2026-06-15/platform/ios": {
+      "D7": {
+        "k": 39,
+        "n": 106,
+        "excluded": 0,
+        "pct": 36.792
+      },
+      "D30": {
+        "k": 31,
+        "n": 106,
+        "excluded": 0,
+        "pct": 29.245
+      },
+      "W7": {
+        "k": 89,
+        "n": 106,
+        "excluded": 0,
+        "pct": 83.962
+      },
+      "W30": {
+        "k": 89,
+        "n": 106,
+        "excluded": 0,
+        "pct": 83.962
+      }
+    },
+    "2026-06-15/stated_goal/": {
+      "D7": {
+        "k": 10,
+        "n": 38,
+        "excluded": 0,
+        "pct": 26.316
+      },
+      "D30": {
+        "k": 11,
+        "n": 38,
+        "excluded": 0,
+        "pct": 28.947
+      },
+      "W7": {
+        "k": 30,
+        "n": 38,
+        "excluded": 0,
+        "pct": 78.947
+      },
+      "W30": {
+        "k": 22,
+        "n": 27,
+        "excluded": 11,
+        "pct": 81.481
+      }
+    },
+    "2026-06-15/stated_goal/one_off": {
+      "D7": {
+        "k": 15,
+        "n": 86,
+        "excluded": 0,
+        "pct": 17.442
+      },
+      "D30": {
+        "k": 20,
+        "n": 86,
+        "excluded": 0,
+        "pct": 23.256
+      },
+      "W7": {
+        "k": 61,
+        "n": 86,
+        "excluded": 0,
+        "pct": 70.93
+      },
+      "W30": {
+        "k": 33,
+        "n": 53,
+        "excluded": 33,
+        "pct": 62.264
+      }
+    },
+    "2026-06-15/stated_goal/routine": {
+      "D7": {
+        "k": 61,
+        "n": 135,
+        "excluded": 0,
+        "pct": 45.185
+      },
+      "D30": {
+        "k": 40,
+        "n": 135,
+        "excluded": 0,
+        "pct": 29.63
+      },
+      "W7": {
+        "k": 130,
+        "n": 135,
+        "excluded": 0,
+        "pct": 96.296
+      },
+      "W30": {
+        "k": 86,
+        "n": 89,
+        "excluded": 46,
+        "pct": 96.629
+      }
+    },
+    "2026-06-22/channel/": {
+      "D7": {
+        "k": 3,
+        "n": 11,
+        "excluded": 0,
+        "pct": 27.273
+      },
+      "D30": {
+        "k": 0,
+        "n": 7,
+        "excluded": 4,
+        "pct": 0.0
+      },
+      "W7": {
+        "k": 9,
+        "n": 11,
+        "excluded": 0,
+        "pct": 81.818
+      },
+      "W30": {
+        "k": 1,
+        "n": 2,
+        "excluded": 9,
+        "pct": 50.0
+      }
+    },
+    "2026-06-22/channel/organic": {
+      "D7": {
+        "k": 37,
+        "n": 118,
+        "excluded": 0,
+        "pct": 31.356
+      },
+      "D30": {
+        "k": 21,
+        "n": 100,
+        "excluded": 18,
+        "pct": 21.0
+      },
+      "W7": {
+        "k": 104,
+        "n": 118,
+        "excluded": 0,
+        "pct": 88.136
+      },
+      "W30": {
+        "k": 66,
+        "n": 80,
+        "excluded": 38,
+        "pct": 82.5
+      }
+    },
+    "2026-06-22/channel/paid_social": {
+      "D7": {
+        "k": 27,
+        "n": 114,
+        "excluded": 0,
+        "pct": 23.684
+      },
+      "D30": {
+        "k": 18,
+        "n": 90,
+        "excluded": 24,
+        "pct": 20.0
+      },
+      "W7": {
+        "k": 85,
+        "n": 114,
+        "excluded": 0,
+        "pct": 74.561
+      },
+      "W30": {
+        "k": 44,
+        "n": 71,
+        "excluded": 43,
+        "pct": 61.972
+      }
+    },
+    "2026-06-22/channel/referral": {
+      "D7": {
+        "k": 20,
+        "n": 52,
+        "excluded": 0,
+        "pct": 38.462
+      },
+      "D30": {
+        "k": 14,
+        "n": 45,
+        "excluded": 7,
+        "pct": 31.111
+      },
+      "W7": {
+        "k": 47,
+        "n": 52,
+        "excluded": 0,
+        "pct": 90.385
+      },
+      "W30": {
+        "k": 32,
+        "n": 36,
+        "excluded": 16,
+        "pct": 88.889
+      }
+    },
+    "2026-06-22/platform/android": {
+      "D7": {
+        "k": 47,
+        "n": 175,
+        "excluded": 0,
+        "pct": 26.857
+      },
+      "D30": {
+        "k": 25,
+        "n": 122,
+        "excluded": 53,
+        "pct": 20.492
+      },
+      "W7": {
+        "k": 138,
+        "n": 175,
+        "excluded": 0,
+        "pct": 78.857
+      },
+      "W30": {
+        "k": 47,
+        "n": 69,
+        "excluded": 106,
+        "pct": 68.116
+      }
+    },
+    "2026-06-22/platform/ios": {
+      "D7": {
+        "k": 40,
+        "n": 120,
+        "excluded": 0,
+        "pct": 33.333
+      },
+      "D30": {
+        "k": 28,
+        "n": 120,
+        "excluded": 0,
+        "pct": 23.333
+      },
+      "W7": {
+        "k": 107,
+        "n": 120,
+        "excluded": 0,
+        "pct": 89.167
+      },
+      "W30": {
+        "k": 96,
+        "n": 120,
+        "excluded": 0,
+        "pct": 80.0
+      }
+    },
+    "2026-06-22/stated_goal/": {
+      "D7": {
+        "k": 14,
+        "n": 39,
+        "excluded": 0,
+        "pct": 35.897
+      },
+      "D30": {
+        "k": 6,
+        "n": 34,
+        "excluded": 5,
+        "pct": 17.647
+      },
+      "W7": {
+        "k": 31,
+        "n": 39,
+        "excluded": 0,
+        "pct": 79.487
+      },
+      "W30": {
+        "k": 21,
+        "n": 30,
+        "excluded": 9,
+        "pct": 70.0
+      }
+    },
+    "2026-06-22/stated_goal/one_off": {
+      "D7": {
+        "k": 17,
+        "n": 107,
+        "excluded": 0,
+        "pct": 15.888
+      },
+      "D30": {
+        "k": 10,
+        "n": 80,
+        "excluded": 27,
+        "pct": 12.5
+      },
+      "W7": {
+        "k": 72,
+        "n": 107,
+        "excluded": 0,
+        "pct": 67.29
+      },
+      "W30": {
+        "k": 34,
+        "n": 60,
+        "excluded": 47,
+        "pct": 56.667
+      }
+    },
+    "2026-06-22/stated_goal/routine": {
+      "D7": {
+        "k": 56,
+        "n": 149,
+        "excluded": 0,
+        "pct": 37.584
+      },
+      "D30": {
+        "k": 37,
+        "n": 128,
+        "excluded": 21,
+        "pct": 28.906
+      },
+      "W7": {
+        "k": 142,
+        "n": 149,
+        "excluded": 0,
+        "pct": 95.302
+      },
+      "W30": {
+        "k": 88,
+        "n": 99,
+        "excluded": 50,
+        "pct": 88.889
+      }
+    },
+    "2026-06-29/channel/": {
+      "D7": {
+        "k": 6,
+        "n": 15,
+        "excluded": 0,
+        "pct": 40.0
+      },
+      "D30": {
+        "k": 0,
+        "n": 15,
+        "excluded": 0,
+        "pct": 0.0
+      },
+      "W7": {
+        "k": 15,
+        "n": 15,
+        "excluded": 0,
+        "pct": 100.0
+      },
+      "W30": {
+        "k": 11,
+        "n": 15,
+        "excluded": 0,
+        "pct": 73.333
+      }
+    },
+    "2026-06-29/channel/organic": {
+      "D7": {
+        "k": 32,
+        "n": 118,
+        "excluded": 0,
+        "pct": 27.119
+      },
+      "D30": {
+        "k": 24,
+        "n": 118,
+        "excluded": 0,
+        "pct": 20.339
+      },
+      "W7": {
+        "k": 98,
+        "n": 118,
+        "excluded": 0,
+        "pct": 83.051
+      },
+      "W30": {
+        "k": 98,
+        "n": 118,
+        "excluded": 0,
+        "pct": 83.051
+      }
+    },
+    "2026-06-29/channel/paid_social": {
+      "D7": {
+        "k": 30,
+        "n": 126,
+        "excluded": 0,
+        "pct": 23.81
+      },
+      "D30": {
+        "k": 13,
+        "n": 126,
+        "excluded": 0,
+        "pct": 10.317
+      },
+      "W7": {
+        "k": 92,
+        "n": 126,
+        "excluded": 0,
+        "pct": 73.016
+      },
+      "W30": {
+        "k": 78,
+        "n": 126,
+        "excluded": 0,
+        "pct": 61.905
+      }
+    },
+    "2026-06-29/channel/referral": {
+      "D7": {
+        "k": 29,
+        "n": 59,
+        "excluded": 0,
+        "pct": 49.153
+      },
+      "D30": {
+        "k": 10,
+        "n": 59,
+        "excluded": 0,
+        "pct": 16.949
+      },
+      "W7": {
+        "k": 52,
+        "n": 59,
+        "excluded": 0,
+        "pct": 88.136
+      },
+      "W30": {
+        "k": 52,
+        "n": 59,
+        "excluded": 0,
+        "pct": 88.136
+      }
+    },
+    "2026-06-29/platform/android": {
+      "D7": {
+        "k": 63,
+        "n": 198,
+        "excluded": 0,
+        "pct": 31.818
+      },
+      "D30": {
+        "k": 25,
+        "n": 198,
+        "excluded": 0,
+        "pct": 12.626
+      },
+      "W7": {
+        "k": 164,
+        "n": 198,
+        "excluded": 0,
+        "pct": 82.828
+      },
+      "W30": {
+        "k": 151,
+        "n": 198,
+        "excluded": 0,
+        "pct": 76.263
+      }
+    },
+    "2026-06-29/platform/ios": {
+      "D7": {
+        "k": 34,
+        "n": 120,
+        "excluded": 0,
+        "pct": 28.333
+      },
+      "D30": {
+        "k": 22,
+        "n": 120,
+        "excluded": 0,
+        "pct": 18.333
+      },
+      "W7": {
+        "k": 93,
+        "n": 120,
+        "excluded": 0,
+        "pct": 77.5
+      },
+      "W30": {
+        "k": 88,
+        "n": 120,
+        "excluded": 0,
+        "pct": 73.333
+      }
+    },
+    "2026-06-29/stated_goal/": {
+      "D7": {
+        "k": 11,
+        "n": 38,
+        "excluded": 0,
+        "pct": 28.947
+      },
+      "D30": {
+        "k": 7,
+        "n": 38,
+        "excluded": 0,
+        "pct": 18.421
+      },
+      "W7": {
+        "k": 35,
+        "n": 38,
+        "excluded": 0,
+        "pct": 92.105
+      },
+      "W30": {
+        "k": 31,
+        "n": 38,
+        "excluded": 0,
+        "pct": 81.579
+      }
+    },
+    "2026-06-29/stated_goal/one_off": {
+      "D7": {
+        "k": 24,
+        "n": 123,
+        "excluded": 0,
+        "pct": 19.512
+      },
+      "D30": {
+        "k": 11,
+        "n": 123,
+        "excluded": 0,
+        "pct": 8.943
+      },
+      "W7": {
+        "k": 74,
+        "n": 123,
+        "excluded": 0,
+        "pct": 60.163
+      },
+      "W30": {
+        "k": 70,
+        "n": 123,
+        "excluded": 0,
+        "pct": 56.911
+      }
+    },
+    "2026-06-29/stated_goal/routine": {
+      "D7": {
+        "k": 62,
+        "n": 157,
+        "excluded": 0,
+        "pct": 39.49
+      },
+      "D30": {
+        "k": 29,
+        "n": 157,
+        "excluded": 0,
+        "pct": 18.471
+      },
+      "W7": {
+        "k": 148,
+        "n": 157,
+        "excluded": 0,
+        "pct": 94.268
+      },
+      "W30": {
+        "k": 138,
+        "n": 157,
+        "excluded": 0,
+        "pct": 87.898
+      }
+    },
+    "2026-07-06/channel/": {
+      "D7": {
+        "k": 2,
+        "n": 21,
+        "excluded": 0,
+        "pct": 9.524
+      },
+      "D30": {
+        "k": 4,
+        "n": 21,
+        "excluded": 0,
+        "pct": 19.048
+      },
+      "W7": {
+        "k": 7,
+        "n": 7,
+        "excluded": 14,
+        "pct": 100.0
+      },
+      "W30": {
+        "k": 9,
+        "n": 11,
+        "excluded": 10,
+        "pct": 81.818
+      }
+    },
+    "2026-07-06/channel/organic": {
+      "D7": {
+        "k": 39,
+        "n": 106,
+        "excluded": 0,
+        "pct": 36.792
+      },
+      "D30": {
+        "k": 30,
+        "n": 106,
+        "excluded": 0,
+        "pct": 28.302
+      },
+      "W7": {
+        "k": 70,
+        "n": 78,
+        "excluded": 28,
+        "pct": 89.744
+      },
+      "W30": {
+        "k": 54,
+        "n": 64,
+        "excluded": 42,
+        "pct": 84.375
+      }
+    },
+    "2026-07-06/channel/paid_social": {
+      "D7": {
+        "k": 21,
+        "n": 118,
+        "excluded": 0,
+        "pct": 17.797
+      },
+      "D30": {
+        "k": 19,
+        "n": 118,
+        "excluded": 0,
+        "pct": 16.102
+      },
+      "W7": {
+        "k": 44,
+        "n": 68,
+        "excluded": 50,
+        "pct": 64.706
+      },
+      "W30": {
+        "k": 41,
+        "n": 67,
+        "excluded": 51,
+        "pct": 61.194
+      }
+    },
+    "2026-07-06/channel/referral": {
+      "D7": {
+        "k": 20,
+        "n": 43,
+        "excluded": 0,
+        "pct": 46.512
+      },
+      "D30": {
+        "k": 12,
+        "n": 43,
+        "excluded": 0,
+        "pct": 27.907
+      },
+      "W7": {
+        "k": 28,
+        "n": 31,
+        "excluded": 12,
+        "pct": 90.323
+      },
+      "W30": {
+        "k": 20,
+        "n": 22,
+        "excluded": 21,
+        "pct": 90.909
+      }
+    },
+    "2026-07-06/platform/android": {
+      "D7": {
+        "k": 43,
+        "n": 176,
+        "excluded": 0,
+        "pct": 24.432
+      },
+      "D30": {
+        "k": 39,
+        "n": 176,
+        "excluded": 0,
+        "pct": 22.159
+      },
+      "W7": {
+        "k": 56,
+        "n": 72,
+        "excluded": 104,
+        "pct": 77.778
+      },
+      "W30": {
+        "k": 70,
+        "n": 97,
+        "excluded": 79,
+        "pct": 72.165
+      }
+    },
+    "2026-07-06/platform/ios": {
+      "D7": {
+        "k": 39,
+        "n": 112,
+        "excluded": 0,
+        "pct": 34.821
+      },
+      "D30": {
+        "k": 26,
+        "n": 112,
+        "excluded": 0,
+        "pct": 23.214
+      },
+      "W7": {
+        "k": 93,
+        "n": 112,
+        "excluded": 0,
+        "pct": 83.036
+      },
+      "W30": {
+        "k": 54,
+        "n": 67,
+        "excluded": 45,
+        "pct": 80.597
+      }
+    },
+    "2026-07-06/stated_goal/": {
+      "D7": {
+        "k": 18,
+        "n": 52,
+        "excluded": 0,
+        "pct": 34.615
+      },
+      "D30": {
+        "k": 9,
+        "n": 52,
+        "excluded": 0,
+        "pct": 17.308
+      },
+      "W7": {
+        "k": 26,
+        "n": 34,
+        "excluded": 18,
+        "pct": 76.471
+      },
+      "W30": {
+        "k": 25,
+        "n": 33,
+        "excluded": 19,
+        "pct": 75.758
+      }
+    },
+    "2026-07-06/stated_goal/one_off": {
+      "D7": {
+        "k": 19,
+        "n": 113,
+        "excluded": 0,
+        "pct": 16.814
+      },
+      "D30": {
+        "k": 14,
+        "n": 113,
+        "excluded": 0,
+        "pct": 12.389
+      },
+      "W7": {
+        "k": 46,
+        "n": 67,
+        "excluded": 46,
+        "pct": 68.657
+      },
+      "W30": {
+        "k": 32,
+        "n": 60,
+        "excluded": 53,
+        "pct": 53.333
+      }
+    },
+    "2026-07-06/stated_goal/routine": {
+      "D7": {
+        "k": 45,
+        "n": 123,
+        "excluded": 0,
+        "pct": 36.585
+      },
+      "D30": {
+        "k": 42,
+        "n": 123,
+        "excluded": 0,
+        "pct": 34.146
+      },
+      "W7": {
+        "k": 77,
+        "n": 83,
+        "excluded": 40,
+        "pct": 92.771
+      },
+      "W30": {
+        "k": 67,
+        "n": 71,
+        "excluded": 52,
+        "pct": 94.366
+      }
+    },
+    "2026-07-13/channel/": {
+      "D7": {
+        "k": 2,
+        "n": 17,
+        "excluded": 7,
+        "pct": 11.765
+      },
+      "D30": {
+        "k": 0,
+        "n": 4,
+        "excluded": 20,
+        "pct": 0.0
+      },
+      "W7": {
+        "k": 7,
+        "n": 10,
+        "excluded": 14,
+        "pct": 70.0
+      },
+      "W30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 24,
+        "pct": null
+      }
+    },
+    "2026-07-13/channel/organic": {
+      "D7": {
+        "k": 30,
+        "n": 94,
+        "excluded": 13,
+        "pct": 31.915
+      },
+      "D30": {
+        "k": 1,
+        "n": 16,
+        "excluded": 91,
+        "pct": 6.25
+      },
+      "W7": {
+        "k": 69,
+        "n": 80,
+        "excluded": 27,
+        "pct": 86.25
+      },
+      "W30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 107,
+        "pct": null
+      }
+    },
+    "2026-07-13/channel/paid_social": {
+      "D7": {
+        "k": 23,
+        "n": 124,
+        "excluded": 29,
+        "pct": 18.548
+      },
+      "D30": {
+        "k": 1,
+        "n": 13,
+        "excluded": 140,
+        "pct": 7.692
+      },
+      "W7": {
+        "k": 79,
+        "n": 101,
+        "excluded": 52,
+        "pct": 78.218
+      },
+      "W30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 153,
+        "pct": null
+      }
+    },
+    "2026-07-13/channel/referral": {
+      "D7": {
+        "k": 19,
+        "n": 51,
+        "excluded": 5,
+        "pct": 37.255
+      },
+      "D30": {
+        "k": 2,
+        "n": 7,
+        "excluded": 49,
+        "pct": 28.571
+      },
+      "W7": {
+        "k": 36,
+        "n": 42,
+        "excluded": 14,
+        "pct": 85.714
+      },
+      "W30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 56,
+        "pct": null
+      }
+    },
+    "2026-07-13/platform/android": {
+      "D7": {
+        "k": 32,
+        "n": 134,
+        "excluded": 54,
+        "pct": 23.881
+      },
+      "D30": {
+        "k": 2,
+        "n": 21,
+        "excluded": 167,
+        "pct": 9.524
+      },
+      "W7": {
+        "k": 65,
+        "n": 81,
+        "excluded": 107,
+        "pct": 80.247
+      },
+      "W30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 188,
+        "pct": null
+      }
+    },
+    "2026-07-13/platform/ios": {
+      "D7": {
+        "k": 42,
+        "n": 152,
+        "excluded": 0,
+        "pct": 27.632
+      },
+      "D30": {
+        "k": 2,
+        "n": 19,
+        "excluded": 133,
+        "pct": 10.526
+      },
+      "W7": {
+        "k": 126,
+        "n": 152,
+        "excluded": 0,
+        "pct": 82.895
+      },
+      "W30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 152,
+        "pct": null
+      }
+    },
+    "2026-07-13/stated_goal/": {
+      "D7": {
+        "k": 13,
+        "n": 32,
+        "excluded": 5,
+        "pct": 40.625
+      },
+      "D30": {
+        "k": 0,
+        "n": 1,
+        "excluded": 36,
+        "pct": 0.0
+      },
+      "W7": {
+        "k": 22,
+        "n": 28,
+        "excluded": 9,
+        "pct": 78.571
+      },
+      "W30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 37,
+        "pct": null
+      }
+    },
+    "2026-07-13/stated_goal/one_off": {
+      "D7": {
+        "k": 13,
+        "n": 111,
+        "excluded": 23,
+        "pct": 11.712
+      },
+      "D30": {
+        "k": 0,
+        "n": 17,
+        "excluded": 117,
+        "pct": 0.0
+      },
+      "W7": {
+        "k": 62,
+        "n": 85,
+        "excluded": 49,
+        "pct": 72.941
+      },
+      "W30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 134,
+        "pct": null
+      }
+    },
+    "2026-07-13/stated_goal/routine": {
+      "D7": {
+        "k": 48,
+        "n": 143,
+        "excluded": 26,
+        "pct": 33.566
+      },
+      "D30": {
+        "k": 4,
+        "n": 22,
+        "excluded": 147,
+        "pct": 18.182
+      },
+      "W7": {
+        "k": 107,
+        "n": 120,
+        "excluded": 49,
+        "pct": 89.167
+      },
+      "W30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 169,
+        "pct": null
+      }
+    },
+    "2026-07-20/channel/": {
+      "D7": {
+        "k": 3,
+        "n": 20,
+        "excluded": 0,
+        "pct": 15.0
+      },
+      "D30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 20,
+        "pct": null
+      },
+      "W7": {
+        "k": 14,
+        "n": 20,
+        "excluded": 0,
+        "pct": 70.0
+      },
+      "W30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 20,
+        "pct": null
+      }
+    },
+    "2026-07-20/channel/organic": {
+      "D7": {
+        "k": 40,
+        "n": 109,
+        "excluded": 0,
+        "pct": 36.697
+      },
+      "D30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 109,
+        "pct": null
+      },
+      "W7": {
+        "k": 95,
+        "n": 109,
+        "excluded": 0,
+        "pct": 87.156
+      },
+      "W30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 109,
+        "pct": null
+      }
+    },
+    "2026-07-20/channel/paid_social": {
+      "D7": {
+        "k": 33,
+        "n": 126,
+        "excluded": 0,
+        "pct": 26.19
+      },
+      "D30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 126,
+        "pct": null
+      },
+      "W7": {
+        "k": 98,
+        "n": 126,
+        "excluded": 0,
+        "pct": 77.778
+      },
+      "W30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 126,
+        "pct": null
+      }
+    },
+    "2026-07-20/channel/referral": {
+      "D7": {
+        "k": 19,
+        "n": 60,
+        "excluded": 0,
+        "pct": 31.667
+      },
+      "D30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 60,
+        "pct": null
+      },
+      "W7": {
+        "k": 56,
+        "n": 60,
+        "excluded": 0,
+        "pct": 93.333
+      },
+      "W30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 60,
+        "pct": null
+      }
+    },
+    "2026-07-20/platform/android": {
+      "D7": {
+        "k": 49,
+        "n": 185,
+        "excluded": 0,
+        "pct": 26.486
+      },
+      "D30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 185,
+        "pct": null
+      },
+      "W7": {
+        "k": 149,
+        "n": 185,
+        "excluded": 0,
+        "pct": 80.541
+      },
+      "W30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 185,
+        "pct": null
+      }
+    },
+    "2026-07-20/platform/ios": {
+      "D7": {
+        "k": 46,
+        "n": 130,
+        "excluded": 0,
+        "pct": 35.385
+      },
+      "D30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 130,
+        "pct": null
+      },
+      "W7": {
+        "k": 114,
+        "n": 130,
+        "excluded": 0,
+        "pct": 87.692
+      },
+      "W30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 130,
+        "pct": null
+      }
+    },
+    "2026-07-20/stated_goal/": {
+      "D7": {
+        "k": 9,
+        "n": 39,
+        "excluded": 0,
+        "pct": 23.077
+      },
+      "D30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 39,
+        "pct": null
+      },
+      "W7": {
+        "k": 33,
+        "n": 39,
+        "excluded": 0,
+        "pct": 84.615
+      },
+      "W30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 39,
+        "pct": null
+      }
+    },
+    "2026-07-20/stated_goal/one_off": {
+      "D7": {
+        "k": 26,
+        "n": 118,
+        "excluded": 0,
+        "pct": 22.034
+      },
+      "D30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 118,
+        "pct": null
+      },
+      "W7": {
+        "k": 85,
+        "n": 118,
+        "excluded": 0,
+        "pct": 72.034
+      },
+      "W30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 118,
+        "pct": null
+      }
+    },
+    "2026-07-20/stated_goal/routine": {
+      "D7": {
+        "k": 60,
+        "n": 158,
+        "excluded": 0,
+        "pct": 37.975
+      },
+      "D30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 158,
+        "pct": null
+      },
+      "W7": {
+        "k": 145,
+        "n": 158,
+        "excluded": 0,
+        "pct": 91.772
+      },
+      "W30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 158,
+        "pct": null
+      }
+    },
+    "2026-07-27/channel/": {
+      "D7": {
+        "k": 4,
+        "n": 22,
+        "excluded": 0,
+        "pct": 18.182
+      },
+      "D30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 22,
+        "pct": null
+      },
+      "W7": {
+        "k": 6,
+        "n": 11,
+        "excluded": 11,
+        "pct": 54.545
+      },
+      "W30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 22,
+        "pct": null
+      }
+    },
+    "2026-07-27/channel/organic": {
+      "D7": {
+        "k": 36,
+        "n": 120,
+        "excluded": 0,
+        "pct": 30.0
+      },
+      "D30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 120,
+        "pct": null
+      },
+      "W7": {
+        "k": 63,
+        "n": 71,
+        "excluded": 49,
+        "pct": 88.732
+      },
+      "W30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 120,
+        "pct": null
+      }
+    },
+    "2026-07-27/channel/paid_social": {
+      "D7": {
+        "k": 34,
+        "n": 145,
+        "excluded": 0,
+        "pct": 23.448
+      },
+      "D30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 145,
+        "pct": null
+      },
+      "W7": {
+        "k": 68,
+        "n": 84,
+        "excluded": 61,
+        "pct": 80.952
+      },
+      "W30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 145,
+        "pct": null
+      }
+    },
+    "2026-07-27/channel/referral": {
+      "D7": {
+        "k": 30,
+        "n": 69,
+        "excluded": 0,
+        "pct": 43.478
+      },
+      "D30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 69,
+        "pct": null
+      },
+      "W7": {
+        "k": 34,
+        "n": 37,
+        "excluded": 32,
+        "pct": 91.892
+      },
+      "W30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 69,
+        "pct": null
+      }
+    },
+    "2026-07-27/platform/android": {
+      "D7": {
+        "k": 57,
+        "n": 217,
+        "excluded": 0,
+        "pct": 26.267
+      },
+      "D30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 217,
+        "pct": null
+      },
+      "W7": {
+        "k": 95,
+        "n": 121,
+        "excluded": 96,
+        "pct": 78.512
+      },
+      "W30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 217,
+        "pct": null
+      }
+    },
+    "2026-07-27/platform/ios": {
+      "D7": {
+        "k": 47,
+        "n": 139,
+        "excluded": 0,
+        "pct": 33.813
+      },
+      "D30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 139,
+        "pct": null
+      },
+      "W7": {
+        "k": 76,
+        "n": 82,
+        "excluded": 57,
+        "pct": 92.683
+      },
+      "W30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 139,
+        "pct": null
+      }
+    },
+    "2026-07-27/stated_goal/": {
+      "D7": {
+        "k": 17,
+        "n": 50,
+        "excluded": 0,
+        "pct": 34.0
+      },
+      "D30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 50,
+        "pct": null
+      },
+      "W7": {
+        "k": 26,
+        "n": 29,
+        "excluded": 21,
+        "pct": 89.655
+      },
+      "W30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 50,
+        "pct": null
+      }
+    },
+    "2026-07-27/stated_goal/one_off": {
+      "D7": {
+        "k": 22,
+        "n": 138,
+        "excluded": 0,
+        "pct": 15.942
+      },
+      "D30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 138,
+        "pct": null
+      },
+      "W7": {
+        "k": 46,
+        "n": 69,
+        "excluded": 69,
+        "pct": 66.667
+      },
+      "W30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 138,
+        "pct": null
+      }
+    },
+    "2026-07-27/stated_goal/routine": {
+      "D7": {
+        "k": 65,
+        "n": 168,
+        "excluded": 0,
+        "pct": 38.69
+      },
+      "D30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 168,
+        "pct": null
+      },
+      "W7": {
+        "k": 99,
+        "n": 105,
+        "excluded": 63,
+        "pct": 94.286
+      },
+      "W30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 168,
+        "pct": null
+      }
+    },
+    "2026-08-03/channel/": {
+      "D7": {
+        "k": 1,
+        "n": 6,
+        "excluded": 17,
+        "pct": 16.667
+      },
+      "D30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 23,
+        "pct": null
+      },
+      "W7": {
+        "k": 0,
+        "n": 0,
+        "excluded": 23,
+        "pct": null
+      },
+      "W30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 23,
+        "pct": null
+      }
+    },
+    "2026-08-03/channel/organic": {
+      "D7": {
+        "k": 14,
+        "n": 40,
+        "excluded": 53,
+        "pct": 35.0
+      },
+      "D30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 93,
+        "pct": null
+      },
+      "W7": {
+        "k": 0,
+        "n": 0,
+        "excluded": 93,
+        "pct": null
+      },
+      "W30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 93,
+        "pct": null
+      }
+    },
+    "2026-08-03/channel/paid_social": {
+      "D7": {
+        "k": 13,
+        "n": 75,
+        "excluded": 88,
+        "pct": 17.333
+      },
+      "D30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 163,
+        "pct": null
+      },
+      "W7": {
+        "k": 0,
+        "n": 0,
+        "excluded": 163,
+        "pct": null
+      },
+      "W30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 163,
+        "pct": null
+      }
+    },
+    "2026-08-03/channel/referral": {
+      "D7": {
+        "k": 9,
+        "n": 23,
+        "excluded": 30,
+        "pct": 39.13
+      },
+      "D30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 53,
+        "pct": null
+      },
+      "W7": {
+        "k": 0,
+        "n": 0,
+        "excluded": 53,
+        "pct": null
+      },
+      "W30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 53,
+        "pct": null
+      }
+    },
+    "2026-08-03/platform/android": {
+      "D7": {
+        "k": 28,
+        "n": 88,
+        "excluded": 112,
+        "pct": 31.818
+      },
+      "D30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 200,
+        "pct": null
+      },
+      "W7": {
+        "k": 0,
+        "n": 0,
+        "excluded": 200,
+        "pct": null
+      },
+      "W30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 200,
+        "pct": null
+      }
+    },
+    "2026-08-03/platform/ios": {
+      "D7": {
+        "k": 9,
+        "n": 56,
+        "excluded": 76,
+        "pct": 16.071
+      },
+      "D30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 132,
+        "pct": null
+      },
+      "W7": {
+        "k": 0,
+        "n": 0,
+        "excluded": 132,
+        "pct": null
+      },
+      "W30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 132,
+        "pct": null
+      }
+    },
+    "2026-08-03/stated_goal/": {
+      "D7": {
+        "k": 7,
+        "n": 27,
+        "excluded": 26,
+        "pct": 25.926
+      },
+      "D30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 53,
+        "pct": null
+      },
+      "W7": {
+        "k": 0,
+        "n": 0,
+        "excluded": 53,
+        "pct": null
+      },
+      "W30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 53,
+        "pct": null
+      }
+    },
+    "2026-08-03/stated_goal/one_off": {
+      "D7": {
+        "k": 10,
+        "n": 61,
+        "excluded": 74,
+        "pct": 16.393
+      },
+      "D30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 135,
+        "pct": null
+      },
+      "W7": {
+        "k": 0,
+        "n": 0,
+        "excluded": 135,
+        "pct": null
+      },
+      "W30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 135,
+        "pct": null
+      }
+    },
+    "2026-08-03/stated_goal/routine": {
+      "D7": {
+        "k": 20,
+        "n": 56,
+        "excluded": 88,
+        "pct": 35.714
+      },
+      "D30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 144,
+        "pct": null
+      },
+      "W7": {
+        "k": 0,
+        "n": 0,
+        "excluded": 144,
+        "pct": null
+      },
+      "W30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 144,
+        "pct": null
+      }
+    }
+  },
+  "activation": {
+    "2026-06-01/activation_create/False": {
+      "size": 68,
+      "D7": {
+        "k": 18,
+        "n": 68,
+        "excluded": 0,
+        "pct": 26.471
+      },
+      "D30": {
+        "k": 8,
+        "n": 68,
+        "excluded": 0,
+        "pct": 11.765
+      }
+    },
+    "2026-06-01/activation_create/True": {
+      "size": 174,
+      "D7": {
+        "k": 56,
+        "n": 174,
+        "excluded": 0,
+        "pct": 32.184
+      },
+      "D30": {
+        "k": 48,
+        "n": 174,
+        "excluded": 0,
+        "pct": 27.586
+      }
+    },
+    "2026-06-01/activation_value/False": {
+      "size": 55,
+      "D7": {
+        "k": 16,
+        "n": 55,
+        "excluded": 0,
+        "pct": 29.091
+      },
+      "D30": {
+        "k": 7,
+        "n": 55,
+        "excluded": 0,
+        "pct": 12.727
+      }
+    },
+    "2026-06-01/activation_value/True": {
+      "size": 187,
+      "D7": {
+        "k": 58,
+        "n": 187,
+        "excluded": 0,
+        "pct": 31.016
+      },
+      "D30": {
+        "k": 49,
+        "n": 187,
+        "excluded": 0,
+        "pct": 26.203
+      }
+    },
+    "2026-06-01/legacy_setup_flag/": {
+      "size": 25,
+      "D7": {
+        "k": 9,
+        "n": 25,
+        "excluded": 0,
+        "pct": 36.0
+      },
+      "D30": {
+        "k": 7,
+        "n": 25,
+        "excluded": 0,
+        "pct": 28.0
+      }
+    },
+    "2026-06-01/legacy_setup_flag/0": {
+      "size": 109,
+      "D7": {
+        "k": 34,
+        "n": 109,
+        "excluded": 0,
+        "pct": 31.193
+      },
+      "D30": {
+        "k": 25,
+        "n": 109,
+        "excluded": 0,
+        "pct": 22.936
+      }
+    },
+    "2026-06-01/legacy_setup_flag/1": {
+      "size": 108,
+      "D7": {
+        "k": 31,
+        "n": 108,
+        "excluded": 0,
+        "pct": 28.704
+      },
+      "D30": {
+        "k": 24,
+        "n": 108,
+        "excluded": 0,
+        "pct": 22.222
+      }
+    },
+    "2026-06-08/activation_create/False": {
+      "size": 69,
+      "D7": {
+        "k": 18,
+        "n": 69,
+        "excluded": 0,
+        "pct": 26.087
+      },
+      "D30": {
+        "k": 9,
+        "n": 69,
+        "excluded": 0,
+        "pct": 13.043
+      }
+    },
+    "2026-06-08/activation_create/True": {
+      "size": 206,
+      "D7": {
+        "k": 80,
+        "n": 206,
+        "excluded": 0,
+        "pct": 38.835
+      },
+      "D30": {
+        "k": 47,
+        "n": 206,
+        "excluded": 0,
+        "pct": 22.816
+      }
+    },
+    "2026-06-08/activation_value/False": {
+      "size": 54,
+      "D7": {
+        "k": 13,
+        "n": 54,
+        "excluded": 0,
+        "pct": 24.074
+      },
+      "D30": {
+        "k": 7,
+        "n": 54,
+        "excluded": 0,
+        "pct": 12.963
+      }
+    },
+    "2026-06-08/activation_value/True": {
+      "size": 221,
+      "D7": {
+        "k": 85,
+        "n": 221,
+        "excluded": 0,
+        "pct": 38.462
+      },
+      "D30": {
+        "k": 49,
+        "n": 221,
+        "excluded": 0,
+        "pct": 22.172
+      }
+    },
+    "2026-06-08/legacy_setup_flag/": {
+      "size": 17,
+      "D7": {
+        "k": 5,
+        "n": 17,
+        "excluded": 0,
+        "pct": 29.412
+      },
+      "D30": {
+        "k": 4,
+        "n": 17,
+        "excluded": 0,
+        "pct": 23.529
+      }
+    },
+    "2026-06-08/legacy_setup_flag/0": {
+      "size": 137,
+      "D7": {
+        "k": 37,
+        "n": 137,
+        "excluded": 0,
+        "pct": 27.007
+      },
+      "D30": {
+        "k": 29,
+        "n": 137,
+        "excluded": 0,
+        "pct": 21.168
+      }
+    },
+    "2026-06-08/legacy_setup_flag/1": {
+      "size": 121,
+      "D7": {
+        "k": 56,
+        "n": 121,
+        "excluded": 0,
+        "pct": 46.281
+      },
+      "D30": {
+        "k": 23,
+        "n": 121,
+        "excluded": 0,
+        "pct": 19.008
+      }
+    },
+    "2026-06-15/activation_create/False": {
+      "size": 67,
+      "D7": {
+        "k": 18,
+        "n": 67,
+        "excluded": 0,
+        "pct": 26.866
+      },
+      "D30": {
+        "k": 9,
+        "n": 67,
+        "excluded": 0,
+        "pct": 13.433
+      }
+    },
+    "2026-06-15/activation_create/True": {
+      "size": 192,
+      "D7": {
+        "k": 68,
+        "n": 192,
+        "excluded": 0,
+        "pct": 35.417
+      },
+      "D30": {
+        "k": 62,
+        "n": 192,
+        "excluded": 0,
+        "pct": 32.292
+      }
+    },
+    "2026-06-15/activation_value/False": {
+      "size": 58,
+      "D7": {
+        "k": 13,
+        "n": 58,
+        "excluded": 0,
+        "pct": 22.414
+      },
+      "D30": {
+        "k": 8,
+        "n": 58,
+        "excluded": 0,
+        "pct": 13.793
+      }
+    },
+    "2026-06-15/activation_value/True": {
+      "size": 201,
+      "D7": {
+        "k": 73,
+        "n": 201,
+        "excluded": 0,
+        "pct": 36.318
+      },
+      "D30": {
+        "k": 63,
+        "n": 201,
+        "excluded": 0,
+        "pct": 31.343
+      }
+    },
+    "2026-06-15/legacy_setup_flag/": {
+      "size": 22,
+      "D7": {
+        "k": 6,
+        "n": 22,
+        "excluded": 0,
+        "pct": 27.273
+      },
+      "D30": {
+        "k": 6,
+        "n": 22,
+        "excluded": 0,
+        "pct": 27.273
+      }
+    },
+    "2026-06-15/legacy_setup_flag/0": {
+      "size": 115,
+      "D7": {
+        "k": 33,
+        "n": 115,
+        "excluded": 0,
+        "pct": 28.696
+      },
+      "D30": {
+        "k": 27,
+        "n": 115,
+        "excluded": 0,
+        "pct": 23.478
+      }
+    },
+    "2026-06-15/legacy_setup_flag/1": {
+      "size": 122,
+      "D7": {
+        "k": 47,
+        "n": 122,
+        "excluded": 0,
+        "pct": 38.525
+      },
+      "D30": {
+        "k": 38,
+        "n": 122,
+        "excluded": 0,
+        "pct": 31.148
+      }
+    },
+    "2026-06-22/activation_create/False": {
+      "size": 108,
+      "D7": {
+        "k": 24,
+        "n": 108,
+        "excluded": 0,
+        "pct": 22.222
+      },
+      "D30": {
+        "k": 12,
+        "n": 84,
+        "excluded": 24,
+        "pct": 14.286
+      }
+    },
+    "2026-06-22/activation_create/True": {
+      "size": 187,
+      "D7": {
+        "k": 63,
+        "n": 187,
+        "excluded": 0,
+        "pct": 33.69
+      },
+      "D30": {
+        "k": 41,
+        "n": 158,
+        "excluded": 29,
+        "pct": 25.949
+      }
+    },
+    "2026-06-22/activation_value/False": {
+      "size": 85,
+      "D7": {
+        "k": 21,
+        "n": 85,
+        "excluded": 0,
+        "pct": 24.706
+      },
+      "D30": {
+        "k": 10,
+        "n": 67,
+        "excluded": 18,
+        "pct": 14.925
+      }
+    },
+    "2026-06-22/activation_value/True": {
+      "size": 210,
+      "D7": {
+        "k": 66,
+        "n": 210,
+        "excluded": 0,
+        "pct": 31.429
+      },
+      "D30": {
+        "k": 43,
+        "n": 175,
+        "excluded": 35,
+        "pct": 24.571
+      }
+    },
+    "2026-06-22/legacy_setup_flag/": {
+      "size": 19,
+      "D7": {
+        "k": 6,
+        "n": 19,
+        "excluded": 0,
+        "pct": 31.579
+      },
+      "D30": {
+        "k": 4,
+        "n": 15,
+        "excluded": 4,
+        "pct": 26.667
+      }
+    },
+    "2026-06-22/legacy_setup_flag/0": {
+      "size": 144,
+      "D7": {
+        "k": 40,
+        "n": 144,
+        "excluded": 0,
+        "pct": 27.778
+      },
+      "D30": {
+        "k": 24,
+        "n": 111,
+        "excluded": 33,
+        "pct": 21.622
+      }
+    },
+    "2026-06-22/legacy_setup_flag/1": {
+      "size": 132,
+      "D7": {
+        "k": 41,
+        "n": 132,
+        "excluded": 0,
+        "pct": 31.061
+      },
+      "D30": {
+        "k": 25,
+        "n": 116,
+        "excluded": 16,
+        "pct": 21.552
+      }
+    },
+    "2026-06-29/activation_create/False": {
+      "size": 112,
+      "D7": {
+        "k": 25,
+        "n": 112,
+        "excluded": 0,
+        "pct": 22.321
+      },
+      "D30": {
+        "k": 9,
+        "n": 112,
+        "excluded": 0,
+        "pct": 8.036
+      }
+    },
+    "2026-06-29/activation_create/True": {
+      "size": 206,
+      "D7": {
+        "k": 72,
+        "n": 206,
+        "excluded": 0,
+        "pct": 34.951
+      },
+      "D30": {
+        "k": 38,
+        "n": 206,
+        "excluded": 0,
+        "pct": 18.447
+      }
+    },
+    "2026-06-29/activation_value/False": {
+      "size": 83,
+      "D7": {
+        "k": 15,
+        "n": 83,
+        "excluded": 0,
+        "pct": 18.072
+      },
+      "D30": {
+        "k": 6,
+        "n": 83,
+        "excluded": 0,
+        "pct": 7.229
+      }
+    },
+    "2026-06-29/activation_value/True": {
+      "size": 235,
+      "D7": {
+        "k": 82,
+        "n": 235,
+        "excluded": 0,
+        "pct": 34.894
+      },
+      "D30": {
+        "k": 41,
+        "n": 235,
+        "excluded": 0,
+        "pct": 17.447
+      }
+    },
+    "2026-06-29/legacy_setup_flag/": {
+      "size": 20,
+      "D7": {
+        "k": 8,
+        "n": 20,
+        "excluded": 0,
+        "pct": 40.0
+      },
+      "D30": {
+        "k": 1,
+        "n": 20,
+        "excluded": 0,
+        "pct": 5.0
+      }
+    },
+    "2026-06-29/legacy_setup_flag/0": {
+      "size": 161,
+      "D7": {
+        "k": 49,
+        "n": 161,
+        "excluded": 0,
+        "pct": 30.435
+      },
+      "D30": {
+        "k": 23,
+        "n": 161,
+        "excluded": 0,
+        "pct": 14.286
+      }
+    },
+    "2026-06-29/legacy_setup_flag/1": {
+      "size": 137,
+      "D7": {
+        "k": 40,
+        "n": 137,
+        "excluded": 0,
+        "pct": 29.197
+      },
+      "D30": {
+        "k": 23,
+        "n": 137,
+        "excluded": 0,
+        "pct": 16.788
+      }
+    },
+    "2026-07-06/activation_create/False": {
+      "size": 110,
+      "D7": {
+        "k": 19,
+        "n": 110,
+        "excluded": 0,
+        "pct": 17.273
+      },
+      "D30": {
+        "k": 15,
+        "n": 110,
+        "excluded": 0,
+        "pct": 13.636
+      }
+    },
+    "2026-07-06/activation_create/True": {
+      "size": 178,
+      "D7": {
+        "k": 63,
+        "n": 178,
+        "excluded": 0,
+        "pct": 35.393
+      },
+      "D30": {
+        "k": 50,
+        "n": 178,
+        "excluded": 0,
+        "pct": 28.09
+      }
+    },
+    "2026-07-06/activation_value/False": {
+      "size": 89,
+      "D7": {
+        "k": 14,
+        "n": 89,
+        "excluded": 0,
+        "pct": 15.73
+      },
+      "D30": {
+        "k": 12,
+        "n": 89,
+        "excluded": 0,
+        "pct": 13.483
+      }
+    },
+    "2026-07-06/activation_value/True": {
+      "size": 199,
+      "D7": {
+        "k": 68,
+        "n": 199,
+        "excluded": 0,
+        "pct": 34.171
+      },
+      "D30": {
+        "k": 53,
+        "n": 199,
+        "excluded": 0,
+        "pct": 26.633
+      }
+    },
+    "2026-07-06/legacy_setup_flag/": {
+      "size": 25,
+      "D7": {
+        "k": 6,
+        "n": 25,
+        "excluded": 0,
+        "pct": 24.0
+      },
+      "D30": {
+        "k": 7,
+        "n": 25,
+        "excluded": 0,
+        "pct": 28.0
+      }
+    },
+    "2026-07-06/legacy_setup_flag/0": {
+      "size": 143,
+      "D7": {
+        "k": 34,
+        "n": 143,
+        "excluded": 0,
+        "pct": 23.776
+      },
+      "D30": {
+        "k": 27,
+        "n": 143,
+        "excluded": 0,
+        "pct": 18.881
+      }
+    },
+    "2026-07-06/legacy_setup_flag/1": {
+      "size": 120,
+      "D7": {
+        "k": 42,
+        "n": 120,
+        "excluded": 0,
+        "pct": 35.0
+      },
+      "D30": {
+        "k": 31,
+        "n": 120,
+        "excluded": 0,
+        "pct": 25.833
+      }
+    },
+    "2026-07-13/activation_create/False": {
+      "size": 127,
+      "D7": {
+        "k": 15,
+        "n": 102,
+        "excluded": 25,
+        "pct": 14.706
+      },
+      "D30": {
+        "k": 0,
+        "n": 13,
+        "excluded": 114,
+        "pct": 0.0
+      }
+    },
+    "2026-07-13/activation_create/True": {
+      "size": 213,
+      "D7": {
+        "k": 59,
+        "n": 184,
+        "excluded": 29,
+        "pct": 32.065
+      },
+      "D30": {
+        "k": 4,
+        "n": 27,
+        "excluded": 186,
+        "pct": 14.815
+      }
+    },
+    "2026-07-13/activation_value/False": {
+      "size": 101,
+      "D7": {
+        "k": 13,
+        "n": 80,
+        "excluded": 21,
+        "pct": 16.25
+      },
+      "D30": {
+        "k": 0,
+        "n": 10,
+        "excluded": 91,
+        "pct": 0.0
+      }
+    },
+    "2026-07-13/activation_value/True": {
+      "size": 239,
+      "D7": {
+        "k": 61,
+        "n": 206,
+        "excluded": 33,
+        "pct": 29.612
+      },
+      "D30": {
+        "k": 4,
+        "n": 30,
+        "excluded": 209,
+        "pct": 13.333
+      }
+    },
+    "2026-07-13/legacy_setup_flag/": {
+      "size": 27,
+      "D7": {
+        "k": 7,
+        "n": 21,
+        "excluded": 6,
+        "pct": 33.333
+      },
+      "D30": {
+        "k": 0,
+        "n": 2,
+        "excluded": 25,
+        "pct": 0.0
+      }
+    },
+    "2026-07-13/legacy_setup_flag/0": {
+      "size": 165,
+      "D7": {
+        "k": 31,
+        "n": 137,
+        "excluded": 28,
+        "pct": 22.628
+      },
+      "D30": {
+        "k": 1,
+        "n": 20,
+        "excluded": 145,
+        "pct": 5.0
+      }
+    },
+    "2026-07-13/legacy_setup_flag/1": {
+      "size": 148,
+      "D7": {
+        "k": 36,
+        "n": 128,
+        "excluded": 20,
+        "pct": 28.125
+      },
+      "D30": {
+        "k": 3,
+        "n": 18,
+        "excluded": 130,
+        "pct": 16.667
+      }
+    },
+    "2026-07-20/activation_create/False": {
+      "size": 81,
+      "D7": {
+        "k": 18,
+        "n": 81,
+        "excluded": 0,
+        "pct": 22.222
+      },
+      "D30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 81,
+        "pct": null
+      }
+    },
+    "2026-07-20/activation_create/True": {
+      "size": 145,
+      "D7": {
+        "k": 49,
+        "n": 145,
+        "excluded": 0,
+        "pct": 33.793
+      },
+      "D30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 145,
+        "pct": null
+      }
+    },
+    "2026-07-20/activation_value/False": {
+      "size": 71,
+      "D7": {
+        "k": 14,
+        "n": 71,
+        "excluded": 0,
+        "pct": 19.718
+      },
+      "D30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 71,
+        "pct": null
+      }
+    },
+    "2026-07-20/activation_value/True": {
+      "size": 155,
+      "D7": {
+        "k": 53,
+        "n": 155,
+        "excluded": 0,
+        "pct": 34.194
+      },
+      "D30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 155,
+        "pct": null
+      }
+    },
+    "2026-07-20/legacy_setup_flag/": {
+      "size": 24,
+      "D7": {
+        "k": 10,
+        "n": 24,
+        "excluded": 0,
+        "pct": 41.667
+      },
+      "D30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 24,
+        "pct": null
+      }
+    },
+    "2026-07-20/legacy_setup_flag/0": {
+      "size": 104,
+      "D7": {
+        "k": 31,
+        "n": 104,
+        "excluded": 0,
+        "pct": 29.808
+      },
+      "D30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 104,
+        "pct": null
+      }
+    },
+    "2026-07-20/legacy_setup_flag/1": {
+      "size": 98,
+      "D7": {
+        "k": 26,
+        "n": 98,
+        "excluded": 0,
+        "pct": 26.531
+      },
+      "D30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 98,
+        "pct": null
+      }
+    },
+    "2026-07-27/activation_create/False": {
+      "size": 131,
+      "D7": {
+        "k": 23,
+        "n": 131,
+        "excluded": 0,
+        "pct": 17.557
+      },
+      "D30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 131,
+        "pct": null
+      }
+    },
+    "2026-07-27/activation_create/True": {
+      "size": 225,
+      "D7": {
+        "k": 81,
+        "n": 225,
+        "excluded": 0,
+        "pct": 36.0
+      },
+      "D30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 225,
+        "pct": null
+      }
+    },
+    "2026-07-27/activation_value/False": {
+      "size": 103,
+      "D7": {
+        "k": 17,
+        "n": 103,
+        "excluded": 0,
+        "pct": 16.505
+      },
+      "D30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 103,
+        "pct": null
+      }
+    },
+    "2026-07-27/activation_value/True": {
+      "size": 253,
+      "D7": {
+        "k": 87,
+        "n": 253,
+        "excluded": 0,
+        "pct": 34.387
+      },
+      "D30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 253,
+        "pct": null
+      }
+    },
+    "2026-07-27/legacy_setup_flag/": {
+      "size": 35,
+      "D7": {
+        "k": 13,
+        "n": 35,
+        "excluded": 0,
+        "pct": 37.143
+      },
+      "D30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 35,
+        "pct": null
+      }
+    },
+    "2026-07-27/legacy_setup_flag/0": {
+      "size": 175,
+      "D7": {
+        "k": 43,
+        "n": 175,
+        "excluded": 0,
+        "pct": 24.571
+      },
+      "D30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 175,
+        "pct": null
+      }
+    },
+    "2026-07-27/legacy_setup_flag/1": {
+      "size": 146,
+      "D7": {
+        "k": 48,
+        "n": 146,
+        "excluded": 0,
+        "pct": 32.877
+      },
+      "D30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 146,
+        "pct": null
+      }
+    },
+    "2026-08-03/activation_create/False": {
+      "size": 120,
+      "D7": {
+        "k": 12,
+        "n": 57,
+        "excluded": 63,
+        "pct": 21.053
+      },
+      "D30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 120,
+        "pct": null
+      }
+    },
+    "2026-08-03/activation_create/True": {
+      "size": 212,
+      "D7": {
+        "k": 25,
+        "n": 87,
+        "excluded": 125,
+        "pct": 28.736
+      },
+      "D30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 212,
+        "pct": null
+      }
+    },
+    "2026-08-03/activation_value/False": {
+      "size": 93,
+      "D7": {
+        "k": 9,
+        "n": 44,
+        "excluded": 49,
+        "pct": 20.455
+      },
+      "D30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 93,
+        "pct": null
+      }
+    },
+    "2026-08-03/activation_value/True": {
+      "size": 239,
+      "D7": {
+        "k": 28,
+        "n": 100,
+        "excluded": 139,
+        "pct": 28.0
+      },
+      "D30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 239,
+        "pct": null
+      }
+    },
+    "2026-08-03/legacy_setup_flag/": {
+      "size": 26,
+      "D7": {
+        "k": 3,
+        "n": 11,
+        "excluded": 15,
+        "pct": 27.273
+      },
+      "D30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 26,
+        "pct": null
+      }
+    },
+    "2026-08-03/legacy_setup_flag/0": {
+      "size": 153,
+      "D7": {
+        "k": 15,
+        "n": 64,
+        "excluded": 89,
+        "pct": 23.438
+      },
+      "D30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 153,
+        "pct": null
+      }
+    },
+    "2026-08-03/legacy_setup_flag/1": {
+      "size": 153,
+      "D7": {
+        "k": 19,
+        "n": 69,
+        "excluded": 84,
+        "pct": 27.536
+      },
+      "D30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 153,
+        "pct": null
+      }
+    }
+  },
+  "reminders": {
+    "2026-06-01/False": {
+      "size": 168,
+      "D7": {
+        "k": 46,
+        "n": 168,
+        "excluded": 0,
+        "pct": 27.381
+      },
+      "D30": {
+        "k": 36,
+        "n": 168,
+        "excluded": 0,
+        "pct": 21.429
+      }
+    },
+    "2026-06-01/True": {
+      "size": 74,
+      "D7": {
+        "k": 28,
+        "n": 74,
+        "excluded": 0,
+        "pct": 37.838
+      },
+      "D30": {
+        "k": 20,
+        "n": 74,
+        "excluded": 0,
+        "pct": 27.027
+      }
+    },
+    "2026-06-08/False": {
+      "size": 192,
+      "D7": {
+        "k": 54,
+        "n": 192,
+        "excluded": 0,
+        "pct": 28.125
+      },
+      "D30": {
+        "k": 38,
+        "n": 192,
+        "excluded": 0,
+        "pct": 19.792
+      }
+    },
+    "2026-06-08/True": {
+      "size": 83,
+      "D7": {
+        "k": 44,
+        "n": 83,
+        "excluded": 0,
+        "pct": 53.012
+      },
+      "D30": {
+        "k": 18,
+        "n": 83,
+        "excluded": 0,
+        "pct": 21.687
+      }
+    },
+    "2026-06-15/False": {
+      "size": 174,
+      "D7": {
+        "k": 49,
+        "n": 174,
+        "excluded": 0,
+        "pct": 28.161
+      },
+      "D30": {
+        "k": 42,
+        "n": 174,
+        "excluded": 0,
+        "pct": 24.138
+      }
+    },
+    "2026-06-15/True": {
+      "size": 85,
+      "D7": {
+        "k": 37,
+        "n": 85,
+        "excluded": 0,
+        "pct": 43.529
+      },
+      "D30": {
+        "k": 29,
+        "n": 85,
+        "excluded": 0,
+        "pct": 34.118
+      }
+    },
+    "2026-06-22/False": {
+      "size": 214,
+      "D7": {
+        "k": 55,
+        "n": 214,
+        "excluded": 0,
+        "pct": 25.701
+      },
+      "D30": {
+        "k": 35,
+        "n": 173,
+        "excluded": 41,
+        "pct": 20.231
+      }
+    },
+    "2026-06-22/True": {
+      "size": 81,
+      "D7": {
+        "k": 32,
+        "n": 81,
+        "excluded": 0,
+        "pct": 39.506
+      },
+      "D30": {
+        "k": 18,
+        "n": 69,
+        "excluded": 12,
+        "pct": 26.087
+      }
+    },
+    "2026-06-29/False": {
+      "size": 229,
+      "D7": {
+        "k": 64,
+        "n": 229,
+        "excluded": 0,
+        "pct": 27.948
+      },
+      "D30": {
+        "k": 29,
+        "n": 229,
+        "excluded": 0,
+        "pct": 12.664
+      }
+    },
+    "2026-06-29/True": {
+      "size": 89,
+      "D7": {
+        "k": 33,
+        "n": 89,
+        "excluded": 0,
+        "pct": 37.079
+      },
+      "D30": {
+        "k": 18,
+        "n": 89,
+        "excluded": 0,
+        "pct": 20.225
+      }
+    },
+    "2026-07-06/False": {
+      "size": 207,
+      "D7": {
+        "k": 46,
+        "n": 207,
+        "excluded": 0,
+        "pct": 22.222
+      },
+      "D30": {
+        "k": 37,
+        "n": 207,
+        "excluded": 0,
+        "pct": 17.874
+      }
+    },
+    "2026-07-06/True": {
+      "size": 81,
+      "D7": {
+        "k": 36,
+        "n": 81,
+        "excluded": 0,
+        "pct": 44.444
+      },
+      "D30": {
+        "k": 28,
+        "n": 81,
+        "excluded": 0,
+        "pct": 34.568
+      }
+    },
+    "2026-07-13/False": {
+      "size": 246,
+      "D7": {
+        "k": 40,
+        "n": 204,
+        "excluded": 42,
+        "pct": 19.608
+      },
+      "D30": {
+        "k": 2,
+        "n": 26,
+        "excluded": 220,
+        "pct": 7.692
+      }
+    },
+    "2026-07-13/True": {
+      "size": 94,
+      "D7": {
+        "k": 34,
+        "n": 82,
+        "excluded": 12,
+        "pct": 41.463
+      },
+      "D30": {
+        "k": 2,
+        "n": 14,
+        "excluded": 80,
+        "pct": 14.286
+      }
+    },
+    "2026-07-20/False": {
+      "size": 163,
+      "D7": {
+        "k": 44,
+        "n": 163,
+        "excluded": 0,
+        "pct": 26.994
+      },
+      "D30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 163,
+        "pct": null
+      }
+    },
+    "2026-07-20/True": {
+      "size": 63,
+      "D7": {
+        "k": 23,
+        "n": 63,
+        "excluded": 0,
+        "pct": 36.508
+      },
+      "D30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 63,
+        "pct": null
+      }
+    },
+    "2026-07-27/False": {
+      "size": 251,
+      "D7": {
+        "k": 62,
+        "n": 251,
+        "excluded": 0,
+        "pct": 24.701
+      },
+      "D30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 251,
+        "pct": null
+      }
+    },
+    "2026-07-27/True": {
+      "size": 105,
+      "D7": {
+        "k": 42,
+        "n": 105,
+        "excluded": 0,
+        "pct": 40.0
+      },
+      "D30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 105,
+        "pct": null
+      }
+    },
+    "2026-08-03/False": {
+      "size": 242,
+      "D7": {
+        "k": 30,
+        "n": 110,
+        "excluded": 132,
+        "pct": 27.273
+      },
+      "D30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 242,
+        "pct": null
+      }
+    },
+    "2026-08-03/True": {
+      "size": 90,
+      "D7": {
+        "k": 7,
+        "n": 34,
+        "excluded": 56,
+        "pct": 20.588
+      },
+      "D30": {
+        "k": 0,
+        "n": 0,
+        "excluded": 90,
+        "pct": null
+      }
+    }
+  },
+  "full_cohorts": {
+    "D7": [
+      "2026-06-01",
+      "2026-06-08",
+      "2026-06-15",
+      "2026-06-22",
+      "2026-06-29",
+      "2026-07-06",
+      "2026-07-20",
+      "2026-07-27"
+    ],
+    "D30": [
+      "2026-06-01",
+      "2026-06-08",
+      "2026-06-15",
+      "2026-06-29",
+      "2026-07-06"
+    ],
+    "W7": [
+      "2026-06-01",
+      "2026-06-08",
+      "2026-06-15",
+      "2026-06-22",
+      "2026-06-29",
+      "2026-07-20"
+    ],
+    "W30": [
+      "2026-06-01",
+      "2026-06-08",
+      "2026-06-29"
+    ]
+  },
+  "standardized": {
+    "D7": {
+      "weights": {
+        "": 0.024793388429752067,
+        "organic": 0.5495867768595041,
+        "paid_social": 0.24380165289256198,
+        "referral": 0.18181818181818182
+      },
+      "rates": {
+        "2026-06-01": 30.579,
+        "2026-06-08": 36.027,
+        "2026-06-15": 33.49,
+        "2026-06-22": 30.676,
+        "2026-06-29": 30.638,
+        "2026-07-06": 33.252,
+        "2026-07-20": 32.683,
+        "2026-07-27": 30.56
+      }
+    },
+    "D30": {
+      "weights": {
+        "": 0.024793388429752067,
+        "organic": 0.5495867768595041,
+        "paid_social": 0.24380165289256198,
+        "referral": 0.18181818181818182
+      },
+      "rates": {
+        "2026-06-01": 23.14,
+        "2026-06-08": 20.916,
+        "2026-06-15": 27.498,
+        "2026-06-29": 16.775,
+        "2026-07-06": 25.026
+      }
+    },
+    "W7": {
+      "weights": {
+        "": 0.024793388429752067,
+        "organic": 0.5495867768595041,
+        "paid_social": 0.24380165289256198,
+        "referral": 0.18181818181818182
+      },
+      "rates": {
+        "2026-06-01": 90.083,
+        "2026-06-08": 84.663,
+        "2026-06-15": 85.327,
+        "2026-06-22": 85.079,
+        "2026-06-29": 81.949,
+        "2026-07-20": 85.567
+      }
+    },
+    "W30": {
+      "weights": {
+        "": 0.024793388429752067,
+        "organic": 0.5495867768595041,
+        "paid_social": 0.24380165289256198,
+        "referral": 0.18181818181818182
+      },
+      "rates": {
+        "2026-06-01": 80.579,
+        "2026-06-08": 81.608,
+        "2026-06-29": 78.579
+      }
+    }
+  }
+}

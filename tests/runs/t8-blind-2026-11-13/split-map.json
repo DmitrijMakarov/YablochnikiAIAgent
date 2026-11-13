@@ -1,0 +1,50 @@
+{
+  "original_sha256": "e2652a4f757eab524258ff9a37e3bb2e308a6a1c072e8a1617e93f1b93a4918c",
+  "parts": [
+    {
+      "source": "S-008@1",
+      "original": "S-003@1",
+      "original_lines": [
+        2,
+        19001
+      ],
+      "rows": 19000
+    },
+    {
+      "source": "S-009@1",
+      "original": "S-003@1",
+      "original_lines": [
+        19002,
+        38001
+      ],
+      "rows": 19000
+    },
+    {
+      "source": "S-010@1",
+      "original": "S-003@1",
+      "original_lines": [
+        38002,
+        57001
+      ],
+      "rows": 19000
+    },
+    {
+      "source": "S-011@1",
+      "original": "S-003@1",
+      "original_lines": [
+        57002,
+        76001
+      ],
+      "rows": 19000
+    },
+    {
+      "source": "S-012@1",
+      "original": "S-003@1",
+      "original_lines": [
+        76002,
+        85081
+      ],
+      "rows": 9080
+    }
+  ]
+}
