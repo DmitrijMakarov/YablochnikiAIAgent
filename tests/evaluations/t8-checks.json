@@ -1,0 +1,488 @@
+{
+  "agent_cells_matched": 160,
+  "segment_cells_matched": 360,
+  "reference_recomputed_exactly": true,
+  "checkpoint_hashes": {
+    "brief.md": true,
+    "research.md": true,
+    "sources.tsv": true,
+    "claims.tsv": true,
+    "strategy.md": true,
+    "quality.md": true,
+    "audit.tsv": true
+  },
+  "archive_git_commit": "a8ff9d424711de5b0ebe547127d3b05237728cc0",
+  "archive_files_unchanged": 30,
+  "input_hashes": {
+    "coverage.csv": "f9bc1c0170769edbbd1507bed0443effdfc2d574f0b9d32dc518f1b40f2a12d2",
+    "events.csv": "e2652a4f757eab524258ff9a37e3bb2e308a6a1c072e8a1617e93f1b93a4918c",
+    "google-tasks.jsonl": "c22bca37134fbf19c3e049977e7a3ce71b8d2210c2c3a5606c1d7a4c8bf3f5d3",
+    "microsoft-to-do.jsonl": "ecbf649791a348f77d9dec22a2e1c3e78618ed15b3c20b076b0b584126c0c383",
+    "product.md": "5fdf8ec7946107cc1ffe25e2b4f93b97f9f44a07affa8fed2b97f1a5d7215360",
+    "signups.csv": "0cb3e607f604a8196198c3033b570df340ec33cb06aa62a0c24e4669118f2ce4",
+    "todoist.jsonl": "ecb62a559433eddde30d052be67692d9948c39f285eebf06518467967dd9896d"
+  },
+  "evidence_rows_matched": {
+    "S-002@1": 3020,
+    "S-004@1": 146,
+    "event_parts": 85080
+  },
+  "fact_quotes_present": [
+    "C-001",
+    "C-002",
+    "C-003",
+    "C-004",
+    "C-005",
+    "C-013",
+    "C-014",
+    "C-015"
+  ],
+  "periods": {
+    "baseline": {
+      "size": 776,
+      "overall": {
+        "D7": {
+          "value": {
+            "k": 258,
+            "n": 776
+          },
+          "completion": {
+            "k": 246,
+            "n": 776
+          },
+          "foreground": {
+            "k": 357,
+            "n": 776
+          },
+          "any": {
+            "k": 372,
+            "n": 776
+          },
+          "open": {
+            "k": 357,
+            "n": 776
+          }
+        },
+        "D30": {
+          "value": {
+            "k": 183,
+            "n": 776
+          },
+          "completion": {
+            "k": 167,
+            "n": 776
+          },
+          "foreground": {
+            "k": 279,
+            "n": 776
+          },
+          "any": {
+            "k": 290,
+            "n": 776
+          },
+          "open": {
+            "k": 279,
+            "n": 776
+          }
+        }
+      },
+      "channel": {
+        "unknown": {
+          "size": 19,
+          "activation": {
+            "k": 13,
+            "n": 19
+          },
+          "D7": {
+            "k": 5,
+            "n": 19
+          },
+          "D30": {
+            "k": 4,
+            "n": 19
+          }
+        },
+        "organic": {
+          "size": 404,
+          "activation": {
+            "k": 306,
+            "n": 404
+          },
+          "D7": {
+            "k": 138,
+            "n": 404
+          },
+          "D30": {
+            "k": 103,
+            "n": 404
+          }
+        },
+        "paid_social": {
+          "size": 199,
+          "activation": {
+            "k": 124,
+            "n": 199
+          },
+          "D7": {
+            "k": 51,
+            "n": 199
+          },
+          "D30": {
+            "k": 31,
+            "n": 199
+          }
+        },
+        "referral": {
+          "size": 154,
+          "activation": {
+            "k": 129,
+            "n": 154
+          },
+          "D7": {
+            "k": 52,
+            "n": 154
+          },
+          "D30": {
+            "k": 29,
+            "n": 154
+          }
+        }
+      },
+      "platform": {
+        "android": {
+          "size": 441,
+          "activation": {
+            "k": 321,
+            "n": 441
+          },
+          "D7": {
+            "k": 135,
+            "n": 441
+          },
+          "D30": {
+            "k": 95,
+            "n": 441
+          }
+        },
+        "ios": {
+          "size": 335,
+          "activation": {
+            "k": 251,
+            "n": 335
+          },
+          "D7": {
+            "k": 111,
+            "n": 335
+          },
+          "D30": {
+            "k": 72,
+            "n": 335
+          }
+        }
+      },
+      "activation_groups": {
+        "created": {
+          "D7": {
+            "k": 195,
+            "n": 572
+          },
+          "D30": {
+            "k": 142,
+            "n": 572
+          }
+        },
+        "not_created": {
+          "D7": {
+            "k": 51,
+            "n": 204
+          },
+          "D30": {
+            "k": 25,
+            "n": 204
+          }
+        },
+        "unobservable": {
+          "D7": {
+            "k": 0,
+            "n": 0
+          },
+          "D30": {
+            "k": 0,
+            "n": 0
+          }
+        }
+      }
+    },
+    "recent": {
+      "size": 901,
+      "overall": {
+        "D7": {
+          "value": {
+            "k": 266,
+            "n": 901
+          },
+          "completion": {
+            "k": 245,
+            "n": 901
+          },
+          "foreground": {
+            "k": 392,
+            "n": 901
+          },
+          "any": {
+            "k": 407,
+            "n": 901
+          },
+          "open": {
+            "k": 392,
+            "n": 901
+          }
+        },
+        "D30": {
+          "value": {
+            "k": 165,
+            "n": 848
+          },
+          "completion": {
+            "k": 158,
+            "n": 848
+          },
+          "foreground": {
+            "k": 281,
+            "n": 848
+          },
+          "any": {
+            "k": 306,
+            "n": 848
+          },
+          "open": {
+            "k": 281,
+            "n": 848
+          }
+        }
+      },
+      "channel": {
+        "unknown": {
+          "size": 47,
+          "activation": {
+            "k": 29,
+            "n": 47
+          },
+          "D7": {
+            "k": 10,
+            "n": 47
+          },
+          "D30": {
+            "k": 4,
+            "n": 43
+          }
+        },
+        "organic": {
+          "size": 342,
+          "activation": {
+            "k": 239,
+            "n": 342
+          },
+          "D7": {
+            "k": 99,
+            "n": 342
+          },
+          "D30": {
+            "k": 73,
+            "n": 324
+          }
+        },
+        "paid_social": {
+          "size": 358,
+          "activation": {
+            "k": 190,
+            "n": 358
+          },
+          "D7": {
+            "k": 74,
+            "n": 358
+          },
+          "D30": {
+            "k": 47,
+            "n": 334
+          }
+        },
+        "referral": {
+          "size": 154,
+          "activation": {
+            "k": 113,
+            "n": 154
+          },
+          "D7": {
+            "k": 62,
+            "n": 154
+          },
+          "D30": {
+            "k": 34,
+            "n": 147
+          }
+        }
+      },
+      "platform": {
+        "android": {
+          "size": 549,
+          "activation": {
+            "k": 326,
+            "n": 549
+          },
+          "D7": {
+            "k": 143,
+            "n": 549
+          },
+          "D30": {
+            "k": 86,
+            "n": 496
+          }
+        },
+        "ios": {
+          "size": 352,
+          "activation": {
+            "k": 245,
+            "n": 352
+          },
+          "D7": {
+            "k": 102,
+            "n": 352
+          },
+          "D30": {
+            "k": 72,
+            "n": 352
+          }
+        }
+      },
+      "activation_groups": {
+        "created": {
+          "D7": {
+            "k": 181,
+            "n": 571
+          },
+          "D30": {
+            "k": 124,
+            "n": 542
+          }
+        },
+        "not_created": {
+          "D7": {
+            "k": 64,
+            "n": 330
+          },
+          "D30": {
+            "k": 34,
+            "n": 306
+          }
+        },
+        "unobservable": {
+          "D7": {
+            "k": 0,
+            "n": 0
+          },
+          "D30": {
+            "k": 0,
+            "n": 0
+          }
+        }
+      }
+    }
+  },
+  "standardization": {
+    "D7": {
+      "baseline_pct": 31.701030927835053,
+      "recent_pct": 27.19200887902331,
+      "fixed_pct": 28.881958740313465,
+      "within_pp": -2.819072187521588,
+      "mix_pp": -1.689949861290156,
+      "total_pp": -4.509022048811744
+    },
+    "D30": {
+      "baseline_pct": 21.52061855670103,
+      "recent_pct": 18.632075471698112,
+      "fixed_pct": 20.15646583112287,
+      "within_pp": -1.3641527255781618,
+      "mix_pp": -1.524390359424757,
+      "total_pp": -2.888543085002919
+    }
+  },
+  "associations": {
+    "D7": {
+      "activation_create": {
+        "False": {
+          "k": 163,
+          "n": 746
+        },
+        "True": {
+          "k": 532,
+          "n": 1513
+        }
+      },
+      "activation_value": {
+        "False": {
+          "k": 123,
+          "n": 598
+        },
+        "True": {
+          "k": 572,
+          "n": 1661
+        }
+      },
+      "reminder": {
+        "False": {
+          "k": 420,
+          "n": 1598
+        },
+        "True": {
+          "k": 275,
+          "n": 661
+        }
+      }
+    },
+    "D30": {
+      "activation_create": {
+        "False": {
+          "k": 50,
+          "n": 426
+        },
+        "True": {
+          "k": 245,
+          "n": 956
+        }
+      },
+      "activation_value": {
+        "False": {
+          "k": 40,
+          "n": 339
+        },
+        "True": {
+          "k": 255,
+          "n": 1043
+        }
+      },
+      "reminder": {
+        "False": {
+          "k": 182,
+          "n": 970
+        },
+        "True": {
+          "k": 113,
+          "n": 412
+        }
+      }
+    }
+  },
+  "activation_unobservable_retention": {
+    "D7": {
+      "k": 27,
+      "n": 89
+    },
+    "D30": {
+      "k": 0,
+      "n": 0
+    }
+  },
+  "activation_unobservable": 89,
+  "activation_definition_disagreements": 201
+}
