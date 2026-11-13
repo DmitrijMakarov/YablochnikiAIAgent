@@ -1,0 +1,53 @@
+{
+  "schema": 1,
+  "run_id": null,
+  "variant_operator_only": null,
+  "status": "not_started",
+  "thread_reference_operator_only": null,
+  "start_utc": null,
+  "end_utc": null,
+  "wall_seconds_monotonic": null,
+  "stop_reason": null,
+  "model_requested": null,
+  "effort_requested": null,
+  "model_ui_label": null,
+  "model_reported": null,
+  "model_version": null,
+  "model_evidence": null,
+  "tool_calls_actual": null,
+  "tool_trace_completeness": null,
+  "errors": null,
+  "retries": null,
+  "manual_actions": null,
+  "human_active_minutes": {
+    "setup": null,
+    "observation": null,
+    "technical_help": null,
+    "packaging": null,
+    "evaluation": null
+  },
+  "usage": {
+    "kind": "unknown",
+    "input_tokens": null,
+    "cached_input_tokens": null,
+    "output_tokens": null,
+    "reasoning_tokens": null,
+    "cached_in_input": null,
+    "reasoning_in_output": null,
+    "source_and_coverage": null,
+    "deduplication_rule": null
+  },
+  "money": {
+    "billed_amount": null,
+    "estimated_amount": null,
+    "currency": null,
+    "pricing_source_and_date": null,
+    "formula_and_scope": null,
+    "unknown_reason": "not run"
+  },
+  "raw_artifact_hashes": {},
+  "sealed_at_utc": null,
+  "first_reference_disclosure_utc": null,
+  "protocol_deviations": [],
+  "unknowns": []
+}
