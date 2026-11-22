@@ -1,0 +1,15 @@
+{
+  "algorithm": "sha256",
+  "purpose": "Strategy auxiliary reproducibility; quality.md records this manifest hash; CLI checkpoints strategy/quality/audit.",
+  "files": {
+    "strategy.md": "efcbd4b847becf6eacee98e7b0240dd9ce7245b4930124f8ee775d3865b60387",
+    "audit.tsv": "18a5226f7fea9e50c53dc4c29393bbe02981fb7fec2cd7a4feca5d7c5520e964",
+    "analysis/strategy_metrics.md": "397ec1ab186d0afb4f1a59de1286c2af62997c9b14c904f972aef73f6de87b0b",
+    "analysis/strategy_parameters.json": "e591277536b7867b8dec00efd435a0d1f5f93eaff19341772c26c17785b0062d",
+    "analysis/strategy_calculate.py": "c439e08f016f0669764e5c8c0f665d75532aab4e3f0bb8666f17590e4db9d83c",
+    "analysis/strategy_check.py": "71b1a8060cee8a1d038c0761c2c8c40ff5b4348450332d225d49a82a21b6fa2f",
+    "analysis/strategy_results.json": "39e5e84c0fa6d77ba6726777585c40ce156cf0a58cd91235be82da0ca696fa86",
+    "analysis/strategy_results.md": "529057d60763826ae891fa7906fd03082990328f57bdc7a6b80ebc5a8d5b71de",
+    "analysis/strategy_verification.json": "13a4c7e781233c71b3a82756ea6b266b67b86dba66d552969b3ac642272900b4"
+  }
+}

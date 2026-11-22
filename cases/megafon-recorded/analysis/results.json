@@ -1,0 +1,102 @@
+{
+  "calculated_utc": "2026-11-22T19:01:15.058149+00:00",
+  "input_sha256": "80ca938f3b26ebe3a01d9dd310e907dbe0c4ab638e6f1a0a6dae016632626775",
+  "script_sha256": "1874dfc814d8d96b453efdb94fae285dfb1240e9e9b36b391ead1180fa5a4c0c",
+  "original_pdf_sha256": "558d2c665caa4f4954135c8bbfb69d791e398dcdc5b625d5ded7bdb2d0eb0fa5",
+  "gaps": {
+    "gross_profit_rub": {
+      "base_plan_minus_estimate": "7000000",
+      "next_target_minus_no_change": "6000000",
+      "unit": "RUB"
+    },
+    "active_groups_last_month": {
+      "base_plan_minus_estimate": "1000",
+      "next_target_minus_no_change": "3000",
+      "unit": "groups"
+    },
+    "connected_groups_year_end": {
+      "base_plan_minus_estimate": "1000",
+      "next_target_minus_no_change": "4000",
+      "unit": "groups"
+    },
+    "connected_owners_year_end": {
+      "base_plan_minus_estimate": "200",
+      "next_target_minus_no_change": "1000",
+      "unit": "owners"
+    },
+    "activation_14d_last_quarter": {
+      "base_plan_minus_estimate": "0.08",
+      "next_target_minus_no_change": "0.15",
+      "unit": "fraction"
+    }
+  },
+  "net_growth": {
+    "households": {
+      "target": "5500",
+      "no_change": "1500",
+      "incremental_gap": "4000"
+    },
+    "owners": {
+      "target": "1200",
+      "no_change": "200",
+      "incremental_gap": "1000"
+    }
+  },
+  "coverage_percent": {
+    "households": [
+      "6.500",
+      "8.00",
+      "12.00"
+    ],
+    "owners": [
+      "2.00",
+      "2.500",
+      "5.00"
+    ]
+  },
+  "active_decomposition": {
+    "no_change_fraction": "0.625",
+    "required_target_fraction": "0.6666666666666666666666666667",
+    "delta_pp": "4.166666666666666666666666670",
+    "active_if_only_base_grows": "7500.000",
+    "base_component": "2500.000",
+    "rate_component": "500.000",
+    "sum": "3000"
+  },
+  "paid_month_threshold_no_other_contributions": "12000",
+  "cost_sensitivity": [
+    {
+      "new_direct_cost_rub": 0,
+      "other_net_contribution_rub": 0,
+      "required_incremental_paid_months": "12000",
+      "nature": "illustrative assumption, not a cost estimate"
+    },
+    {
+      "new_direct_cost_rub": 1000000,
+      "other_net_contribution_rub": 0,
+      "required_incremental_paid_months": "14000",
+      "nature": "illustrative assumption, not a cost estimate"
+    },
+    {
+      "new_direct_cost_rub": 3000000,
+      "other_net_contribution_rub": 0,
+      "required_incremental_paid_months": "18000",
+      "nature": "illustrative assumption, not a cost estimate"
+    }
+  ],
+  "controls": {
+    "source_example_paid_margin_rub": 100000,
+    "source_example_activation": "0.3"
+  },
+  "not_computable": [
+    "cause prevalence",
+    "segment mix versus within-segment dynamics",
+    "mature cohort comparison",
+    "statistical uncertainty",
+    "pilot power and full success probability",
+    "guardrail precision",
+    "effect on retention",
+    "CAC",
+    "development cost and payback date"
+  ]
+}

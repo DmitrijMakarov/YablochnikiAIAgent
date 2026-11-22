@@ -16,7 +16,7 @@
     "cases/megafon-official/analysis/metric-passports.md": "7f20a1ed01833f639bee25e4a9e5619e9a25ba0d95e4efb6b8da63dc1af28b67",
     "deliverables/megafon/agent-description.pdf": "005baf76caae025d4696919584113f442485ca5ee42a00ae26f817236232e671",
     "deliverables/megafon/agent-description.md": "ef3774da544a43c5fedfd10253187778c8aecc27aed76fe0dcf573c41b03a2bd",
-    "deliverables/megafon/SUBMISSION.md": "846c0a39b13d9767ba894cd0e60b26ac73f596a53c2a89a8b3c8f6af0abb5c69",
+    "deliverables/megafon/SUBMISSION.md": "6e13d3b35ee47fa2c8420a804021c83c53200e3fab9aa4169491f1755c1043bc",
     "deliverables/megafon/submission/01-instructions.html": "b69dc581713dac38f16b4f4bb9692ea00602eed07c263a8bf9eb50bd5c6c3595",
     "deliverables/megafon/submission/01-instructions.png": "859ef450dcf49b2b428ccbe9ea634c6db6b6fc46bbd9acb5cf87b8bdbfd6b6a0",
     "deliverables/megafon/submission/02-research.html": "b1c17ea30090c29171ca8385e905c27262cda4b1d245315bdb272d2715036173",
@@ -30,7 +30,9 @@
     "deliverables/megafon/submission/06-resume.html": "692797ef4de5659c942701da936981d6676334da55880c6db36b3f81a559cb0d",
     "deliverables/megafon/submission/06-resume.png": "6b6071aa85b13ef49dfef23aef79fceb88932670adebea7d194942b0b760bfb5",
     "deliverables/megafon/submission/evidence.json": "68553f5487927300ce4446940eaac8968db09aaddd2ec82709ffb7049323c6df",
-    "deliverables/megafon/submission/screenshots.json": "d6524ac3518e6cb2c3b010d93f153507b5597891550f5de6cfae429f331ad9c3"
+    "deliverables/megafon/submission/screenshots.json": "d6524ac3518e6cb2c3b010d93f153507b5597891550f5de6cfae429f331ad9c3",
+    "deliverables/megafon/demo-project/README.md": "cdf60ec73685d1ff8706571247fc34f381468541adad553562c8d58c445da571",
+    "deliverables/megafon/demo-project/recorded-run-manifest.json": "bc6d8c98fc15b09233e8c68aef8a59bfbb55a8370ae7cfd03d5e1da4056c1521"
   },
   "submission_packaging": {
     "date": "2026-11-22",

@@ -10,15 +10,17 @@
 | --- | --- |
 | Архитектура, инструкции, инструменты, проверки и ограничения | [Описание PDF](deliverables/megafon/agent-description.pdf) · [Markdown](deliverables/megafon/agent-description.md) |
 | Стратегия демонстрационного проекта | [PDF, 20 страниц](deliverables/megafon/strategy.pdf) · [Markdown](deliverables/megafon/strategy.md) |
-| Исходный учебный бриф и материалы кейса | [Бриф PDF](cases/megafon-official/inputs/brief.pdf) · [Кейс](cases/megafon-official/) |
+| Демонстрационный проект: записанный прогон и подготовленная версия | [Навигация по примеру](deliverables/megafon/demo-project/) · [Прогон из видео](cases/megafon-recorded/) · [Подготовленный кейс](cases/megafon-official/) |
 | Проверяемость результата | [Матрица брифа](deliverables/megafon/compliance.md) · [Содержательная приёмка стратегии](deliverables/megafon/acceptance.md) · [Свежие проверки пакета](deliverables/megafon/submission/evidence.json) |
 | Сравнение с обычным чатом | [Отчёт A/B и ограничения](tests/benchmark/comparison-report.md) |
 | Инструкция капитану и текст для формы | [Порядок сдачи](deliverables/megafon/SUBMISSION.md) |
-| Обязательное видео до 10 минут | Ещё не записано. [Сценарий с продолжением в новом чате](deliverables/megafon/demo.md) |
+| Обязательное видео до 10 минут | [Запись 9:43 с продолжением в новом чате](https://drive.google.com/file/d/12DLpDKhqsOcEUQ4SoLEFDUMYW05HuFyL/view) · [Сценарий](deliverables/megafon/demo.md) |
 
 Первый запуск описан ниже. Проверить готовый конкурсный кейс: `python -m tools.case verify cases/megafon-official`. Статус `awaiting_decision` означает ожидание реального выбора руководителя.
 
 Свежая локальная проверка пакета 22 ноября: 45 тестов прошли, кейс прошёл `verify`, `resume` в новом процессе на временной копии восстановил состояние. Исторический пилот отдельно подтверждал продолжение с LLM без истории чата. Полный запуск в Cursor и перенос между IDE не подтверждены. Точная модель, токены и денежная стоимость конкурсного кейса неизвестны.
+
+В видео записан отдельный новый прогон с настоящим новым чатом. Его 41 утверждение и контрольные точки опубликованы побайтной копией; `verify cases/megafon-recorded` пройден. Отличие его рекомендации от заранее подготовленной версии явно объяснено в разделе демонстрации. Участки ожидания в ролике ускорены в 16 раз, голосовые объяснения сохранены в обычном темпе.
 
 ## Подготовка
 

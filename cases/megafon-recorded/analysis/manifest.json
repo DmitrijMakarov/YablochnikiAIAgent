@@ -1,0 +1,24 @@
+{
+  "algorithm": "sha256",
+  "purpose": "Вспомогательные результаты research; хеш этого манифеста связан с checkpoint через research.md. Основные артефакты и оригинал дополнительно проверяет CLI.",
+  "files": {
+    "metrics.md": "0043bdb3520ac6aab766bad5c2999f70446480f81c033fae6ba47ee79e816df5",
+    "analysis/build_research.py": "98740a1bc8f76b813a3b9974be374cdf2311c767e751c9f5b840a1a4938eea7a",
+    "analysis/calculate.py": "1874dfc814d8d96b453efdb94fae285dfb1240e9e9b36b391ead1180fa5a4c0c",
+    "analysis/inputs.json": "80ca938f3b26ebe3a01d9dd310e907dbe0c4ab638e6f1a0a6dae016632626775",
+    "analysis/pdf-preview/page-01.png": "2d8c80f8e6010a6da65c1d841f767b48112e467552e61d43ccbb94a23aebf1e6",
+    "analysis/pdf-preview/page-02.png": "bfc2fab8d25b4a31837476112e76d5d21221d9f521303618b75213370eb82bff",
+    "analysis/pdf-preview/page-03.png": "702f41ca0ea5d871f0d1979b2d9726a30406a1ffeb33d3aa1b8304f706661f1e",
+    "analysis/pdf-preview/page-04.png": "afd91273ab635a4823b2aced919616f098e16efc287ebc37650c432efc2488b2",
+    "analysis/pdf-preview/page-05.png": "0e7276fa25cfc9a172a28ed82ae2adf852fb7edd2a6341cf4df6a08b2b1a6bcd",
+    "analysis/pdf-preview/page-06.png": "336726d1e0b8fc827cdc116f4055835f0c6b37cd7ac54032916b1ade9983cbe1",
+    "analysis/pdf-preview/page-07.png": "d115c42c63bdbfd7dc9bcaf9e80f8cd2ea6b1b72e5650e62972406441f2a686b",
+    "analysis/pdf-preview/page-08.png": "df7e25ea48600842e52ea69bf89f60904a4df9a37ce5edb562d88a82e728e4db",
+    "analysis/pdf-preview/page-09.png": "bdddcbb721e70c06b69212146e1aaa38e13ec890249634c331f1d27ca6e265e1",
+    "analysis/pdf-preview/page-10.png": "617278ded25cb11b3e0dbc1a429e5d51c6685c68c2bf200c3d73602f79063381",
+    "analysis/pdf-preview/page-11.png": "ac846af3c2bb703ad97886a4f5979acb358c95e8094f1ccc39cb14170312f6d9",
+    "analysis/results.json": "47647f099bcde8bca2d96f5df4919d4bfe533d051187269da7a56b00b5396f11",
+    "analysis/results.md": "769f171024f18666626fd0bb8068f5379909845397850a4e27c25b7753440a9b",
+    "analysis/verification.json": "4e97bc404a191f64432d4eed7017e8c8aa0cfd38a753e431096900510fe8e7c7"
+  }
+}

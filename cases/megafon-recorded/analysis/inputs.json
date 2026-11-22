@@ -1,0 +1,73 @@
+{
+  "source": "S-001@1",
+  "locator": "page:3",
+  "columns": [
+    "base_plan",
+    "base_estimate",
+    "next_no_change",
+    "next_target"
+  ],
+  "metrics": {
+    "gross_profit_rub": {
+      "unit": "RUB",
+      "values": [
+        282000000,
+        275000000,
+        279000000,
+        285000000
+      ]
+    },
+    "active_groups_last_month": {
+      "unit": "groups",
+      "values": [
+        5000,
+        4000,
+        5000,
+        8000
+      ]
+    },
+    "connected_groups_year_end": {
+      "unit": "groups",
+      "values": [
+        7500,
+        6500,
+        8000,
+        12000
+      ]
+    },
+    "connected_owners_year_end": {
+      "unit": "owners",
+      "values": [
+        1000,
+        800,
+        1000,
+        2000
+      ]
+    },
+    "activation_14d_last_quarter": {
+      "unit": "fraction",
+      "values": [
+        0.5,
+        0.42,
+        0.45,
+        0.6
+      ]
+    }
+  },
+  "accessible_base": {
+    "households": 100000,
+    "owners": 40000
+  },
+  "market": {
+    "households": 300000,
+    "owners": 180000
+  },
+  "paid_month_margin_rub": 500,
+  "paid_month_source": "S-001@1 page:9",
+  "illustrative_cost_sensitivity_rub": [
+    0,
+    1000000,
+    3000000
+  ],
+  "sensitivity_note": "Произвольные условные уровни расходов для алгебраической чувствительности; не бюджет и не оценка стоимости."
+}

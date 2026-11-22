@@ -1,0 +1,28 @@
+{
+  "research_only_verify": {
+    "sources_available": 1,
+    "sources_unavailable": 0,
+    "claims": 41,
+    "strategy_checked": false,
+    "audit_structure": "not_requested",
+    "exit_code": 0
+  },
+  "local_checks": {
+    "fact_quotes_match_extraction": 31,
+    "claim_ids_unique": 41,
+    "explicit_claim_references_resolve": true,
+    "calculation_hashes_match": true,
+    "rendered_pages": 11,
+    "visually_reviewed_pages": [
+      3,
+      6,
+      11
+    ]
+  },
+  "controls": {
+    "source_paid_month_example_rub": 100000,
+    "source_activation_example_fraction": "0.3",
+    "active_decomposition_sum": 3000
+  },
+  "limits": "Не содержательный аудит стратегии: стратегия не открыта; исходные данные учебные; причинные выводы не подтверждены."
+}
