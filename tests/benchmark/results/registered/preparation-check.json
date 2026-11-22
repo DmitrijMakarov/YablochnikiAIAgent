@@ -1,0 +1,47 @@
+{
+  "status": "preparation_only_no_model_run",
+  "independent_inventory": {
+    "A": {
+      "files": 15,
+      "case_inputs": 7,
+      "direct_source_byte_comparison": "passed",
+      "cli_help_exit_code": 0,
+      "cli_help_sha256": "66ea4d183c50799ec90ee9af8e904de2d482c5b00946b0443724152b17d9ca1a"
+    },
+    "B": {
+      "files": 21,
+      "case_inputs": 7,
+      "direct_source_byte_comparison": "passed",
+      "cli_help_exit_code": 0,
+      "cli_help_sha256": "66ea4d183c50799ec90ee9af8e904de2d482c5b00946b0443724152b17d9ca1a"
+    }
+  },
+  "python": {
+    "executable": "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+    "version": "3.13.5",
+    "packages_from_requirements_observed": {
+      "pypdf": null,
+      "python-docx": "1.2.0",
+      "openpyxl": null
+    }
+  },
+  "planned_model": "gpt-6.1-sol",
+  "planned_effort": "medium",
+  "model_evidence": "local config fields only; no model request, future UI verification pending",
+  "technical_read_isolation": "NOT_ESTABLISHED",
+  "future_global_context_cleanliness": "NOT_VERIFIED",
+  "comparison_started": false,
+  "automated_tests": {
+    "command": ".venv/bin/python -m unittest discover -s tests -v",
+    "python": "3.13.5",
+    "passed": 45,
+    "existing": 37,
+    "new_packaging": 8,
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "wall_seconds_reported_by_unittest": 36.521
+  },
+  "diff_check": "passed",
+  "historical_materials_tracked_diff": "empty"
+}

@@ -1,0 +1,22 @@
+{
+  "local_links": [
+    {
+      "file": "strategy.md",
+      "local_links_exist": true
+    },
+    {
+      "file": "research.md",
+      "local_links_exist": true
+    },
+    {
+      "file": "quality.md",
+      "local_links_exist": true
+    },
+    {
+      "file": "reproduce.md",
+      "local_links_exist": true
+    }
+  ],
+  "brief_manifest_tools_hashes_unchanged": true,
+  "event_chunks": 5
+}

@@ -1,0 +1,8 @@
+source_id	kind	local_file	sha256	origin	capture_note	status	used_as
+S-001@1	own	case/inputs/product.md	5fdf8ec7946107cc1ffe25e2b4f93b97f9f44a07affa8fed2b97f1a5d7215360	case/inputs/product.md		available_local	bounded_document
+S-002@1	synthetic	case/inputs/signups.csv	0cb3e607f604a8196198c3033b570df340ec33cb06aa62a0c24e4669118f2ce4	case/inputs/signups.csv		available_local	synthetic_calculation
+S-003@1	synthetic	case/inputs/events.csv	e2652a4f757eab524258ff9a37e3bb2e308a6a1c072e8a1617e93f1b93a4918c	case/inputs/events.csv		available_local	synthetic_calculation
+S-004@1	synthetic	case/inputs/coverage.csv	f9bc1c0170769edbbd1507bed0443effdfc2d574f0b9d32dc518f1b40f2a12d2	case/inputs/coverage.csv		available_local	synthetic_calculation
+S-005@1	public	case/inputs/google-tasks.jsonl	c22bca37134fbf19c3e049977e7a3ce71b8d2210c2c3a5606c1d7a4c8bf3f5d3	https://support.google.com/tasks/answer/12132599?hl=en	2026-11-10, встроенный веб-инструмент Codex, вводное предложение справки Google Tasks для Android.	available_local	bounded_document
+S-006@1	public	case/inputs/microsoft-to-do.jsonl	ecbf649791a348f77d9dec22a2e1c3e78618ed15b3c20b076b0b584126c0c383	https://support.microsoft.com/en-us/todo/add-due-dates-and-reminders-in-microsoft-to-do	2026-11-10, встроенный веб-инструмент Codex, второй шаг раздела Add a reminder in Microsoft To Do.	available_local	bounded_document
+S-007@1	public	case/inputs/todoist.jsonl	ecb62a559433eddde30d052be67692d9948c39f285eebf06518467967dd9896d	https://www.todoist.com/help/todoist/features/introduction-to-recurring-dates-YUYVJJAV	2026-11-10, встроенный веб-инструмент Codex, раздел Add a recurring date in the task name.	available_local	bounded_document

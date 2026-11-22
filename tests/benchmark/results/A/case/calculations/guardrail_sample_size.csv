@@ -1,0 +1,2 @@
+metric,baseline_assumed,noninferiority_margin_absolute,true_difference_assumed,alpha_one_sided,power,n_per_arm_approx,total,weeks_enrollment_at_300,scope
+early_completion_D0_2,0.47,0.02,0,0.05,0.8,7701,15402,51.34,overall only; subgroup and opt-out/complaint baselines need separate planning

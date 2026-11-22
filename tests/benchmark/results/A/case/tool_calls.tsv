@@ -1,0 +1,19 @@
+call	tool	command_summary	status	notes	exact_start_utc
+1	exec_command	pwd; rg files	ok	Обнаружены brief, manifest, tools; без чтения внешних проектов	unknown
+2	exec_command	ls; cat SOURCE_BRIEF.md case/brief.md case/inputs.json; python3 -m tools.case --help	ok	Прочитан бриф и возможности CLI	unknown
+3	exec_command	cat START.md tools/case.py tools/verify.py tools/sources.py; ls case	ok	Прочитаны локальные инструкции и инструменты	unknown
+4	exec_command	cat approved product and snapshots; head CSV; wc; find AGENTS.md; python3 --version	ok	AGENTS.md не найден; Python 3.13.5	unknown
+5	exec_command	mkdir case/calculations; python3 inline inventory and SHA-256	ok	Созданы input_versions.json и actions.jsonl; входы не менялись	unknown
+6	exec_command	python3 inline QC	ok	Дубли идентичны; orphan и pre-signup нет; результат не сохранялся отдельно до analyze.py	unknown
+7	exec_command	write case/analyze.py; python3 case/analyze.py	ok	Основные расчёты, QC, интервалы, сегменты, мощность	unknown
+8	exec_command	python3 inline print calculations	ok	Просмотр когорт, сегментов, ранних действий и выборки	unknown
+9	exec_command	write case/additional_analysis.py; python3 case/additional_analysis.py	ok	Разности/ранние действия/окна	unknown
+10	exec_command	date -u; cat actions; nl product; python3 inline legacy	ok	Наблюдаемое время UTC и точные локаторы	unknown
+11	exec_command	write case/sensitivity.py; python3 case/sensitivity.py	ok	Парные окна и наивная диагностика	unknown
+12	exec_command	write strategy.md; python3 inline log	ok	Рекомендация сохранена	unknown
+13	exec_command	write research.md; python3 inline source_registry	ok	Реестр 7 разрешённых источников и основания R1–R13	unknown
+14	exec_command	write verify_local.py and tool_calls.tsv	ok	Создание независимой проверки; запись текущего действия до завершения вызова	unknown
+15	exec_command	write quality.md and reproduce.md; edit strategy typo	error	Документы записаны; verify_local.py exit 1: regex принял actions.jsonl за actions.json. Ошибка проверки ссылок, не данных.	unknown
+16	exec_command	log verifier error; fix regex; python3 case/verify_local.py	ok	Повторная проверка: 472 успешные сверки	unknown
+17	exec_command	calculate guardrail sample; update strategy/research/quality/reproduce/verifier; verify	ok	Расчёт guardrail 7701 на группу; повторная сверка: 473 проверки успешно	unknown
+18	exec_command	final ledger and deliverable hash audit	ok	Закрытие журнала, подтверждение хэшей расчётов, контроль готовых файлов; продукт не запускался	unknown

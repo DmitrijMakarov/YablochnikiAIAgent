@@ -1,0 +1,49 @@
+{
+  "schema": 1,
+  "experiment": "retention-ab-v1",
+  "status": "not_started",
+  "planned": {
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "model_selection_basis": "whitelisted fields in local Codex config at preparation; future UI availability requires verification",
+    "wall_seconds": 1800,
+    "tool_calls": 120,
+    "order": ["A", "B"],
+    "new_web_requests": 0,
+    "subagents": 0,
+    "manual_analytical_help": false
+  },
+  "registration_sha256": null,
+  "manifest_sha256": null,
+  "transport_manifest_sha256": null,
+  "frozen_at_utc": null,
+  "independent_custodian": null,
+  "execution_mode": null,
+  "read_isolation": "not_established_at_preparation",
+  "read_boundary_evidence": null,
+  "global_context_checked": null,
+  "operator": null,
+  "A": {
+    "model_selected": null,
+    "effort_selected": null,
+    "settings_evidence": null,
+    "app_version": null,
+    "runtime_version_and_image": null,
+    "tool_inventory_and_policy": null,
+    "profile_cleanliness_evidence": null,
+    "workspace_path": null,
+    "inventory_check_evidence": null
+  },
+  "B": {
+    "model_selected": null,
+    "effort_selected": null,
+    "settings_evidence": null,
+    "app_version": null,
+    "runtime_version_and_image": null,
+    "tool_inventory_and_policy": null,
+    "profile_cleanliness_evidence": null,
+    "workspace_path": null,
+    "inventory_check_evidence": null
+  },
+  "limitations": []
+}

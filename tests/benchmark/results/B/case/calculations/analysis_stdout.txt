@@ -1,0 +1,124 @@
+{
+  "signups": 3020,
+  "events_raw": 85080,
+  "signup_duplicate_ids": 0,
+  "cutoff": "2026-08-12",
+  "coverage_rows": 146,
+  "coverage_duplicate_keys": 0,
+  "coverage_partial": [
+    {
+      "data_label": "SYNTHETIC TEST DATA",
+      "event_date": "2026-07-22",
+      "platform": "android",
+      "status": "partial"
+    },
+    {
+      "data_label": "SYNTHETIC TEST DATA",
+      "event_date": "2026-07-23",
+      "platform": "android",
+      "status": "partial"
+    }
+  ],
+  "missing": {
+    "data_label": 0,
+    "user_id": 0,
+    "signup_date": 0,
+    "cohort_week": 0,
+    "platform": 0,
+    "channel": 155,
+    "stated_goal": 404,
+    "legacy_setup_flag": 246
+  },
+  "ranges": {
+    "signups.csv": [
+      2,
+      3021
+    ],
+    "events.csv": [
+      2,
+      85081
+    ],
+    "coverage.csv": [
+      2,
+      147
+    ]
+  },
+  "events_unique": 83738,
+  "duplicate_messages": 1342,
+  "conflicting_duplicate_lines": [],
+  "unknown_user_lines": [],
+  "pre_signup_lines": [],
+  "event_types": {
+    "app_open": 41367,
+    "task_created": 8488,
+    "background_sync": 3756,
+    "task_completed": 26180,
+    "reminder_enabled": 854,
+    "reminder_opened": 3093
+  },
+  "activation_balance": {
+    "observed": 2888,
+    "incomplete": 132
+  },
+  "same_day_duplicate_user_type_days": 2962,
+  "input_versions": {
+    "coverage.csv": {
+      "sha256": "f9bc1c0170769edbbd1507bed0443effdfc2d574f0b9d32dc518f1b40f2a12d2",
+      "bytes": 6752
+    },
+    "events.csv": {
+      "sha256": "e2652a4f757eab524258ff9a37e3bb2e308a6a1c072e8a1617e93f1b93a4918c",
+      "bytes": 5014204
+    },
+    "google-tasks.jsonl": {
+      "sha256": "c22bca37134fbf19c3e049977e7a3ce71b8d2210c2c3a5606c1d7a4c8bf3f5d3",
+      "bytes": 191
+    },
+    "microsoft-to-do.jsonl": {
+      "sha256": "ecbf649791a348f77d9dec22a2e1c3e78618ed15b3c20b076b0b584126c0c383",
+      "bytes": 182
+    },
+    "product.md": {
+      "sha256": "5fdf8ec7946107cc1ffe25e2b4f93b97f9f44a07affa8fed2b97f1a5d7215360",
+      "bytes": 5161
+    },
+    "signups.csv": {
+      "sha256": "0cb3e607f604a8196198c3033b570df340ec33cb06aa62a0c24e4669118f2ce4",
+      "bytes": 222593
+    },
+    "todoist.jsonl": {
+      "sha256": "ecb62a559433eddde30d052be67692d9948c39f285eebf06518467967dd9896d",
+      "bytes": 180
+    }
+  }
+}
+Key D7/D30 comparisons:
+{'p0': 'early_June', 'p1': 'late_mature', 'metric': 'D7_complete', 'k0': 163, 'n0': 517, 'k1': 163, 'n1': 606, 'delta_pp': -4.630356652686547, 'lo95': -9.96943953637533, 'hi95': 0.7087262310022346}
+{'p0': 'early_June', 'p1': 'late_mature', 'metric': 'D30_complete', 'k0': 104, 'n0': 517, 'k1': 108, 'n1': 606, 'delta_pp': -2.294271980389528, 'lo95': -6.9013100577062545, 'hi95': 2.3127660969271986}
+{'p0': 'early_June', 'p1': 'late_mature', 'metric': 'W30_complete', 'k0': 397, 'n0': 517, 'k1': 347, 'n1': 482, 'delta_pp': -4.797467033716714, 'lo95': -10.21175092574751, 'hi95': 0.6168168583140803}
+{'p0': 'early_June', 'p1': 'latest_D7', 'metric': 'D7_complete', 'k0': 163, 'n0': 517, 'k1': 183, 'n1': 671, 'delta_pp': -4.25531914893617, 'lo95': -9.489508601201743, 'hi95': 0.9788703033294031}
+{'p0': 'early_June', 'p1': 'latest_D7', 'metric': 'D30_complete', 'k0': 104, 'n0': 517, 'k1': 0, 'n1': 0, 'delta_pp': None, 'lo95': None, 'hi95': None}
+{'p0': 'early_June', 'p1': 'latest_D7', 'metric': 'W30_complete', 'k0': 397, 'n0': 517, 'k1': 0, 'n1': 0, 'delta_pp': None, 'lo95': None, 'hi95': None}
+{'p0': 'June_first', 'p1': 'July6', 'metric': 'D7_complete', 'k0': 69, 'n0': 242, 'k1': 72, 'n1': 288, 'delta_pp': -3.5123966942148748, 'lo95': -11.086490327906109, 'hi95': 4.061696939476359}
+{'p0': 'June_first', 'p1': 'July6', 'metric': 'D30_complete', 'k0': 51, 'n0': 242, 'k1': 62, 'n1': 288, 'delta_pp': 0.45339761248852284, 'lo95': -6.542158910842617, 'hi95': 7.448954135819663}
+{'p0': 'June_first', 'p1': 'July6', 'metric': 'W30_complete', 'k0': 186, 'n0': 242, 'k1': 117, 'n1': 164, 'delta_pp': -5.518040717597259, 'lo95': -14.243050606630238, 'hi95': 3.20696917143572}
+{'p0': 'early_June', 'p1': 'late_June', 'metric': 'D7_complete', 'k0': 163, 'n0': 517, 'k1': 165, 'n1': 554, 'delta_pp': -1.7446529198583889, 'lo95': -7.271190135315891, 'hi95': 3.781884295599113}
+{'p0': 'early_June', 'p1': 'late_June', 'metric': 'D30_complete', 'k0': 104, 'n0': 517, 'k1': 113, 'n1': 501, 'delta_pp': 2.438836060953527, 'lo95': -2.5945030363334425, 'hi95': 7.472175158240496}
+{'p0': 'early_June', 'p1': 'late_June', 'metric': 'W30_complete', 'k0': 397, 'n0': 517, 'k1': 272, 'n1': 358, 'delta_pp': -0.8115146472450618, 'lo95': -6.541182871773311, 'hi95': 4.918153577283188}
+{'p0': 'late_June', 'p1': 'late_mature', 'metric': 'D7_complete', 'k0': 165, 'n0': 554, 'k1': 163, 'n1': 606, 'delta_pp': -2.8857037328281585, 'lo95': -8.078624297225097, 'hi95': 2.3072168315687813}
+{'p0': 'late_June', 'p1': 'late_mature', 'metric': 'D30_complete', 'k0': 113, 'n0': 501, 'k1': 108, 'n1': 606, 'delta_pp': -4.733108041343055, 'lo95': -9.495274124291026, 'hi95': 0.029058041604915097}
+{'p0': 'late_June', 'p1': 'late_mature', 'metric': 'W30_complete', 'k0': 272, 'n0': 358, 'k1': 347, 'n1': 482, 'delta_pp': -3.985952386471652, 'lo95': -9.957216006211546, 'hi95': 1.9853112332682405}
+{'p0': 'early_all', 'p1': 'late_all', 'metric': 'D7_complete', 'k0': 246, 'n0': 776, 'k1': 217, 'n1': 815, 'delta_pp': -5.075264056669408, 'lo95': -9.539268740001312, 'hi95': -0.6112593733375036}
+{'p0': 'early_all', 'p1': 'late_all', 'metric': 'D30_complete', 'k0': 167, 'n0': 776, 'k1': 0, 'n1': 0, 'delta_pp': None, 'lo95': None, 'hi95': None}
+{'p0': 'early_all', 'p1': 'late_all', 'metric': 'W30_complete', 'k0': 534, 'n0': 686, 'k1': 0, 'n1': 0, 'delta_pp': None, 'lo95': None, 'hi95': None}
+Decomposition channel:
+{'p0': 'early_June', 'p1': 'late_mature', 'metric': 'D7_complete', 'dimension': 'channel', 'mix_pp': -1.5437744429396973, 'within_pp': -3.0865822097468487, 'total_pp': -4.630356652686547, 'std0_pct': 30.756159200193594, 'std1_pct': 27.76243388775102, 'std_delta_pp': -2.9937253124425744}
+{'p0': 'early_June', 'p1': 'late_mature', 'metric': 'D30_complete', 'dimension': 'channel', 'mix_pp': -1.336402641929809, 'within_pp': -0.9578693384597201, 'total_pp': -2.294271980389528, 'std0_pct': 19.447852837642447, 'std1_pct': 18.75797405987107, 'std_delta_pp': -0.6898787777713744}
+{'p0': 'early_June', 'p1': 'latest_D7', 'metric': 'D7_complete', 'dimension': 'channel', 'mix_pp': -1.5714062238163204, 'within_pp': -2.6839129251198477, 'total_pp': -4.25531914893617, 'std0_pct': 30.74234330975528, 'std1_pct': 27.981319295119423, 'std_delta_pp': -2.76102401463586}
+{'p0': 'June_first', 'p1': 'July6', 'metric': 'D7_complete', 'dimension': 'channel', 'mix_pp': -2.1100390007387593, 'within_pp': -1.4023576934761144, 'total_pp': -3.5123966942148748, 'std0_pct': 27.457377193845495, 'std1_pct': 26.880970858093995, 'std_delta_pp': -0.5764063357515004}
+{'p0': 'June_first', 'p1': 'July6', 'metric': 'D30_complete', 'dimension': 'channel', 'mix_pp': -0.7611088240573863, 'within_pp': 1.2145064365459108, 'total_pp': 0.45339761248852284, 'std0_pct': 20.693825753260562, 'std1_pct': 22.703034250288827, 'std_delta_pp': 2.009208497028267}
+{'p0': 'early_June', 'p1': 'late_June', 'metric': 'D7_complete', 'dimension': 'channel', 'mix_pp': -0.46364925865611606, 'within_pp': -1.281003661202273, 'total_pp': -1.7446529198583889, 'std0_pct': 31.296221792335384, 'std1_pct': 30.011059873655476, 'std_delta_pp': -1.2851619186799057}
+{'p0': 'early_June', 'p1': 'late_June', 'metric': 'D30_complete', 'dimension': 'channel', 'mix_pp': -0.6460335629124049, 'within_pp': 3.084869623865935, 'total_pp': 2.438836060953527, 'std0_pct': 19.793037377151144, 'std1_pct': 22.622921289262486, 'std_delta_pp': 2.8298839121113417}
+{'p0': 'late_June', 'p1': 'late_mature', 'metric': 'D7_complete', 'dimension': 'channel', 'mix_pp': -0.9297901753707152, 'within_pp': -1.955913557457441, 'total_pp': -2.8857037328281585, 'std0_pct': 29.3184984141197, 'std1_pct': 27.614976853837312, 'std_delta_pp': -1.7035215602823839}
+{'p0': 'late_June', 'p1': 'late_mature', 'metric': 'D30_complete', 'dimension': 'channel', 'mix_pp': -1.3387026388742729, 'within_pp': -3.3944054024687857, 'total_pp': -4.733108041343055, 'std0_pct': 21.885538900123745, 'std1_pct': 18.4974052536897, 'std_delta_pp': -3.388133646434044}
+{'p0': 'early_all', 'p1': 'late_all', 'metric': 'D7_complete', 'dimension': 'channel', 'mix_pp': -1.6990972198502687, 'within_pp': -3.3761668368191398, 'total_pp': -5.075264056669408, 'std0_pct': 30.851482317909916, 'std1_pct': 27.591217417771603, 'std_delta_pp': -3.2602649001383153}

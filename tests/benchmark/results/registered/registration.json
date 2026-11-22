@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "experiment": "retention-ab-v1",
+  "status": "prepared_not_started",
+  "registered_at_utc": "2026-11-13T11:39:46.738988+00:00",
+  "files_sha256": {
+    "README.md": "6a37385c555b38af597bb31380cb3b5e893c64f4421e4ebaf50e883dd3b48494",
+    "environments.json": "8c93b74951efe434f2663b23ea6d07696cea9428222cdd9259581730b3b132f7",
+    "preparation-check.json": "147bc1fdc9cbaa6265c0209444a1712e1d60defdb7033fda8e11e623c1b48028",
+    "prepare.py": "f6b7b739f591cdb6c6c1a8766dc75f6b12c53d7d14f556aca6e7677fa4d354c7",
+    "prompts/A.md": "ec291daafb4a744d7fde90cb0f4fab7fa12277ff707e9537a5c375213cb0783e",
+    "prompts/B.md": "ec291daafb4a744d7fde90cb0f4fab7fa12277ff707e9537a5c375213cb0783e",
+    "protocol.md": "1f9ec0205e343415c5002a6227f9de72afa4629795649a333b3b64019bdc2706",
+    "recording.md": "06f218a47430d7109eb9181a4b45ebdb7dd5f29b49274327aebfa5a83ccd2bee",
+    "rubric.md": "881655ec7a44380274baeedfb965a13a9e0ba2cae6451bd889588138e652f2d2",
+    "templates/automatic-metrics.tsv": "8060abee51a1f6bf26052b78ec2905099e7c5b28c44f634d09bb32cdbac89670",
+    "templates/events.tsv": "2a425846939596fb93fa99a30b32869ae84dd3c5d6de156e72830db0eefe94c0",
+    "templates/expert-scores.tsv": "37735fe00c371d2b4b9d06c85a8229b94561ca492867423cd1ad01749be3cb28",
+    "templates/launch.json": "a826279f174aaf4d6191d525a9a76fe228c3dede5fdbb8156a4785685e811380",
+    "templates/run.json": "d77fd81918dad789bcf952d7ed9ea8a0c64adb50ca3a0916f40aac4d91767dc1"
+  },
+  "packaging_test_sha256": "9140682d475081d6345d005e7289ca7b7942a06bc1ebf93e1df751381993e2f4",
+  "model_runs": 0,
+  "strategies_generated": 0,
+  "isolation": "NOT_ESTABLISHED",
+  "timestamp_assurance": "local clock only; external custodian receipt pending",
+  "freeze_rule": "Do not edit registered materials after either start. Any change needs a new version and registration before both starts."
+}

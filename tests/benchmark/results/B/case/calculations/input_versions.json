@@ -1,0 +1,30 @@
+{
+  "coverage.csv": {
+    "sha256": "f9bc1c0170769edbbd1507bed0443effdfc2d574f0b9d32dc518f1b40f2a12d2",
+    "bytes": 6752
+  },
+  "events.csv": {
+    "sha256": "e2652a4f757eab524258ff9a37e3bb2e308a6a1c072e8a1617e93f1b93a4918c",
+    "bytes": 5014204
+  },
+  "google-tasks.jsonl": {
+    "sha256": "c22bca37134fbf19c3e049977e7a3ce71b8d2210c2c3a5606c1d7a4c8bf3f5d3",
+    "bytes": 191
+  },
+  "microsoft-to-do.jsonl": {
+    "sha256": "ecbf649791a348f77d9dec22a2e1c3e78618ed15b3c20b076b0b584126c0c383",
+    "bytes": 182
+  },
+  "product.md": {
+    "sha256": "5fdf8ec7946107cc1ffe25e2b4f93b97f9f44a07affa8fed2b97f1a5d7215360",
+    "bytes": 5161
+  },
+  "signups.csv": {
+    "sha256": "0cb3e607f604a8196198c3033b570df340ec33cb06aa62a0c24e4669118f2ce4",
+    "bytes": 222593
+  },
+  "todoist.jsonl": {
+    "sha256": "ecb62a559433eddde30d052be67692d9948c39f285eebf06518467967dd9896d",
+    "bytes": 180
+  }
+}

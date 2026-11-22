@@ -1,0 +1,241 @@
+{
+  "schema": 1,
+  "experiment": "retention-ab-v1",
+  "prepared_at_utc": "2026-11-13T11:36:55.960280+00:00",
+  "source_commit": "08fdb9f567edbbae9aa95c31eede836aa95f3c33",
+  "version_note": "File SHA-256 values pin instructions including uncommitted edits.",
+  "protocol_files_sha256": {
+    "protocol.md": "1f9ec0205e343415c5002a6227f9de72afa4629795649a333b3b64019bdc2706",
+    "rubric.md": "881655ec7a44380274baeedfb965a13a9e0ba2cae6451bd889588138e652f2d2",
+    "recording.md": "06f218a47430d7109eb9181a4b45ebdb7dd5f29b49274327aebfa5a83ccd2bee",
+    "prepare.py": "f6b7b739f591cdb6c6c1a8766dc75f6b12c53d7d14f556aca6e7677fa4d354c7",
+    "prompts/A.md": "ec291daafb4a744d7fde90cb0f4fab7fa12277ff707e9537a5c375213cb0783e",
+    "prompts/B.md": "ec291daafb4a744d7fde90cb0f4fab7fa12277ff707e9537a5c375213cb0783e",
+    "templates/launch.json": "a826279f174aaf4d6191d525a9a76fe228c3dede5fdbb8156a4785685e811380",
+    "templates/run.json": "d77fd81918dad789bcf952d7ed9ea8a0c64adb50ca3a0916f40aac4d91767dc1",
+    "templates/events.tsv": "2a425846939596fb93fa99a30b32869ae84dd3c5d6de156e72830db0eefe94c0",
+    "templates/expert-scores.tsv": "37735fe00c371d2b4b9d06c85a8229b94561ca492867423cd1ad01749be3cb28",
+    "templates/automatic-metrics.tsv": "8060abee51a1f6bf26052b78ec2905099e7c5b28c44f634d09bb32cdbac89670"
+  },
+  "instruction_version_sha256": "20ef0ebaf2b46030784ac1313f5e3cb8684cd342a82e9463fdd001a61f45fa2f",
+  "environments": {
+    "A": {
+      "path": "/private/tmp/strateg-benchmark-A-20261113",
+      "files": {
+        "SOURCE_BRIEF.md": {
+          "source": "cases/retention-demo/brief.md",
+          "sha256": "6931365b6acd5cbfe6443682d046e08b284c38fe852e887379224b7ceed482a6",
+          "bytes": 2896
+        },
+        "START.md": {
+          "source": "tests/benchmark/prompts/A.md",
+          "sha256": "ec291daafb4a744d7fde90cb0f4fab7fa12277ff707e9537a5c375213cb0783e",
+          "bytes": 4079
+        },
+        "case/brief.md": {
+          "source": "cases/retention-demo/brief.md",
+          "sha256": "6931365b6acd5cbfe6443682d046e08b284c38fe852e887379224b7ceed482a6",
+          "bytes": 2896
+        },
+        "case/inputs.json": {
+          "source": "cases/retention-demo/inputs.json",
+          "sha256": "abd75bb36452fab624eb5e65f09fc92e92c15a420e16823d55f46e8c2fb94179",
+          "bytes": 1360
+        },
+        "case/inputs/coverage.csv": {
+          "source": "cases/retention-demo/inputs/coverage.csv",
+          "sha256": "f9bc1c0170769edbbd1507bed0443effdfc2d574f0b9d32dc518f1b40f2a12d2",
+          "bytes": 6752
+        },
+        "case/inputs/events.csv": {
+          "source": "cases/retention-demo/inputs/events.csv",
+          "sha256": "e2652a4f757eab524258ff9a37e3bb2e308a6a1c072e8a1617e93f1b93a4918c",
+          "bytes": 5014204
+        },
+        "case/inputs/google-tasks.jsonl": {
+          "source": "cases/retention-demo/inputs/google-tasks.jsonl",
+          "sha256": "c22bca37134fbf19c3e049977e7a3ce71b8d2210c2c3a5606c1d7a4c8bf3f5d3",
+          "bytes": 191
+        },
+        "case/inputs/microsoft-to-do.jsonl": {
+          "source": "cases/retention-demo/inputs/microsoft-to-do.jsonl",
+          "sha256": "ecbf649791a348f77d9dec22a2e1c3e78618ed15b3c20b076b0b584126c0c383",
+          "bytes": 182
+        },
+        "case/inputs/product.md": {
+          "source": "cases/retention-demo/inputs/product.md",
+          "sha256": "5fdf8ec7946107cc1ffe25e2b4f93b97f9f44a07affa8fed2b97f1a5d7215360",
+          "bytes": 5161
+        },
+        "case/inputs/signups.csv": {
+          "source": "cases/retention-demo/inputs/signups.csv",
+          "sha256": "0cb3e607f604a8196198c3033b570df340ec33cb06aa62a0c24e4669118f2ce4",
+          "bytes": 222593
+        },
+        "case/inputs/todoist.jsonl": {
+          "source": "cases/retention-demo/inputs/todoist.jsonl",
+          "sha256": "ecb62a559433eddde30d052be67692d9948c39f285eebf06518467967dd9896d",
+          "bytes": 180
+        },
+        "requirements.txt": {
+          "source": "requirements.txt",
+          "sha256": "6e0712e262b69b893008ae443075a68153478a6ff222c9f1e33c5850a6aa69a3",
+          "bytes": 49
+        },
+        "tools/case.py": {
+          "source": "tools/case.py",
+          "sha256": "18d90dbd1a529407bc861a128984cad24848efb2c9b90b523b0efb51f4c8f098",
+          "bytes": 18088
+        },
+        "tools/sources.py": {
+          "source": "tools/sources.py",
+          "sha256": "48c0ced74de72b82e91d9332020248194daad6417ec69ce0848801d7d0fa8ee7",
+          "bytes": 6936
+        },
+        "tools/verify.py": {
+          "source": "tools/verify.py",
+          "sha256": "ab098cb0778ab2aeab10be16718ee20c4652fe8c370268cc3886e65ffb04eaed",
+          "bytes": 7604
+        }
+      },
+      "instruction_files": [],
+      "baseline_note": "Common executable CLI is available but optional in A."
+    },
+    "B": {
+      "path": "/private/tmp/strateg-benchmark-B-20261113",
+      "files": {
+        ".agents/skills/analyze-data/SKILL.md": {
+          "source": ".agents/skills/analyze-data/SKILL.md",
+          "sha256": "dbb23f6632b5993bfd252728597f10ca70905e945c58bd170bd847b170d3e11f",
+          "bytes": 9570
+        },
+        ".agents/skills/build-strategy/SKILL.md": {
+          "source": ".agents/skills/build-strategy/SKILL.md",
+          "sha256": "686f8344edd30959f17a339b937144b48204886b98cba4ef042c3b140c8928fa",
+          "bytes": 8746
+        },
+        ".agents/skills/check-evidence/SKILL.md": {
+          "source": ".agents/skills/check-evidence/SKILL.md",
+          "sha256": "2fc4df98731ef265935c98bb30c9a3993fd04df63db753ab40ed629bb5cb1cb8",
+          "bytes": 3848
+        },
+        ".agents/skills/research-sources/SKILL.md": {
+          "source": ".agents/skills/research-sources/SKILL.md",
+          "sha256": "52d2a361d77e967faafcd35d8e41de915a049b952de6c91f539221e7b635c144",
+          "bytes": 2135
+        },
+        "AGENTS.md": {
+          "source": "AGENTS.md",
+          "sha256": "5da957a896d6b0bda43d8d6bbf025d9bcd92b9aa9152e755fb67c6d6917a5b7a",
+          "bytes": 3977
+        },
+        "SOURCE_BRIEF.md": {
+          "source": "cases/retention-demo/brief.md",
+          "sha256": "6931365b6acd5cbfe6443682d046e08b284c38fe852e887379224b7ceed482a6",
+          "bytes": 2896
+        },
+        "START.md": {
+          "source": "tests/benchmark/prompts/A.md",
+          "sha256": "ec291daafb4a744d7fde90cb0f4fab7fa12277ff707e9537a5c375213cb0783e",
+          "bytes": 4079
+        },
+        "case/brief.md": {
+          "source": "cases/retention-demo/brief.md",
+          "sha256": "6931365b6acd5cbfe6443682d046e08b284c38fe852e887379224b7ceed482a6",
+          "bytes": 2896
+        },
+        "case/inputs.json": {
+          "source": "cases/retention-demo/inputs.json",
+          "sha256": "abd75bb36452fab624eb5e65f09fc92e92c15a420e16823d55f46e8c2fb94179",
+          "bytes": 1360
+        },
+        "case/inputs/coverage.csv": {
+          "source": "cases/retention-demo/inputs/coverage.csv",
+          "sha256": "f9bc1c0170769edbbd1507bed0443effdfc2d574f0b9d32dc518f1b40f2a12d2",
+          "bytes": 6752
+        },
+        "case/inputs/events.csv": {
+          "source": "cases/retention-demo/inputs/events.csv",
+          "sha256": "e2652a4f757eab524258ff9a37e3bb2e308a6a1c072e8a1617e93f1b93a4918c",
+          "bytes": 5014204
+        },
+        "case/inputs/google-tasks.jsonl": {
+          "source": "cases/retention-demo/inputs/google-tasks.jsonl",
+          "sha256": "c22bca37134fbf19c3e049977e7a3ce71b8d2210c2c3a5606c1d7a4c8bf3f5d3",
+          "bytes": 191
+        },
+        "case/inputs/microsoft-to-do.jsonl": {
+          "source": "cases/retention-demo/inputs/microsoft-to-do.jsonl",
+          "sha256": "ecbf649791a348f77d9dec22a2e1c3e78618ed15b3c20b076b0b584126c0c383",
+          "bytes": 182
+        },
+        "case/inputs/product.md": {
+          "source": "cases/retention-demo/inputs/product.md",
+          "sha256": "5fdf8ec7946107cc1ffe25e2b4f93b97f9f44a07affa8fed2b97f1a5d7215360",
+          "bytes": 5161
+        },
+        "case/inputs/signups.csv": {
+          "source": "cases/retention-demo/inputs/signups.csv",
+          "sha256": "0cb3e607f604a8196198c3033b570df340ec33cb06aa62a0c24e4669118f2ce4",
+          "bytes": 222593
+        },
+        "case/inputs/todoist.jsonl": {
+          "source": "cases/retention-demo/inputs/todoist.jsonl",
+          "sha256": "ecb62a559433eddde30d052be67692d9948c39f285eebf06518467967dd9896d",
+          "bytes": 180
+        },
+        "playbooks/workflow.md": {
+          "source": "playbooks/workflow.md",
+          "sha256": "caab7795047185231105fb2f4380c0bc24ee0248b841a9c18508ddb96f8a715b",
+          "bytes": 11972
+        },
+        "requirements.txt": {
+          "source": "requirements.txt",
+          "sha256": "6e0712e262b69b893008ae443075a68153478a6ff222c9f1e33c5850a6aa69a3",
+          "bytes": 49
+        },
+        "tools/case.py": {
+          "source": "tools/case.py",
+          "sha256": "18d90dbd1a529407bc861a128984cad24848efb2c9b90b523b0efb51f4c8f098",
+          "bytes": 18088
+        },
+        "tools/sources.py": {
+          "source": "tools/sources.py",
+          "sha256": "48c0ced74de72b82e91d9332020248194daad6417ec69ce0848801d7d0fa8ee7",
+          "bytes": 6936
+        },
+        "tools/verify.py": {
+          "source": "tools/verify.py",
+          "sha256": "ab098cb0778ab2aeab10be16718ee20c4652fe8c370268cc3886e65ffb04eaed",
+          "bytes": 7604
+        }
+      },
+      "instruction_files": [
+        "AGENTS.md",
+        "playbooks/workflow.md",
+        ".agents/skills/research-sources/SKILL.md",
+        ".agents/skills/analyze-data/SKILL.md",
+        ".agents/skills/build-strategy/SKILL.md",
+        ".agents/skills/check-evidence/SKILL.md"
+      ],
+      "baseline_note": "Common executable CLI is available but optional in A."
+    }
+  },
+  "checks": {
+    "inventory": "passed",
+    "common_files_equal": 15,
+    "symlinks": 0,
+    "hardlinks": 0,
+    "shared_inodes": 0,
+    "mode": "pristine",
+    "technical_read_isolation": "NOT_ESTABLISHED"
+  },
+  "isolation": {
+    "copied_material": "strict_allowlist_verified",
+    "outside_repository": true,
+    "read_boundary": "NOT_ESTABLISHED",
+    "reason": "Same host account can read repository and other workspace. No OS read jail configured.",
+    "global_context": "Must verify app/profile skills, plugins, instructions and prior chat context before launch.",
+    "readiness": "prepared_not_strictly_isolated; confirmatory_run_requires_external_boundary"
+  }
+}

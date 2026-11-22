@@ -1,0 +1,53 @@
+{
+  "checks": [
+    {
+      "period": "early_June",
+      "day": 7,
+      "n": 517,
+      "k": 163,
+      "matched": true
+    },
+    {
+      "period": "early_June",
+      "day": 30,
+      "n": 517,
+      "k": 104,
+      "matched": true
+    },
+    {
+      "period": "late_mature",
+      "day": 7,
+      "n": 606,
+      "k": 163,
+      "matched": true
+    },
+    {
+      "period": "late_mature",
+      "day": 30,
+      "n": 606,
+      "k": 108,
+      "matched": true
+    },
+    {
+      "period": "latest_D7",
+      "day": 7,
+      "n": 671,
+      "k": 183,
+      "matched": true
+    },
+    {
+      "period": "latest_D7",
+      "day": 30,
+      "n": 0,
+      "k": 0,
+      "matched": true
+    }
+  ],
+  "distinct_event_ids": 83738,
+  "chunk_rows_matched": 85080,
+  "source_sha256": "e2652a4f757eab524258ff9a37e3bb2e308a6a1c072e8a1617e93f1b93a4918c",
+  "manual_examples": [
+    "D7 early: (69+94)/(242+275)=163/517=31.5280%",
+    "D30 late: (46+62)/(318+288)=108/606=17.8218%"
+  ]
+}

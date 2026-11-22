@@ -1,0 +1,126 @@
+{
+  "python": "3.13.5",
+  "executable": "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+  "sqlite": "3.49.1",
+  "runs": [
+    {
+      "script": "analysis.py",
+      "started_utc": "2026-11-13T12:14:45.731311+00:00",
+      "seconds": 11.49470758298412,
+      "returncode": 0
+    },
+    {
+      "script": "experiment.py",
+      "started_utc": "2026-11-13T12:14:57.226399+00:00",
+      "seconds": 0.11719595803879201,
+      "returncode": 0
+    },
+    {
+      "script": "reminder_strata.py",
+      "started_utc": "2026-11-13T12:14:57.343748+00:00",
+      "seconds": 0.4041360830888152,
+      "returncode": 0
+    },
+    {
+      "script": "platform_check.py",
+      "started_utc": "2026-11-13T12:14:57.747935+00:00",
+      "seconds": 0.6027498330222443,
+      "returncode": 0
+    },
+    {
+      "script": "economics.py",
+      "started_utc": "2026-11-13T12:14:58.350725+00:00",
+      "seconds": 0.09254454204346985,
+      "returncode": 0
+    },
+    {
+      "script": "independent_check.py",
+      "started_utc": "2026-11-13T12:14:58.443310+00:00",
+      "seconds": 1.0689207919640467,
+      "returncode": 0
+    }
+  ],
+  "output_checks": [
+    {
+      "output": "weekly.csv",
+      "sha256": "369ca8db7614a5ac7239c70452a461d35696af94a630c7653185617ffe1c4f5b",
+      "matched_previous": true
+    },
+    {
+      "output": "periods.csv",
+      "sha256": "7639e4231aca35b41dc615ade79ed4821ce7a0c79bdfaaefb27244767f0b42e9",
+      "matched_previous": true
+    },
+    {
+      "output": "sensitivity.csv",
+      "sha256": "febd0c28c3960d64efb8cb1a99ef4a4b40dfc2a8995a8ec257b8d3f161924855",
+      "matched_previous": true
+    },
+    {
+      "output": "segments.csv",
+      "sha256": "5da45bf1dd3832fa1782d2b72e28aec292d59ec32521a4d7348fc870aadffa62",
+      "matched_previous": true
+    },
+    {
+      "output": "decomposition.csv",
+      "sha256": "1eab358b37db9de73ad59259530fd47af5ae8d37e352807515ac8f87067daee8",
+      "matched_previous": true
+    },
+    {
+      "output": "activation.csv",
+      "sha256": "1eafb30c56246e93049ec1e5d24b3d8c4326c378212c0dac612c2c81e688fd3a",
+      "matched_previous": true
+    },
+    {
+      "output": "activation_associations.csv",
+      "sha256": "28ec3093bb7cc7de734cd1708149a9f8099154b8429b98e40a32dc65af1138dd",
+      "matched_previous": true
+    },
+    {
+      "output": "activation_users.csv",
+      "sha256": "3b0dce5324adbf67d9a1f24210db957a167f95721dab9e463d5708feb5804114",
+      "matched_previous": true
+    },
+    {
+      "output": "missing_by_cohort.csv",
+      "sha256": "53220a98e89dc35856b2de78d291a539788840aaf28606e9c4897d011ebabde9",
+      "matched_previous": true
+    },
+    {
+      "output": "quality_data.json",
+      "sha256": "f0b191b390926022f477d4c2240a7fcb20a948597bfde5d40436e7ea4615a41e",
+      "matched_previous": true
+    },
+    {
+      "output": "experiment_scenarios.csv",
+      "sha256": "dc08e015a1272938a77992553e40c35b5a766e44d26e956e0df6326abab8feb1",
+      "matched_previous": true
+    },
+    {
+      "output": "reminder_strata.csv",
+      "sha256": "dedcd63a4adf0e724b46842ce2af4b2430f21c6c12c5d084527c9a419bc58b03",
+      "matched_previous": true
+    },
+    {
+      "output": "platform_check.csv",
+      "sha256": "f38c547365a26d2d6cb393568e9813e03569f0ec9013bef493d0bb62831463b6",
+      "matched_previous": true
+    },
+    {
+      "output": "economics.csv",
+      "sha256": "02373040e597f9c8a60c5ca67734bc02ee935c94175a8d4a1c9222405c76490c",
+      "matched_previous": true
+    },
+    {
+      "output": "independent_check.json",
+      "sha256": "62e6c96af08f328463570632ae20a1df3f4e18fc5b93737587d30bda916ea07f",
+      "matched_previous": true
+    }
+  ],
+  "source_hashes_matched": true,
+  "packages_installed": false,
+  "web_requests": 0,
+  "model": "unknown",
+  "tokens": null,
+  "cost": null
+}

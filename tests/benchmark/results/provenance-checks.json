@@ -1,0 +1,59 @@
+{
+  "registration_matches": true,
+  "runs": {
+    "A": {
+      "files": 52,
+      "raw_bytes": 6112788,
+      "archived_bytes": 863525,
+      "referenced_files": 7,
+      "missing_registered": [],
+      "changed_registered": [],
+      "model_reported": "unknown",
+      "model_version": "unknown",
+      "effort_verified": "unknown",
+      "tokens": null,
+      "cost": null,
+      "wall_time_start_to_final_seconds": null,
+      "human_minutes": null,
+      "full_tool_trace_present": false,
+      "local_hash_mismatches": {
+        "deliverable_hashes.json": [],
+        "calculation_hashes.json": []
+      },
+      "local_record_span_seconds": 911.991042,
+      "self_recorded_tool_calls": 18,
+      "self_recorded_tool_errors": 1
+    },
+    "B": {
+      "files": 83,
+      "raw_bytes": 23160771,
+      "archived_bytes": 17911508,
+      "referenced_files": 7,
+      "missing_registered": [],
+      "changed_registered": [
+        "case/brief.md"
+      ],
+      "model_reported": "unknown",
+      "model_version": "unknown",
+      "effort_verified": "unknown",
+      "tokens": null,
+      "cost": null,
+      "wall_time_start_to_final_seconds": null,
+      "human_minutes": null,
+      "full_tool_trace_present": false,
+      "checkpoint_hash_mismatches": [],
+      "state": "awaiting_decision",
+      "journal_rows": 32,
+      "journal_error_rows": 2,
+      "nonagent_terminal_records": 19,
+      "phase_seconds": {
+        "scope": 17.526,
+        "research": 423.874,
+        "strategy": 697.752
+      },
+      "local_record_span_seconds": 1139.251,
+      "self_recorded_tool_calls": null
+    }
+  },
+  "reference_expected_bytes_equal": true
+}

@@ -1,0 +1,30 @@
+{
+  "web_requests": 0,
+  "sources": [
+    {"id": "S-001@1", "kind": "own", "path": "product.md"},
+    {"id": "S-002@1", "kind": "synthetic", "path": "signups.csv"},
+    {"id": "S-003@1", "kind": "synthetic", "path": "events.csv"},
+    {"id": "S-004@1", "kind": "synthetic", "path": "coverage.csv"},
+    {
+      "id": "S-005@1",
+      "kind": "public",
+      "url": "https://support.google.com/tasks/answer/12132599?hl=en",
+      "snapshot": "google-tasks.jsonl",
+      "capture_note": "2026-11-10, встроенный веб-инструмент Codex, вводное предложение справки Google Tasks для Android."
+    },
+    {
+      "id": "S-006@1",
+      "kind": "public",
+      "url": "https://support.microsoft.com/en-us/todo/add-due-dates-and-reminders-in-microsoft-to-do",
+      "snapshot": "microsoft-to-do.jsonl",
+      "capture_note": "2026-11-10, встроенный веб-инструмент Codex, второй шаг раздела Add a reminder in Microsoft To Do."
+    },
+    {
+      "id": "S-007@1",
+      "kind": "public",
+      "url": "https://www.todoist.com/help/todoist/features/introduction-to-recurring-dates-YUYVJJAV",
+      "snapshot": "todoist.jsonl",
+      "capture_note": "2026-11-10, встроенный веб-инструмент Codex, раздел Add a recurring date in the task name."
+    }
+  ]
+}

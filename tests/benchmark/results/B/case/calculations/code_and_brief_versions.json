@@ -1,0 +1,8 @@
+{
+  "SOURCE_BRIEF.md": "6931365b6acd5cbfe6443682d046e08b284c38fe852e887379224b7ceed482a6",
+  "playbooks/workflow.md": "caab7795047185231105fb2f4380c0bc24ee0248b841a9c18508ddb96f8a715b",
+  "case/inputs.json": "abd75bb36452fab624eb5e65f09fc92e92c15a420e16823d55f46e8c2fb94179",
+  "tools/case.py": "18d90dbd1a529407bc861a128984cad24848efb2c9b90b523b0efb51f4c8f098",
+  "tools/sources.py": "48c0ced74de72b82e91d9332020248194daad6417ec69ce0848801d7d0fa8ee7",
+  "tools/verify.py": "ab098cb0778ab2aeab10be16718ee20c4652fe8c370268cc3886e65ffb04eaed"
+}

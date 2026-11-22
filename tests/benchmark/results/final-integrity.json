@@ -1,0 +1,31 @@
+{
+  "checked_at_utc": "2026-11-22T16:27:43.560222+00:00",
+  "sources": {
+    "A": {
+      "files": 52,
+      "equal_sealed_inventory": true
+    },
+    "B": {
+      "files": 83,
+      "equal_sealed_inventory": true
+    }
+  },
+  "registered": {
+    "README.md": true,
+    "environments.json": true,
+    "preparation-check.json": true,
+    "prepare.py": true,
+    "prompts/A.md": true,
+    "prompts/B.md": true,
+    "protocol.md": true,
+    "recording.md": true,
+    "rubric.md": true,
+    "templates/automatic-metrics.tsv": true,
+    "templates/events.tsv": true,
+    "templates/expert-scores.tsv": true,
+    "templates/launch.json": true,
+    "templates/run.json": true
+  },
+  "broken_local_links": [],
+  "report_sha256": "1aa34d9788459ee060f9c1c4be6e9c8188bdd8e16796e0efa82b4a10950e9fa6"
+}

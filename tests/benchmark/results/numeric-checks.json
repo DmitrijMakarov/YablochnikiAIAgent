@@ -1,0 +1,348 @@
+{
+  "method": "independent stdlib CSV/set calculation; no participant imports",
+  "input_hashes": {
+    "coverage.csv": "f9bc1c0170769edbbd1507bed0443effdfc2d574f0b9d32dc518f1b40f2a12d2",
+    "events.csv": "e2652a4f757eab524258ff9a37e3bb2e308a6a1c072e8a1617e93f1b93a4918c",
+    "google-tasks.jsonl": "c22bca37134fbf19c3e049977e7a3ce71b8d2210c2c3a5606c1d7a4c8bf3f5d3",
+    "microsoft-to-do.jsonl": "ecbf649791a348f77d9dec22a2e1c3e78618ed15b3c20b076b0b584126c0c383",
+    "product.md": "5fdf8ec7946107cc1ffe25e2b4f93b97f9f44a07affa8fed2b97f1a5d7215360",
+    "signups.csv": "0cb3e607f604a8196198c3033b570df340ec33cb06aa62a0c24e4669118f2ce4",
+    "todoist.jsonl": "ecb62a559433eddde30d052be67692d9948c39f285eebf06518467967dd9896d"
+  },
+  "qc": {
+    "users": 3020,
+    "raw_events": 85080,
+    "unique_events": 83738,
+    "extra_duplicates": 1342
+  },
+  "checks": {
+    "A:periods.csv": 50,
+    "A:segments.csv": 240,
+    "A:cohorts.csv": 100,
+    "A:early_behaviors.csv": 120,
+    "A:activation_rates.csv": 165,
+    "B:periods.csv": 100,
+    "B:segments.csv": 816,
+    "B:weekly.csv": 100,
+    "B:activation_associations.csv": 363,
+    "B:activation.csv": 176,
+    "B:sensitivity.csv": 60,
+    "A:paired_window_sensitivity.csv": 8,
+    "A:decomposition.csv": 8,
+    "B:decomposition.csv": 76
+  },
+  "mismatches": [],
+  "main": {
+    "A": [
+      {
+        "period": "early_3",
+        "metric": "D7_completed",
+        "total": "776",
+        "time_mature": "776",
+        "excluded_immature": "0",
+        "excluded_coverage": "0",
+        "n": "776",
+        "k": "246",
+        "rate": "0.3170103092783505",
+        "ci_low": "0.28524133627028364",
+        "ci_high": "0.3505820778509973",
+        "coverage_lower": "0.3170103092783505",
+        "coverage_upper": "0.3170103092783505"
+      },
+      {
+        "period": "early_3",
+        "metric": "D30_completed",
+        "total": "776",
+        "time_mature": "776",
+        "excluded_immature": "0",
+        "excluded_coverage": "0",
+        "n": "776",
+        "k": "167",
+        "rate": "0.21520618556701032",
+        "ci_low": "0.18773132748351248",
+        "ci_high": "0.24548680294467842",
+        "coverage_lower": "0.21520618556701032",
+        "coverage_upper": "0.21520618556701032"
+      },
+      {
+        "period": "early_3",
+        "metric": "D7_open",
+        "total": "776",
+        "time_mature": "776",
+        "excluded_immature": "0",
+        "excluded_coverage": "0",
+        "n": "776",
+        "k": "357",
+        "rate": "0.46005154639175255",
+        "ci_low": "0.4252674125084777",
+        "ci_high": "0.4952292483208159",
+        "coverage_lower": "0.46005154639175255",
+        "coverage_upper": "0.46005154639175255"
+      },
+      {
+        "period": "early_3",
+        "metric": "D30_open",
+        "total": "776",
+        "time_mature": "776",
+        "excluded_immature": "0",
+        "excluded_coverage": "0",
+        "n": "776",
+        "k": "279",
+        "rate": "0.3595360824742268",
+        "ci_low": "0.32654155890869085",
+        "ci_high": "0.393914442071729",
+        "coverage_lower": "0.3595360824742268",
+        "coverage_upper": "0.3595360824742268"
+      },
+      {
+        "period": "later_3",
+        "metric": "D7_completed",
+        "total": "901",
+        "time_mature": "901",
+        "excluded_immature": "0",
+        "excluded_coverage": "0",
+        "n": "901",
+        "k": "245",
+        "rate": "0.27192008879023305",
+        "ci_low": "0.24388063591562253",
+        "ci_high": "0.30189614520615754",
+        "coverage_lower": "0.27192008879023305",
+        "coverage_upper": "0.27192008879023305"
+      },
+      {
+        "period": "later_3",
+        "metric": "D30_completed",
+        "total": "901",
+        "time_mature": "901",
+        "excluded_immature": "0",
+        "excluded_coverage": "53",
+        "n": "848",
+        "k": "158",
+        "rate": "0.18632075471698112",
+        "ci_low": "0.16154983930844904",
+        "ci_high": "0.21392080198140886",
+        "coverage_lower": "0.18091009988901222",
+        "coverage_upper": "0.2341842397336293"
+      },
+      {
+        "period": "later_3",
+        "metric": "D7_open",
+        "total": "901",
+        "time_mature": "901",
+        "excluded_immature": "0",
+        "excluded_coverage": "0",
+        "n": "901",
+        "k": "392",
+        "rate": "0.43507214206437295",
+        "ci_low": "0.40304390241458055",
+        "ci_high": "0.4676516776127877",
+        "coverage_lower": "0.43507214206437295",
+        "coverage_upper": "0.43507214206437295"
+      },
+      {
+        "period": "later_3",
+        "metric": "D30_open",
+        "total": "901",
+        "time_mature": "901",
+        "excluded_immature": "0",
+        "excluded_coverage": "53",
+        "n": "848",
+        "k": "281",
+        "rate": "0.3313679245283019",
+        "ci_low": "0.3005097465369253",
+        "ci_high": "0.36374702678807336",
+        "coverage_lower": "0.3196448390677026",
+        "coverage_upper": "0.3706992230854606"
+      }
+    ],
+    "B": [
+      {
+        "period": "early_June",
+        "cohorts": "2026-06-01|2026-06-08",
+        "metric": "D7_complete",
+        "total": "517",
+        "immature": "0",
+        "unknown_platform": "0",
+        "incomplete": "0",
+        "n": "517",
+        "k": "163",
+        "pct": "31.528046421663444",
+        "lo95": "27.671709975353977",
+        "hi95": "35.65686213323578",
+        "naive_k": "163",
+        "naive_pct": "31.528046421663444",
+        "mature_n": "517",
+        "mature_lower_pct": "31.528046421663444",
+        "mature_upper_pct": "31.528046421663444"
+      },
+      {
+        "period": "early_June",
+        "cohorts": "2026-06-01|2026-06-08",
+        "metric": "D30_complete",
+        "total": "517",
+        "immature": "0",
+        "unknown_platform": "0",
+        "incomplete": "0",
+        "n": "517",
+        "k": "104",
+        "pct": "20.11605415860735",
+        "lo95": "16.886735925241386",
+        "hi95": "23.786189632634198",
+        "naive_k": "104",
+        "naive_pct": "20.11605415860735",
+        "mature_n": "517",
+        "mature_lower_pct": "20.11605415860735",
+        "mature_upper_pct": "20.11605415860735"
+      },
+      {
+        "period": "late_mature",
+        "cohorts": "2026-06-29|2026-07-06",
+        "metric": "D7_complete",
+        "total": "606",
+        "immature": "0",
+        "unknown_platform": "0",
+        "incomplete": "0",
+        "n": "606",
+        "k": "163",
+        "pct": "26.897689768976896",
+        "lo95": "23.52085475939797",
+        "hi95": "30.565572794828753",
+        "naive_k": "163",
+        "naive_pct": "26.897689768976896",
+        "mature_n": "606",
+        "mature_lower_pct": "26.897689768976896",
+        "mature_upper_pct": "26.897689768976896"
+      },
+      {
+        "period": "late_mature",
+        "cohorts": "2026-06-29|2026-07-06",
+        "metric": "D30_complete",
+        "total": "606",
+        "immature": "0",
+        "unknown_platform": "0",
+        "incomplete": "0",
+        "n": "606",
+        "k": "108",
+        "pct": "17.821782178217823",
+        "lo95": "14.98037960756815",
+        "hi95": "21.06857305724764",
+        "naive_k": "108",
+        "naive_pct": "17.821782178217823",
+        "mature_n": "606",
+        "mature_lower_pct": "17.821782178217823",
+        "mature_upper_pct": "17.821782178217823"
+      },
+      {
+        "period": "latest_D7",
+        "cohorts": "2026-07-20|2026-07-27",
+        "metric": "D7_complete",
+        "total": "671",
+        "immature": "0",
+        "unknown_platform": "0",
+        "incomplete": "0",
+        "n": "671",
+        "k": "183",
+        "pct": "27.272727272727273",
+        "lo95": "24.039448609849973",
+        "hi95": "30.764750804187695",
+        "naive_k": "183",
+        "naive_pct": "27.272727272727273",
+        "mature_n": "671",
+        "mature_lower_pct": "27.272727272727273",
+        "mature_upper_pct": "27.272727272727273"
+      }
+    ]
+  },
+  "balance": {
+    "A:D7": {
+      "total": 3020,
+      "immature": 188,
+      "incomplete": 54,
+      "n": 2778,
+      "k": 779
+    },
+    "A:D30": {
+      "total": 3020,
+      "immature": 1303,
+      "incomplete": 53,
+      "n": 1664,
+      "k": 329
+    },
+    "B:D7": {
+      "total": 3020,
+      "immature": 188,
+      "incomplete": 54,
+      "n": 2778,
+      "k": 779
+    },
+    "B:D30": {
+      "total": 3020,
+      "immature": 1303,
+      "incomplete": 53,
+      "n": 1664,
+      "k": 329
+    }
+  },
+  "common_periods": {
+    "June1_21": {
+      "D7": {
+        "k": 246,
+        "n": 776,
+        "pct": 31.701030927835053
+      },
+      "D30": {
+        "k": 167,
+        "n": 776,
+        "pct": 21.52061855670103
+      }
+    },
+    "June22_July12": {
+      "D7": {
+        "k": 245,
+        "n": 901,
+        "pct": 27.19200887902331
+      },
+      "D30": {
+        "k": 158,
+        "n": 848,
+        "pct": 18.632075471698112
+      }
+    },
+    "June1_14": {
+      "D7": {
+        "k": 163,
+        "n": 517,
+        "pct": 31.528046421663444
+      },
+      "D30": {
+        "k": 104,
+        "n": 517,
+        "pct": 20.11605415860735
+      }
+    },
+    "June29_July12": {
+      "D7": {
+        "k": 163,
+        "n": 606,
+        "pct": 26.897689768976896
+      },
+      "D30": {
+        "k": 108,
+        "n": 606,
+        "pct": 17.821782178217823
+      }
+    },
+    "July20_Aug2": {
+      "D7": {
+        "k": 183,
+        "n": 671,
+        "pct": 27.272727272727273
+      },
+      "D30": {
+        "k": 0,
+        "n": 0,
+        "pct": null
+      }
+    }
+  }
+}

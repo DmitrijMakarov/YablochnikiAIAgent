@@ -1,0 +1,42 @@
+{
+  "signups": 3020,
+  "unique_users": 3020,
+  "raw_events": 85080,
+  "deduplicated_events": 83738,
+  "duplicate_extra_rows": 1342,
+  "conflicting_ids": 0,
+  "orphan_events": 0,
+  "pre_signup_events": 0,
+  "coverage_rows": 146,
+  "coverage_start": "2026-06-01",
+  "coverage_end": "2026-08-12",
+  "partial": [
+    {
+      "data_label": "SYNTHETIC TEST DATA",
+      "event_date": "2026-07-22",
+      "platform": "android",
+      "status": "partial"
+    },
+    {
+      "data_label": "SYNTHETIC TEST DATA",
+      "event_date": "2026-07-23",
+      "platform": "android",
+      "status": "partial"
+    }
+  ],
+  "signup_missing": {
+    "channel": 155,
+    "stated_goal": 404,
+    "legacy_setup_flag": 246
+  },
+  "event_type_unique": {
+    "app_open": 41367,
+    "task_created": 8488,
+    "background_sync": 3756,
+    "task_completed": 26180,
+    "reminder_enabled": 854,
+    "reminder_opened": 3093
+  },
+  "python": "3.13.5 (v3.13.5:6cb20a219a8, Jun 11 2025, 12:23:45) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "script_sha256": "92e05dff86b881f9783dc948670feb82c21d1f7f4b23c8691d48db3558f7d13f"
+}
