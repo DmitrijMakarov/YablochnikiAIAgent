@@ -1,0 +1,18 @@
+{
+  "source": "S-001@1",
+  "original_sha256": "558d2c665caa4f4954135c8bbfb69d791e398dcdc5b625d5ded7bdb2d0eb0fa5",
+  "files": {
+    "deliverables/megafon/strategy.md": "ffc87c5ee40753f695ecaaab0bd8253ab03be923f4d3858ed06ad4ca4ea62b37",
+    "deliverables/megafon/strategy.pdf": "0fc28925b21622990fd79d84c565da4e4e0d4ffcbb5dae180d862dadd997fb0d",
+    "deliverables/megafon/compliance.md": "f93c78dda016812e8404551705b6335601458e5cae094b369221a806226c6b44",
+    "deliverables/megafon/demo.md": "c53b532ba369f7cb7a92c3a6a5e3c2335e9a44312b4f48b053ce83f8e4c202c3",
+    "cases/megafon-official/analysis/export_pdf.py": "16a12843f6be342b1706d5950f7d718e2d92f0adf93ccb4705eb9d8ed9e6fedf",
+    "cases/megafon-official/analysis/model.py": "481ec47d65069d1bf7abe3d3c164be2782cad72c64a3b1f2859e2e2fbc888336",
+    "cases/megafon-official/analysis/independent_check.py": "2821de1fca7c317cd37cbf1f22c1f2e74b3ac16bf940e082e4c37cda1956dda0",
+    "cases/megafon-official/analysis/independent-check.json": "a9ee5070f9aca9390f20357b68a8dd019a8ccc1d7fbb89f28aa8fe8400e430c9",
+    "cases/megafon-official/analysis/results.json": "6f1e0722fb0d0cb05dbad436970e8e9348b3e77e790f42592b618ab01889013a",
+    "cases/megafon-official/analysis/inputs.json": "9dff4055ac1fbb02e87c51efbb4e8318563e7f198eed8422abdf7178915e6703",
+    "cases/megafon-official/analysis/sensitivity.json": "8b99e1cd1bc92d2b994ca648cebd71500041472df4c88e9402515e07b2203ed0",
+    "cases/megafon-official/analysis/metric-passports.md": "7f20a1ed01833f639bee25e4a9e5619e9a25ba0d95e4efb6b8da63dc1af28b67"
+  }
+}

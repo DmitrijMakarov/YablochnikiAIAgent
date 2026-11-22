@@ -1,0 +1,10 @@
+{
+  "web_requests": 0,
+  "sources": [
+    {
+      "id": "S-001@1",
+      "path": "brief.pdf",
+      "kind": "own"
+    }
+  ]
+}

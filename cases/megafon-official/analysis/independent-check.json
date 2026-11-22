@@ -1,0 +1,39 @@
+{
+  "main": {
+    "calendar_monthly_number_months": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "30.00",
+      "90.00",
+      "170.00",
+      "270.00",
+      "370.00",
+      "470.00"
+    ],
+    "total_number_months": "1400.00",
+    "gp_rub": "279340000.00"
+  },
+  "adverse": {
+    "calendar_monthly_number_months": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "4.500",
+      "13.500",
+      "25.500",
+      "40.500"
+    ],
+    "total_number_months": "84.000",
+    "gp_rub": "278742000.000"
+  },
+  "verdict": "PASS: independent Decimal arithmetic; units rubles and paid number-months, not group-months."
+}

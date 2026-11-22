@@ -1,0 +1,2 @@
+id	kind	origin	accessed_utc	status	method	snapshot	sha256	error
+S-001@1	own	inputs/brief.pdf	2026-11-22T16:35:12.945+00:00	available	file:558d2c665caa4f4954135c8bbfb69d791e398dcdc5b625d5ded7bdb2d0eb0fa5	evidence/S-001@1.jsonl	ac60ca4ca6d87e83c244d61fb7a7483c3fd2df37717a75c77c0e96fe86a2ef9a	

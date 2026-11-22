@@ -1,0 +1,17 @@
+step	attempt	started_utc	ended_utc	seconds	status	environment	tool	input	outputs	model	tokens	tokens_kind	cost	cost_kind	measurement	human	detail
+scope	76468ced2d83	2026-11-22T16:34:41.719+00:00			started	Codex	agent			unknown		unknown		unknown			
+scope	76468ced2d83	2026-11-22T16:34:41.719+00:00	2026-11-22T16:35:12.824+00:00	31.105	ok	Codex	agent		"{""brief.md"": ""55a810ecbedb870a76338e29f1d2783ae3bcfe7efb923fc70e6966ab02612faf""}"	unknown		unknown		unknown			
+research	e6bdd26f5bf2	2026-11-22T16:35:12.882+00:00			started	Codex	agent			unknown		unknown		unknown			
+research	903eeaae94e1	2026-11-22T16:35:12.944+00:00			started	Codex	source	S-001@1				unknown		unknown			inputs/brief.pdf
+research	903eeaae94e1	2026-11-22T16:35:12.944+00:00	2026-11-22T16:35:13.109+00:00	0.165	ok	Codex	source	S-001@1	evidence/S-001@1.jsonl			unknown		unknown			file:558d2c665caa4f4954135c8bbfb69d791e398dcdc5b625d5ded7bdb2d0eb0fa5
+research	56691e942284	2026-11-22T16:38:36.584+00:00	2026-11-22T16:38:36.584+00:00		error	Codex	pdf-dependency-check			unknown		unknown		unknown			
+research	7e89287492f0	2026-11-22T16:38:36.629+00:00	2026-11-22T16:38:36.629+00:00		ok	Codex	local-research-and-model			unknown		unknown		unknown			
+research	e6bdd26f5bf2	2026-11-22T16:35:12.882+00:00	2026-11-22T16:38:36.716+00:00	203.834	ok	Codex	agent		"{""research.md"": ""0365a88506a057c5c7f2d99fc3dc188f514fdd5177603fdbf8be56549c61ea63"", ""sources.tsv"": ""47a912a7c370f677aa820b04fc86e993d53d378510cd39c0f6e4b0616645838e"", ""claims.tsv"": ""e01a3b5b56e6c6a7b0bffc50550fe5caa52a2f55e918461c85338afcb6739fde""}"	unknown		unknown		unknown			
+strategy	06e8579830f5	2026-11-22T16:38:36.757+00:00			started	Codex	agent			unknown		unknown		unknown			
+strategy	0ee66dbe8725	2026-11-22T16:52:49.436+00:00	2026-11-22T16:52:49.437+00:00		error	Codex	verify-missing-quality-markers			unknown		unknown		unknown			
+strategy	6e0f15b504d5	2026-11-22T16:55:48.779+00:00	2026-11-22T16:55:48.779+00:00		ok	Codex	independent-Decimal-financial-recalculation			unknown		unknown		unknown			
+strategy	dfcf0693f66f	2026-11-22T16:55:48.826+00:00	2026-11-22T16:55:48.826+00:00		ok	Codex	pdf-render-and-visual-review-20-pages			unknown		unknown		unknown			
+strategy	01aab2c3defb	2026-11-22T16:55:48.865+00:00	2026-11-22T16:55:48.865+00:00		ok	Codex	compliance-80-and-artifact-hashes			unknown		unknown		unknown			
+strategy	06e8579830f5	2026-11-22T16:38:36.757+00:00	2026-11-22T16:55:48.950+00:00	1032.193	ok	Codex	agent		"{""strategy.md"": ""a9598eaab87b710d21f3427a8d4520690c068e8a97674b15ce4b123fdd15365b"", ""quality.md"": ""bb362df394c2f12a79b564ba0430e08aab98a6a8ac21e7301ff28ee6fb6f7bfc"", ""audit.tsv"": ""e6905a1c91f747003d0ea700bd8b64fee7b0140e0a0c17bcff638850118e1672""}"	unknown		unknown		unknown			
+strategy	eabbb0bdfecc	2026-11-22T17:22:37.801+00:00	2026-11-22T17:22:37.802+00:00		ok	Codex	final-acceptance-review-started			unknown		unknown		unknown			
+strategy	f145b2f464fe	2026-11-22T17:24:25.036+00:00	2026-11-22T17:24:25.036+00:00		ok	Codex	final-acceptance-all-five-parts-finance-funnel-pilot-rights-pdf-20-pages-pass			unknown		unknown		unknown			

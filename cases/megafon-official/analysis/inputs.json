@@ -1,0 +1,126 @@
+{
+  "source_sha256": "558d2c665caa4f4954135c8bbfb69d791e398dcdc5b625d5ded7bdb2d0eb0fa5",
+  "brief": {
+    "market_households": 300000,
+    "available_households": 100000,
+    "market_owners": 180000,
+    "available_owners": 40000,
+    "margin_rub_per_paid_number_month": 500,
+    "kpi": {
+      "gp_rub": [
+        282000000,
+        275000000,
+        279000000,
+        285000000
+      ],
+      "active_groups": [
+        5000,
+        4000,
+        5000,
+        8000
+      ],
+      "connected_groups": [
+        7500,
+        6500,
+        8000,
+        12000
+      ],
+      "connected_owners": [
+        1000,
+        800,
+        1000,
+        2000
+      ],
+      "activation_14d": [
+        0.5,
+        0.42,
+        0.45,
+        0.6
+      ]
+    }
+  },
+  "assumptions": {
+    "baseline_new": 2500,
+    "baseline_exit": 1000,
+    "baseline_created": 5000,
+    "main": {
+      "reach": 40000,
+      "created": 10000,
+      "new": 6500,
+      "exit": 1000,
+      "increment_active_rate": 0.75,
+      "q4_created": 2500,
+      "q4_activated": 1500,
+      "cohorts": {
+        "7": 3000,
+        "8": 3000,
+        "9": 2000,
+        "10": 2000
+      },
+      "paid_delta_per_age_month": 0.01,
+      "direct_by_quarter": [
+        0,
+        60000,
+        120000,
+        180000
+      ],
+      "investment_by_quarter": [
+        230000,
+        1370000,
+        0,
+        0
+      ],
+      "annual_direct_after_year1": 720000
+    },
+    "adverse": {
+      "reach": 24000,
+      "created": 6800,
+      "new": 3880,
+      "exit": 1000,
+      "increment_active_rate": 0.5,
+      "q4_created": 1700,
+      "q4_activated": 850,
+      "cohorts": {
+        "9": 1500,
+        "10": 1500,
+        "11": 1000,
+        "12": 1000
+      },
+      "paid_delta_per_age_month": 0.003,
+      "direct_by_quarter": [
+        0,
+        60000,
+        90000,
+        150000
+      ],
+      "investment_by_quarter": [
+        230000,
+        1370000,
+        0,
+        0
+      ],
+      "annual_direct_after_year1": 600000
+    },
+    "baseline_survival_by_age": [
+      0.95,
+      0.92,
+      0.89,
+      0.86,
+      0.83,
+      0.8
+    ],
+    "pilot": {
+      "p_control": 0.12,
+      "p_treatment": 0.09,
+      "practical_threshold": 0.02,
+      "alpha_two_sided": 0.05,
+      "n_each": 1800,
+      "recruit_weeks": 6,
+      "maturation_days": 7,
+      "cleaning_days": 7,
+      "operation_missing_max": 0.01,
+      "donor_harm_margin": 0.02,
+      "donor_base": 0.05
+    }
+  }
+}

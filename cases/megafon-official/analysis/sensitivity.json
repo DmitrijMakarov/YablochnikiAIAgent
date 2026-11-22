@@ -1,0 +1,68 @@
+[
+  {
+    "scenario": "main",
+    "retention_multiplier": 0,
+    "additional_paid_number_months": 0.0,
+    "net_gp_rub": -360000.0
+  },
+  {
+    "scenario": "main",
+    "retention_multiplier": 0.5,
+    "additional_paid_number_months": 700.0,
+    "net_gp_rub": -10000.0
+  },
+  {
+    "scenario": "main",
+    "retention_multiplier": 1,
+    "additional_paid_number_months": 1400.0,
+    "net_gp_rub": 340000.0
+  },
+  {
+    "scenario": "main",
+    "retention_multiplier": 2,
+    "additional_paid_number_months": 2800.0,
+    "net_gp_rub": 1040000.0
+  },
+  {
+    "scenario": "adverse",
+    "retention_multiplier": 0,
+    "additional_paid_number_months": 0.0,
+    "net_gp_rub": -300000.0
+  },
+  {
+    "scenario": "adverse",
+    "retention_multiplier": 0.5,
+    "additional_paid_number_months": 42.0,
+    "net_gp_rub": -279000.0
+  },
+  {
+    "scenario": "adverse",
+    "retention_multiplier": 1,
+    "additional_paid_number_months": 84.0,
+    "net_gp_rub": -258000.0
+  },
+  {
+    "scenario": "adverse",
+    "retention_multiplier": 2,
+    "additional_paid_number_months": 168.0,
+    "net_gp_rub": -216000.0
+  },
+  {
+    "scenario": "main",
+    "delay_months": 1,
+    "additional_paid_number_months": 930.0,
+    "net_gp_rub": 105000.0
+  },
+  {
+    "scenario": "main",
+    "delay_months": 2,
+    "additional_paid_number_months": 560.0,
+    "net_gp_rub": -80000.0
+  },
+  {
+    "scenario": "main",
+    "delay_months": 3,
+    "additional_paid_number_months": 290.0,
+    "net_gp_rub": -215000.0
+  }
+]

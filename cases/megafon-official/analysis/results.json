@@ -1,0 +1,400 @@
+{
+  "main": {
+    "connected_groups": 12000,
+    "increment_groups": 4000,
+    "active_groups": 8000.0,
+    "owners": 1000,
+    "activation_14d": 0.6,
+    "additional_paid_number_months": 1400.0,
+    "direct_rub": 360000,
+    "incremental_gp_rub": 340000.0,
+    "gp_rub": 279340000.0,
+    "investment_rub": 1600000,
+    "payback_month_from_year_start": 17.25,
+    "year2_net_gp_conditional": 2880000.0,
+    "max_recoverable_investment_year1": 340000.0,
+    "cohort_rows": [
+      {
+        "start_month": 7,
+        "calendar_month": 7,
+        "age_month": 0,
+        "index_numbers": 3000,
+        "p_paid_control": 0.95,
+        "p_paid_treatment": 0.96,
+        "additional_paid_number_months": 30.0
+      },
+      {
+        "start_month": 7,
+        "calendar_month": 8,
+        "age_month": 1,
+        "index_numbers": 3000,
+        "p_paid_control": 0.92,
+        "p_paid_treatment": 0.9400000000000001,
+        "additional_paid_number_months": 60.0
+      },
+      {
+        "start_month": 7,
+        "calendar_month": 9,
+        "age_month": 2,
+        "index_numbers": 3000,
+        "p_paid_control": 0.89,
+        "p_paid_treatment": 0.92,
+        "additional_paid_number_months": 90.0
+      },
+      {
+        "start_month": 7,
+        "calendar_month": 10,
+        "age_month": 3,
+        "index_numbers": 3000,
+        "p_paid_control": 0.86,
+        "p_paid_treatment": 0.9,
+        "additional_paid_number_months": 120.0
+      },
+      {
+        "start_month": 7,
+        "calendar_month": 11,
+        "age_month": 4,
+        "index_numbers": 3000,
+        "p_paid_control": 0.83,
+        "p_paid_treatment": 0.88,
+        "additional_paid_number_months": 150.0
+      },
+      {
+        "start_month": 7,
+        "calendar_month": 12,
+        "age_month": 5,
+        "index_numbers": 3000,
+        "p_paid_control": 0.8,
+        "p_paid_treatment": 0.8600000000000001,
+        "additional_paid_number_months": 180.0
+      },
+      {
+        "start_month": 8,
+        "calendar_month": 8,
+        "age_month": 0,
+        "index_numbers": 3000,
+        "p_paid_control": 0.95,
+        "p_paid_treatment": 0.96,
+        "additional_paid_number_months": 30.0
+      },
+      {
+        "start_month": 8,
+        "calendar_month": 9,
+        "age_month": 1,
+        "index_numbers": 3000,
+        "p_paid_control": 0.92,
+        "p_paid_treatment": 0.9400000000000001,
+        "additional_paid_number_months": 60.0
+      },
+      {
+        "start_month": 8,
+        "calendar_month": 10,
+        "age_month": 2,
+        "index_numbers": 3000,
+        "p_paid_control": 0.89,
+        "p_paid_treatment": 0.92,
+        "additional_paid_number_months": 90.0
+      },
+      {
+        "start_month": 8,
+        "calendar_month": 11,
+        "age_month": 3,
+        "index_numbers": 3000,
+        "p_paid_control": 0.86,
+        "p_paid_treatment": 0.9,
+        "additional_paid_number_months": 120.0
+      },
+      {
+        "start_month": 8,
+        "calendar_month": 12,
+        "age_month": 4,
+        "index_numbers": 3000,
+        "p_paid_control": 0.83,
+        "p_paid_treatment": 0.88,
+        "additional_paid_number_months": 150.0
+      },
+      {
+        "start_month": 9,
+        "calendar_month": 9,
+        "age_month": 0,
+        "index_numbers": 2000,
+        "p_paid_control": 0.95,
+        "p_paid_treatment": 0.96,
+        "additional_paid_number_months": 20.0
+      },
+      {
+        "start_month": 9,
+        "calendar_month": 10,
+        "age_month": 1,
+        "index_numbers": 2000,
+        "p_paid_control": 0.92,
+        "p_paid_treatment": 0.9400000000000001,
+        "additional_paid_number_months": 40.0
+      },
+      {
+        "start_month": 9,
+        "calendar_month": 11,
+        "age_month": 2,
+        "index_numbers": 2000,
+        "p_paid_control": 0.89,
+        "p_paid_treatment": 0.92,
+        "additional_paid_number_months": 60.0
+      },
+      {
+        "start_month": 9,
+        "calendar_month": 12,
+        "age_month": 3,
+        "index_numbers": 2000,
+        "p_paid_control": 0.86,
+        "p_paid_treatment": 0.9,
+        "additional_paid_number_months": 80.0
+      },
+      {
+        "start_month": 10,
+        "calendar_month": 10,
+        "age_month": 0,
+        "index_numbers": 2000,
+        "p_paid_control": 0.95,
+        "p_paid_treatment": 0.96,
+        "additional_paid_number_months": 20.0
+      },
+      {
+        "start_month": 10,
+        "calendar_month": 11,
+        "age_month": 1,
+        "index_numbers": 2000,
+        "p_paid_control": 0.92,
+        "p_paid_treatment": 0.9400000000000001,
+        "additional_paid_number_months": 40.0
+      },
+      {
+        "start_month": 10,
+        "calendar_month": 12,
+        "age_month": 2,
+        "index_numbers": 2000,
+        "p_paid_control": 0.89,
+        "p_paid_treatment": 0.92,
+        "additional_paid_number_months": 60.0
+      }
+    ],
+    "quarters": [
+      {
+        "quarter": 1,
+        "additional_paid_number_months": 0.0,
+        "margin_rub": 0.0,
+        "direct_rub": 0,
+        "net_gp_rub": 0.0,
+        "investment_rub": 230000
+      },
+      {
+        "quarter": 2,
+        "additional_paid_number_months": 0.0,
+        "margin_rub": 0.0,
+        "direct_rub": 60000,
+        "net_gp_rub": -60000.0,
+        "investment_rub": 1370000
+      },
+      {
+        "quarter": 3,
+        "additional_paid_number_months": 290.0,
+        "margin_rub": 145000.0,
+        "direct_rub": 120000,
+        "net_gp_rub": 25000.0,
+        "investment_rub": 0
+      },
+      {
+        "quarter": 4,
+        "additional_paid_number_months": 1110.0,
+        "margin_rub": 555000.0,
+        "direct_rub": 180000,
+        "net_gp_rub": 375000.0,
+        "investment_rub": 0
+      }
+    ]
+  },
+  "adverse": {
+    "connected_groups": 9380,
+    "increment_groups": 1380,
+    "active_groups": 5690.0,
+    "owners": 1000,
+    "activation_14d": 0.5,
+    "additional_paid_number_months": 84.0,
+    "direct_rub": 300000,
+    "incremental_gp_rub": -258000.0,
+    "gp_rub": 278742000.0,
+    "investment_rub": 1600000,
+    "payback_month_from_year_start": null,
+    "year2_net_gp_conditional": -60000.0,
+    "max_recoverable_investment_year1": 0,
+    "cohort_rows": [
+      {
+        "start_month": 9,
+        "calendar_month": 9,
+        "age_month": 0,
+        "index_numbers": 1500,
+        "p_paid_control": 0.95,
+        "p_paid_treatment": 0.953,
+        "additional_paid_number_months": 4.5
+      },
+      {
+        "start_month": 9,
+        "calendar_month": 10,
+        "age_month": 1,
+        "index_numbers": 1500,
+        "p_paid_control": 0.92,
+        "p_paid_treatment": 0.926,
+        "additional_paid_number_months": 9.0
+      },
+      {
+        "start_month": 9,
+        "calendar_month": 11,
+        "age_month": 2,
+        "index_numbers": 1500,
+        "p_paid_control": 0.89,
+        "p_paid_treatment": 0.899,
+        "additional_paid_number_months": 13.500000000000002
+      },
+      {
+        "start_month": 9,
+        "calendar_month": 12,
+        "age_month": 3,
+        "index_numbers": 1500,
+        "p_paid_control": 0.86,
+        "p_paid_treatment": 0.872,
+        "additional_paid_number_months": 18.0
+      },
+      {
+        "start_month": 10,
+        "calendar_month": 10,
+        "age_month": 0,
+        "index_numbers": 1500,
+        "p_paid_control": 0.95,
+        "p_paid_treatment": 0.953,
+        "additional_paid_number_months": 4.5
+      },
+      {
+        "start_month": 10,
+        "calendar_month": 11,
+        "age_month": 1,
+        "index_numbers": 1500,
+        "p_paid_control": 0.92,
+        "p_paid_treatment": 0.926,
+        "additional_paid_number_months": 9.0
+      },
+      {
+        "start_month": 10,
+        "calendar_month": 12,
+        "age_month": 2,
+        "index_numbers": 1500,
+        "p_paid_control": 0.89,
+        "p_paid_treatment": 0.899,
+        "additional_paid_number_months": 13.500000000000002
+      },
+      {
+        "start_month": 11,
+        "calendar_month": 11,
+        "age_month": 0,
+        "index_numbers": 1000,
+        "p_paid_control": 0.95,
+        "p_paid_treatment": 0.953,
+        "additional_paid_number_months": 3.0
+      },
+      {
+        "start_month": 11,
+        "calendar_month": 12,
+        "age_month": 1,
+        "index_numbers": 1000,
+        "p_paid_control": 0.92,
+        "p_paid_treatment": 0.926,
+        "additional_paid_number_months": 6.0
+      },
+      {
+        "start_month": 12,
+        "calendar_month": 12,
+        "age_month": 0,
+        "index_numbers": 1000,
+        "p_paid_control": 0.95,
+        "p_paid_treatment": 0.953,
+        "additional_paid_number_months": 3.0
+      }
+    ],
+    "quarters": [
+      {
+        "quarter": 1,
+        "additional_paid_number_months": 0.0,
+        "margin_rub": 0.0,
+        "direct_rub": 0,
+        "net_gp_rub": 0.0,
+        "investment_rub": 230000
+      },
+      {
+        "quarter": 2,
+        "additional_paid_number_months": 0.0,
+        "margin_rub": 0.0,
+        "direct_rub": 60000,
+        "net_gp_rub": -60000.0,
+        "investment_rub": 1370000
+      },
+      {
+        "quarter": 3,
+        "additional_paid_number_months": 4.5,
+        "margin_rub": 2250.0,
+        "direct_rub": 90000,
+        "net_gp_rub": -87750.0,
+        "investment_rub": 0
+      },
+      {
+        "quarter": 4,
+        "additional_paid_number_months": 79.5,
+        "margin_rub": 39750.0,
+        "direct_rub": 150000,
+        "net_gp_rub": -110250.0,
+        "investment_rub": 0
+      }
+    ]
+  },
+  "pilot": {
+    "se": 0.010206207261596576,
+    "power_against_zero": 0.8363151466437442,
+    "prob_primary_full_rule": 0.8363146658767163,
+    "donor_guard_pass_probability_at_zero_harm": 0.8660982800618512,
+    "joint_primary_donor_frechet_bounds": [
+      0.7024129459385675,
+      0.8363146658767163
+    ],
+    "zero_incidents_upper_one_sided_95": 0.0016629115354259705,
+    "full_success_probability": "unknown: consent/security, operation SLA, false alarms and completeness need calibration",
+    "n_each_approx_80pct_zero_test": 1638,
+    "flow_per_week": 600.0,
+    "sensitivity": {
+      "0.01": {
+        "se": 0.010632758605157722,
+        "power_against_zero": 0.1558520433064674,
+        "prob_primary_full_rule": 0.15398892882969395
+      },
+      "0.02": {
+        "se": 0.010424330514074593,
+        "power_against_zero": 0.483550793577873,
+        "prob_primary_full_rule": 0.4834982536356759
+      },
+      "0.03": {
+        "se": 0.010206207261596576,
+        "power_against_zero": 0.8363151466437442,
+        "prob_primary_full_rule": 0.8363146658767163
+      },
+      "0.04": {
+        "se": 0.009977753031397177,
+        "power_against_zero": 0.9797667260853662,
+        "prob_primary_full_rule": 0.9774895594987307
+      }
+    }
+  },
+  "thresholds": {
+    "gp_target_paid_months_main": 12720.0,
+    "investment_recovery_paid_months_main": 3920.0,
+    "gp_target_paid_months_adverse": 12600.0,
+    "main_cac_per_increment_group": 30.0,
+    "max_paid_months_fixed_main_cohorts": 5140.0,
+    "max_gp_fixed_main_cohorts": 281210000.0
+  }
+}
