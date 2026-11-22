@@ -5,7 +5,7 @@
     "deliverables/megafon/strategy.md": "ffc87c5ee40753f695ecaaab0bd8253ab03be923f4d3858ed06ad4ca4ea62b37",
     "deliverables/megafon/strategy.pdf": "0fc28925b21622990fd79d84c565da4e4e0d4ffcbb5dae180d862dadd997fb0d",
     "deliverables/megafon/compliance.md": "f93c78dda016812e8404551705b6335601458e5cae094b369221a806226c6b44",
-    "deliverables/megafon/demo.md": "c53b532ba369f7cb7a92c3a6a5e3c2335e9a44312b4f48b053ce83f8e4c202c3",
+    "deliverables/megafon/demo.md": "0c9e07e63e1d06448439f8f136c414ce92e94ac219de7c4f8590a74b8be75d52",
     "cases/megafon-official/analysis/export_pdf.py": "16a12843f6be342b1706d5950f7d718e2d92f0adf93ccb4705eb9d8ed9e6fedf",
     "cases/megafon-official/analysis/model.py": "481ec47d65069d1bf7abe3d3c164be2782cad72c64a3b1f2859e2e2fbc888336",
     "cases/megafon-official/analysis/independent_check.py": "2821de1fca7c317cd37cbf1f22c1f2e74b3ac16bf940e082e4c37cda1956dda0",
@@ -13,6 +13,28 @@
     "cases/megafon-official/analysis/results.json": "6f1e0722fb0d0cb05dbad436970e8e9348b3e77e790f42592b618ab01889013a",
     "cases/megafon-official/analysis/inputs.json": "9dff4055ac1fbb02e87c51efbb4e8318563e7f198eed8422abdf7178915e6703",
     "cases/megafon-official/analysis/sensitivity.json": "8b99e1cd1bc92d2b994ca648cebd71500041472df4c88e9402515e07b2203ed0",
-    "cases/megafon-official/analysis/metric-passports.md": "7f20a1ed01833f639bee25e4a9e5619e9a25ba0d95e4efb6b8da63dc1af28b67"
+    "cases/megafon-official/analysis/metric-passports.md": "7f20a1ed01833f639bee25e4a9e5619e9a25ba0d95e4efb6b8da63dc1af28b67",
+    "deliverables/megafon/agent-description.pdf": "005baf76caae025d4696919584113f442485ca5ee42a00ae26f817236232e671",
+    "deliverables/megafon/agent-description.md": "ef3774da544a43c5fedfd10253187778c8aecc27aed76fe0dcf573c41b03a2bd",
+    "deliverables/megafon/SUBMISSION.md": "846c0a39b13d9767ba894cd0e60b26ac73f596a53c2a89a8b3c8f6af0abb5c69",
+    "deliverables/megafon/submission/01-instructions.html": "b69dc581713dac38f16b4f4bb9692ea00602eed07c263a8bf9eb50bd5c6c3595",
+    "deliverables/megafon/submission/01-instructions.png": "859ef450dcf49b2b428ccbe9ea634c6db6b6fc46bbd9acb5cf87b8bdbfd6b6a0",
+    "deliverables/megafon/submission/02-research.html": "b1c17ea30090c29171ca8385e905c27262cda4b1d245315bdb272d2715036173",
+    "deliverables/megafon/submission/02-research.png": "e976a65ad5eec6702f34c87e56d229b6407b2bb5c7d9304ace95738e3c2d33ab",
+    "deliverables/megafon/submission/03-options.html": "fa8717aab8cc9aa999ae6d94c36481f5e1a24a0b2f9b06f000fce95c0df10e1a",
+    "deliverables/megafon/submission/03-options.png": "594bd3ff63522cd1b08152b582f5ff012e81740b13a7f2d94170e24e091221bb",
+    "deliverables/megafon/submission/04-strategy.html": "5877a15af46dfce4a5f06b74751aff824ea0fc250e0e443929d303fd69e78b66",
+    "deliverables/megafon/submission/04-strategy.png": "85de6c5037804c4eb9bd2d8d7efd6e4f0e44afb6e0590f3ff46dc416fabc2c6d",
+    "deliverables/megafon/submission/05-verify.html": "9bc5ddb7ec6fd76821bda544dc45a311400878572b1d9d93bd67c33fe2d99306",
+    "deliverables/megafon/submission/05-verify.png": "50f615ca758e29749f6c96dd12561302fffe0426f128613a6e5f1de8543681ee",
+    "deliverables/megafon/submission/06-resume.html": "692797ef4de5659c942701da936981d6676334da55880c6db36b3f81a559cb0d",
+    "deliverables/megafon/submission/06-resume.png": "6b6071aa85b13ef49dfef23aef79fceb88932670adebea7d194942b0b760bfb5",
+    "deliverables/megafon/submission/evidence.json": "68553f5487927300ce4446940eaac8968db09aaddd2ec82709ffb7049323c6df",
+    "deliverables/megafon/submission/screenshots.json": "d6524ac3518e6cb2c3b010d93f153507b5597891550f5de6cfae429f331ad9c3"
+  },
+  "submission_packaging": {
+    "date": "2026-11-22",
+    "note": "Стратегия и исходный кейс сохранены; обновлён сценарий видео и добавлено описание агента. Исходник S-001 относится к стратегии; описание системы использует также документацию и результаты тестов репозитория.",
+    "previous_demo_sha256": "c53b532ba369f7cb7a92c3a6a5e3c2335e9a44312b4f48b053ce83f8e4c202c3"
   }
 }

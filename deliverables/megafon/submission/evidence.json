@@ -1,0 +1,149 @@
+{
+  "captured_at_utc": "2026-11-22T17:40:55.517686+00:00",
+  "python": "3.13.5",
+  "verify": {
+    "command": "/Users/dima/mephi/Yablochniki/YablochnikiAIAgent/.venv/bin/python -m tools.case verify cases/megafon-official",
+    "exit_code": 0,
+    "stdout": "{\"sources_available\": 1, \"sources_unavailable\": 0, \"claims\": 28, \"strategy_checked\": true, \"audit_structure\": \"checked\"}\n",
+    "stderr": ""
+  },
+  "resume": {
+    "command": "python -m tools.case resume TEMP_COPY/case --environment Codex",
+    "exit_code": 0,
+    "stdout": "{\n  \"schema\": 1,\n  \"status\": \"awaiting_decision\",\n  \"next\": \"decision\",\n  \"completed\": {\n    \"scope\": {\n      \"brief.md\": \"55a810ecbedb870a76338e29f1d2783ae3bcfe7efb923fc70e6966ab02612faf\"\n    },\n    \"research\": {\n      \"research.md\": \"0365a88506a057c5c7f2d99fc3dc188f514fdd5177603fdbf8be56549c61ea63\",\n      \"sources.tsv\": \"47a912a7c370f677aa820b04fc86e993d53d378510cd39c0f6e4b0616645838e\",\n      \"claims.tsv\": \"e01a3b5b56e6c6a7b0bffc50550fe5caa52a2f55e918461c85338afcb6739fde\"\n    },\n    \"strategy\": {\n      \"strategy.md\": \"a9598eaab87b710d21f3427a8d4520690c068e8a97674b15ce4b123fdd15365b\",\n      \"quality.md\": \"bb362df394c2f12a79b564ba0430e08aab98a6a8ac21e7301ff28ee6fb6f7bfc\",\n      \"audit.tsv\": \"e6905a1c91f747003d0ea700bd8b64fee7b0140e0a0c17bcff638850118e1672\"\n    }\n  },\n  \"pending\": null,\n  \"reason\": \"\",\n  \"audit_required\": true\n}\n",
+    "stderr": "",
+    "scope": "Новый процесс CLI на временной копии; это не новый чат с LLM."
+  },
+  "resumed_status": "awaiting_decision",
+  "tests": {
+    "command": "/Users/dima/mephi/Yablochniki/YablochnikiAIAgent/.venv/bin/python -m unittest discover -s tests -v",
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "test_composition_shift_without_within_segment_decline (test_analytical_method.AnalyticalMethodTest.test_composition_shift_without_within_segment_decline) ... ok\ntest_endpoints_do_not_establish_period_robustness (test_analytical_method.AnalyticalMethodTest.test_endpoints_do_not_establish_period_robustness) ... ok\ntest_immaturity_and_incomplete_telemetry_are_separate (test_analytical_method.AnalyticalMethodTest.test_immaturity_and_incomplete_telemetry_are_separate) ... ok\ntest_null_power_is_not_probability_of_full_success (test_analytical_method.AnalyticalMethodTest.test_null_power_is_not_probability_of_full_success) ... ok\ntest_undefined_activation_needs_event_sensitivity_and_unknown_group (test_analytical_method.AnalyticalMethodTest.test_undefined_activation_needs_event_sensitivity_and_unknown_group) ... ok\ntest_unknown_segment_is_retained_and_absent_support_is_not_zero (test_analytical_method.AnalyticalMethodTest.test_unknown_segment_is_retained_and_absent_support_is_not_zero) ... ok\ntest_within_segment_decline_without_composition_shift (test_analytical_method.AnalyticalMethodTest.test_within_segment_decline_without_composition_shift) ... ok\ntest_zero_guardrail_events_can_still_be_inconclusive (test_analytical_method.AnalyticalMethodTest.test_zero_guardrail_events_can_still_be_inconclusive) ... ok\ntest_after_run_allows_outputs_but_protects_original_brief (test_benchmark.BenchmarkPackagingTest.test_after_run_allows_outputs_but_protects_original_brief) ... ok\ntest_changed_input_is_detected (test_benchmark.BenchmarkPackagingTest.test_changed_input_is_detected) ... ok\ntest_common_bytes_equal_and_only_b_has_instructions (test_benchmark.BenchmarkPackagingTest.test_common_bytes_equal_and_only_b_has_instructions) ... ok\ntest_existing_workspaces_are_never_overwritten (test_benchmark.BenchmarkPackagingTest.test_existing_workspaces_are_never_overwritten) ... ok\ntest_extra_hidden_file_or_empty_directory_is_detected (test_benchmark.BenchmarkPackagingTest.test_extra_hidden_file_or_empty_directory_is_detected) ... ok\ntest_hardlink_between_copies_is_rejected (test_benchmark.BenchmarkPackagingTest.test_hardlink_between_copies_is_rejected) ... ok\ntest_source_symlink_is_rejected_before_copying (test_benchmark.BenchmarkPackagingTest.test_source_symlink_is_rejected_before_copying) ... ok\ntest_workspace_symlink_is_rejected (test_benchmark.BenchmarkPackagingTest.test_workspace_symlink_is_rejected) ... ok\ntest_changed_manual_capture_requires_new_version (test_prototype.PrototypeTest.test_changed_manual_capture_requires_new_version) ... ok\ntest_csv_multiline_locator (test_prototype.PrototypeTest.test_csv_multiline_locator) ... ok\ntest_decision_requires_recorded_human_confirmation (test_prototype.PrototypeTest.test_decision_requires_recorded_human_confirmation) ... ok\ntest_docx_paragraph_and_table_locators (test_prototype.PrototypeTest.test_docx_paragraph_and_table_locators) ... ok\ntest_duplicate_snapshot_locator_rejected_even_with_updated_digest (test_prototype.PrototypeTest.test_duplicate_snapshot_locator_rejected_even_with_updated_digest) ... ok\ntest_finish_requires_complete_audit_structure (test_prototype.PrototypeTest.test_finish_requires_complete_audit_structure) ... ok\ntest_inputs_symlink_cannot_escape_case (test_prototype.PrototypeTest.test_inputs_symlink_cannot_escape_case) ... ok\ntest_journal_before_state_write_is_reconciled (test_prototype.PrototypeTest.test_journal_before_state_write_is_reconciled) ... ok\ntest_measurement_can_be_added_after_completion (test_prototype.PrototypeTest.test_measurement_can_be_added_after_completion) ... ok\ntest_measurement_requires_provenance (test_prototype.PrototypeTest.test_measurement_requires_provenance) ... ok\ntest_missing_quote_and_changed_source_rejected (test_prototype.PrototypeTest.test_missing_quote_and_changed_source_rejected) ... ok\ntest_partial_step_resumes_same_attempt_and_reuses_source (test_prototype.PrototypeTest.test_partial_step_resumes_same_attempt_and_reuses_source) ... ok\ntest_pdf_page_locator (test_prototype.PrototypeTest.test_pdf_page_locator) ... ok\ntest_pilot_report_and_actual_benchmark_repeat (test_prototype.PrototypeTest.test_pilot_report_and_actual_benchmark_repeat) ... ok\ntest_pilot_revision_preserves_strategy_and_pins_corrected_evidence (test_prototype.PrototypeTest.test_pilot_revision_preserves_strategy_and_pins_corrected_evidence) ... ok\ntest_resume_detects_edited_completed_output (test_prototype.PrototypeTest.test_resume_detects_edited_completed_output) ... ok\ntest_strategy_checkpoint_recovers_and_pins_audit (test_prototype.PrototypeTest.test_strategy_checkpoint_recovers_and_pins_audit) ... ok\ntest_structural_audit_does_not_infer_semantic_support (test_prototype.PrototypeTest.test_structural_audit_does_not_infer_semantic_support) ... ok\ntest_synthetic_source_cannot_be_used_as_fact (test_prototype.PrototypeTest.test_synthetic_source_cannot_be_used_as_fact) ... ok\ntest_t7_review_fixture_reproduces_metrics_without_unrelated_input (test_prototype.PrototypeTest.test_t7_review_fixture_reproduces_metrics_without_unrelated_input) ... ok\ntest_t7_review_resumes_with_pinned_parent_and_explicit_decision_boundary (test_prototype.PrototypeTest.test_t7_review_resumes_with_pinned_parent_and_explicit_decision_boundary) ... ok\ntest_unavailable_file_and_unapproved_web (test_prototype.PrototypeTest.test_unavailable_file_and_unapproved_web) ... ok\ntest_unknown_web_attempt_is_not_repeated (test_prototype.PrototypeTest.test_unknown_web_attempt_is_not_repeated) ... ok\ntest_untrusted_text_stays_data_and_file_escape_fails (test_prototype.PrototypeTest.test_untrusted_text_stays_data_and_file_escape_fails) ... ok\ntest_xlsx_values_and_formula_not_executed (test_prototype.PrototypeTest.test_xlsx_values_and_formula_not_executed) ... ok\ntest_denominator_uses_registered_users_with_complete_target_day (test_retention.RetentionFixtureTest.test_denominator_uses_registered_users_with_complete_target_day) ... ok\ntest_generation_reproduces_all_csv_bytes (test_retention.RetentionFixtureTest.test_generation_reproduces_all_csv_bytes) ... ok\ntest_partially_mature_and_unobserved_cohorts_do_not_get_headline_rates (test_retention.RetentionFixtureTest.test_partially_mature_and_unobserved_cohorts_do_not_get_headline_rates) ... ok\ntest_reference_matches_frozen_results (test_retention.RetentionFixtureTest.test_reference_matches_frozen_results) ... ok\n\n----------------------------------------------------------------------\nRan 45 tests in 7.590s\n\nOK\n"
+  },
+  "phase_intervals": [
+    {
+      "phase": "scope",
+      "seconds": 31.105,
+      "started_utc": "2026-11-22T16:34:41.719+00:00",
+      "ended_utc": "2026-11-22T16:35:12.824+00:00"
+    },
+    {
+      "phase": "research",
+      "seconds": 203.834,
+      "started_utc": "2026-11-22T16:35:12.882+00:00",
+      "ended_utc": "2026-11-22T16:38:36.716+00:00"
+    },
+    {
+      "phase": "strategy",
+      "seconds": 1032.193,
+      "started_utc": "2026-11-22T16:38:36.757+00:00",
+      "ended_utc": "2026-11-22T16:55:48.950+00:00"
+    }
+  ],
+  "phase_seconds_sum": 1267.132,
+  "case_unchanged": true,
+  "source_case_hashes": {
+    "analysis/export_pdf.py": "16a12843f6be342b1706d5950f7d718e2d92f0adf93ccb4705eb9d8ed9e6fedf",
+    "analysis/independent-check.json": "a9ee5070f9aca9390f20357b68a8dd019a8ccc1d7fbb89f28aa8fe8400e430c9",
+    "analysis/independent_check.py": "2821de1fca7c317cd37cbf1f22c1f2e74b3ac16bf940e082e4c37cda1956dda0",
+    "analysis/inputs.json": "9dff4055ac1fbb02e87c51efbb4e8318563e7f198eed8422abdf7178915e6703",
+    "analysis/metric-passports.md": "7f20a1ed01833f639bee25e4a9e5619e9a25ba0d95e4efb6b8da63dc1af28b67",
+    "analysis/model.py": "481ec47d65069d1bf7abe3d3c164be2782cad72c64a3b1f2859e2e2fbc888336",
+    "analysis/results.json": "6f1e0722fb0d0cb05dbad436970e8e9348b3e77e790f42592b618ab01889013a",
+    "analysis/sensitivity.json": "8b99e1cd1bc92d2b994ca648cebd71500041472df4c88e9402515e07b2203ed0",
+    "audit.tsv": "e6905a1c91f747003d0ea700bd8b64fee7b0140e0a0c17bcff638850118e1672",
+    "brief.md": "55a810ecbedb870a76338e29f1d2783ae3bcfe7efb923fc70e6966ab02612faf",
+    "claims.tsv": "e01a3b5b56e6c6a7b0bffc50550fe5caa52a2f55e918461c85338afcb6739fde",
+    "evidence/S-001@1.jsonl": "ac60ca4ca6d87e83c244d61fb7a7483c3fd2df37717a75c77c0e96fe86a2ef9a",
+    "inputs/brief.pdf": "558d2c665caa4f4954135c8bbfb69d791e398dcdc5b625d5ded7bdb2d0eb0fa5",
+    "inputs.json": "b78c107406d832889e56c7238484ef03ddc2c23e4cfd6034f4c9d493b6ac3568",
+    "quality.md": "bb362df394c2f12a79b564ba0430e08aab98a6a8ac21e7301ff28ee6fb6f7bfc",
+    "research.md": "0365a88506a057c5c7f2d99fc3dc188f514fdd5177603fdbf8be56549c61ea63",
+    "review/accepted-01.png": "d756e96c36d171d140c46cede7b54a0c2b4ea6f063bfb98c4753f4cac9a9a4d5",
+    "review/accepted-02.png": "55f6d22caafd041f0188c08458773380d13235e8c105c4f778929bcb1fa8c1ec",
+    "review/accepted-03.png": "065e8c9996658b5c5afdf31bad40224ed842525d8207a37bf81a875a35f7bb0a",
+    "review/accepted-04.png": "1499bb264bcbefe8c2426daa7d1ca884a73c09312c0f5019046402c7796c5401",
+    "review/accepted-05.png": "4f91065bc3bcfb636faf0aa37dc62ee488ba3139d28d1f893183b79bffbf72c8",
+    "review/accepted-06.png": "a5e5524ee9844efab9c868b759d7e6c82a7b3a8b62bbdd2b527de1336624fdf8",
+    "review/accepted-07.png": "cdd77bf5465f885051b100c877190c23eaac66d313bfc7bb7491b7a2d4a6d222",
+    "review/accepted-08.png": "b85f2b573edbf1e8bea9ab4755b54237ad734523854489e667a1e58aa52f3b3d",
+    "review/accepted-09.png": "67e8973a80733e9b5346fd3987d6d2395af47b6dc0cb6ff2620a1646cb6e8baf",
+    "review/accepted-10.png": "ebe324938dbde2559d1561f4cdde18762963ba769f3020cf16c8a3803c027834",
+    "review/accepted-11.png": "08f0c9da0e8ebcf5ced71702d500ed2a81bfe4632b4045492fe4a845c988c24c",
+    "review/accepted-12.png": "35c0fe96518827fa1f382777269c3c1d0283fcc4557556df46dff5965668efb7",
+    "review/accepted-13.png": "393a49790ac9a5ddeca3ab48885291df75bb0be0bfcb578c8b2e2b714fd5e5aa",
+    "review/accepted-14.png": "732f26c927a7ec879c98a7960ebc7d8cbabee1cba0f0a3e17870629333e46ad0",
+    "review/accepted-15.png": "db82ded49337ffaf22253927ec9475033d8931e3e8d0eb5b94b9982e9e308ce6",
+    "review/accepted-16.png": "d3220fe79c071064df4ffc12b2cbb0c3d7b6a5919dcd462fc92570c5466e9d57",
+    "review/accepted-17.png": "6d48e4a53ab2f66e2f572c74c4d4baf106dee379d5d6b9386c20a2c221626710",
+    "review/accepted-18.png": "4e79fa08fe9fdfab01ea2ec78ddbb2d52c8babcf78f75e0661bb6cd010ed5f10",
+    "review/accepted-19.png": "0f3e306fde065dad986056547b051eaecc69d5684f2a8c49bf794319759cc439",
+    "review/accepted-20.png": "5c6b8dd2210b563abc139c79d11e3549270a70615bc25b016903f8407a3aa3b6",
+    "review/accepted-contact-1.png": "60474de27c6b7c9cfd8ee761e7f4c22d25b33f2b98236a5e3faed70947c32100",
+    "review/accepted-contact-2.png": "ef279babf4fcd99890855ef5a39e2180556ccf897472ca8b1fe37bd5076e2728",
+    "review/accepted-contact-3.png": "e8d403e687b3024c912e0ead57d299c0e3233730136fb645ea33a168c92e2459",
+    "review/brief-01.png": "ab36d6b8073e973003fe136379327bfdd1b2ca61e1b39fa29d052df3a1650c11",
+    "review/brief-02.png": "32d23fd3e36764c0dfd4e1e9bc15910ed290e3229f42be0d75800a75d5dea75e",
+    "review/brief-03.png": "c4d7e3f9dc8ee7f9cfe3d7ccf293dfee2af7e8ed03838b5e8285dcf33b77ef82",
+    "review/brief-04.png": "25f71f385adcb9debd074b3a3b93904406c1597bfeff553bff8f88ad67785bb9",
+    "review/brief-05.png": "338411d76f9aa35c245b192731815e4a2796c17f51e09b44ceb1d688d4e77b41",
+    "review/brief-06.png": "8054eef28b1c4f7e24de6a340d0ac190db38b8ca172f2e6abc80b1a3495c9d18",
+    "review/brief-07.png": "67e35207093962ab8db322d4faf6a947cb2e16f434dc9d598cbb0acc21274345",
+    "review/brief-08.png": "20d609a6377977956a4f9a0ef5e5614049c7e83e9cb52164fee504773cf72de5",
+    "review/brief-09.png": "b4cc38a649c0fb5bce396d309897873f9672c85addb0f138381e984ace55ab99",
+    "review/brief-10.png": "c9615377e2ec65fdca66fff22ed7721e14cf4cc4b231e30111c95f4124e6d5ff",
+    "review/brief-11.png": "005c4fc3dc31fddb91bfa8492f695c9b1c8b759e2423f11e508ee24bbd0e2e46",
+    "review/brief-contact.png": "7aa75b25887dd6d9a89d51c34c994f0ba8fe1b63ee3f53c98a6633657c3c7d9f",
+    "run.tsv": "95e83970e4149d3d92cd98272dbcd8628329bc8b8282fbcfa844d9db0f048fd3",
+    "sources.tsv": "47a912a7c370f677aa820b04fc86e993d53d378510cd39c0f6e4b0616645838e",
+    "state.json": "dd54b5641a96cffddaaa2fb4043fa1c286d2b8b3aeca9fbcbc760e49f0b5591b",
+    "strategy.md": "a9598eaab87b710d21f3427a8d4520690c068e8a97674b15ce4b123fdd15365b"
+  },
+  "panels": [
+    {
+      "id": "01-instructions",
+      "title": "Постановка исследование и стратегия",
+      "path": "AGENTS.md",
+      "first_line": 5,
+      "text": "1. **Постановка.** Запустите `init` или `resume` через `python -m tools.case`. Зафиксируйте решение, цель, получателя, ограничения, разрешённые источники и бюджет в брифе. Спрашивайте о том, что мешает ближайшему безопасному шагу. Обратимые допущения записывайте.\n2. **Исследование.** Откройте фазу `research`. Прочтите [skill исследования](.agents/skills/research-sources/SKILL.md). Выберите вопросы по влиянию на решение, извлеките первичные сведения с локаторами и запишите пробелы. Для числовых выводов используйте [skill анализа данных](.agents/skills/analyze-data/SKILL.md).\n3. **Стратегия.** Откройте фазу `strategy`. Используйте [skill стратегии](.agents/skills/build-strategy/SKILL.md). Сравните сохранение курса, закрытие и минимум одно изменение. Подготовьте согласованные продуктовую и коммуникационную стратегии с планом проверки.",
+      "sha256": "5da957a896d6b0bda43d8d6bbf025d9bcd92b9aa9152e755fb67c6d6917a5b7a"
+    },
+    {
+      "id": "02-research",
+      "title": "Вопросы которые могут изменить решение",
+      "path": "cases/megafon-official/research.md",
+      "first_line": 5,
+      "text": "## Вопросы и граница поиска\n\n1. Можно ли помочь до ограничения? Бриф подтверждает существующую передачу остатка, но не своевременность телеметрии. Q1: восстановить события остатка/ограничения/обращения/операции; без доступного сигнала не запускать. [[C-001]][[C-019]]\n2. Семьи или собственные номера? Доступны 100000 домохозяйств против40000 владельцев, без пересечения; частоты неизвестны. Условно семьи, но результат Q1 может переключить приоритет. [[C-003]][[C-016]][[C-018]]\n3. Окупается ли улучшение? Нет платежей и затрат; сценарный расчёт со ставкой500, помесячными когортами и прямыми расходами; цель285 не поддерживается. [[C-012]][[C-021]][[C-023]]\n4. Реально ли доказать пользу к Q2? Поток первых событий неизвестен; целевые3600 семей не вытекают из6500 подключённых. [[C-025]]\nОстановка поиска: единственный разрешённый материал исчерпан; дополнительные разрезы без первичных данных имитировали бы исследование. Интервью и операционные выгрузки не получены. Никаких обращений к вебу или прежним кейсам. [[C-007]][[C-028]]\n",
+      "sha256": "0365a88506a057c5c7f2d99fc3dc188f514fdd5177603fdbf8be56549c61ea63"
+    },
+    {
+      "id": "03-options",
+      "title": "Пять альтернатив и условия выбора",
+      "path": "cases/megafon-official/strategy.md",
+      "first_line": 5,
+      "text": "## Альтернативы\n\n### O-01 [status_quo] Временно сохранить обслуживание\n279 млн руб.,8000 подключённых и5000 активных по учебному прогнозу. Выгода — не вкладываться до готовности данных; риск — неизвестный ущерб поздней помощи. Вернуться к выбору в концеQ1 по окну/потоку/правам. [[C-004]][[C-007]]\n\n### O-02 [close] Закрыть новое направление\nПрекратить разработку/сигналы, не отключать существующие семейные услуги; сверить зависшие операции, оставить поддержку. Сэкономить ещё не потраченные средства, потерять опцион проверки. Условие — неустранимый вред/невозможность сигнала/отрицательная экономика без пути исправления. [[C-018]][[C-024]]\n\n### O-03 [change] Ранний сигнал со штатной операцией\nМинимально проверить своевременность существующего выделения. Допущение1.60млн инвестиций,0.36млн новых прямых расходов; основной годовой прирост ВП0.34млн. Сильное возражение — нет доказательства потока и удержания. [[C-001]][[C-018]][[C-019]][[C-021]][[C-024]]\n\n### O-04 [change] Общий семейный кабинет\nПроектная нижняя оценка6чел.-мес. разработки и3млн инвестиций; не помещается в предварительные3чел.-мес.Q2. Преимущество над сигналом не доказано. Чтобы оправдать ещё1.4млн, нужно >=2800 дополнительных оплаченных номеро-месяцев сверх O-03 плюс компенсация новых расходов. Прямой тест против O-03. [[C-001]][[C-007]][[C-012]][[C-014]]\n\n### O-05 [change] Автоматический резерв/условия распределения\nМеняет механизм без присутствия организатора; неизвестны смета и ущерб другим участникам. Требует отдельного согласия, биллинговой проверки и причинной оценки. Нельзя объявить превосходство при неизвестной цене. [[C-002]][[C-007]]\n\n## Рекомендация\n\nСемейный сигнал для одного тарифа — условный первый приоритет проверки, не доказанный рыночный победитель. Доступны100000домохозяйств против40000владельцев, но частоты и тяжесть неизвестны. При роутерном ущербе >2.14 семейного в иллюстративном равном по стоимости примере приоритет меняется; общий критерий и все допущения — в полном документе1.2. [[C-003]][[C-007]][[C-018]]\n",
+      "sha256": "a9598eaab87b710d21f3427a8d4520690c068e8a97674b15ce4b123fdd15365b"
+    },
+    {
+      "id": "04-strategy",
+      "title": "Рекомендация и ограничения прогноза",
+      "path": "deliverables/megafon/strategy.md",
+      "first_line": 5,
+      "text": "**Резюме для руководителя.** Первыми предлагаем обслужить организаторов семейных групп, в которых у участника заканчивается выделенный интернет, а в общем пакете ещё есть свободный объём. Предложение — своевременный сигнал организатору и переход к уже существующей операции выделения интернета с проверенным серверным результатом. Польза — меньше ограничений интернета по этой причине, а не больше открытий приложения. Общий кабинет пока не строим. Первый приоритет условный: частоты семейных проблем и проблем собственных номеров в задании отсутствуют. [[C-018]][[C-019]]\n\nПри благоприятном прохождении контрольных точек основной сценарий даёт к концу планового года 12 000 подключённых и 8 000 активных семейных групп, 60% активации за 14 дней. Это три из пяти целей. Валовая прибыль — **279,34 млн руб.**, всего на 0,34 млн выше сценария без изменений и на 5,66 млн ниже цели. По собственным номерам — 1 000 подключённых владельцев против цели 2 000. Инвестиции в подготовку и разработку — проектные 1,60 млн руб.; в первый год они не возвращаются. Эти значения — сценарий на допущениях, не результаты исследования и не обещание выполнения плана. [[C-020]][[C-021]][[C-024]][[C-026]]",
+      "sha256": "ffc87c5ee40753f695ecaaab0bd8253ab03be923f4d3858ed06ad4ca4ea62b37"
+    },
+    {
+      "id": "05-verify",
+      "title": "Проверка сохранённого кейса",
+      "path": "Фактический stdout CLI",
+      "text": "$ python -m tools.case verify cases/megafon-official\n\n{\"sources_available\": 1, \"sources_unavailable\": 0, \"claims\": 28, \"strategy_checked\": true, \"audit_structure\": \"checked\"}"
+    },
+    {
+      "id": "06-resume",
+      "title": "Восстановление состояния в новом процессе",
+      "path": "Временная копия cases/megafon-official",
+      "text": "$ python -m tools.case resume TEMP_COPY/case --environment Codex\n\n{\n  \"schema\": 1,\n  \"status\": \"awaiting_decision\",\n  \"next\": \"decision\",\n  \"completed\": {\n    \"scope\": {\n      \"brief.md\": \"55a810ecbedb870a76338e29f1d2783ae3bcfe7efb923fc70e6966ab02612faf\"\n    },\n    \"research\": {\n      \"research.md\": \"0365a88506a057c5c7f2d99fc3dc188f514fdd5177603fdbf8be56549c61ea63\",\n      \"sources.tsv\": \"47a912a7c370f677aa820b04fc86e993d53d378510cd39c0f6e4b0616645838e\",\n      \"claims.tsv\": \"e01a3b5b56e6c6a7b0bffc50550fe5caa52a2f55e918461c85338afcb6739fde\"\n    },\n    \"strategy\": {\n      \"strategy.md\": \"a9598eaab87b710d21f3427a8d4520690c068e8a97674b15ce4b123fdd15365b\",\n      \"quality.md\": \"bb362df394c2f12a79b564ba0430e08aab98a6a8ac21e7301ff28ee6fb6f7bfc\",\n      \"audit.tsv\": \"e6905a1c91f747003d0ea700bd8b64fee7b0140e0a0c17bcff638850118e1672\"\n    }\n  },\n  \"pending\": null,\n  \"reason\": \"\",\n  \"audit_required\": true\n}\n\nГраница проверки: Новый процесс CLI на временной копии; это не новый чат с LLM."
+    }
+  ]
+}

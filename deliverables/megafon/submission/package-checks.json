@@ -1,0 +1,60 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-11-22T17:50:10.780243+00:00",
+  "publication": "not_performed",
+  "video": "not_created",
+  "case_unchanged": true,
+  "existing_manifest_matches": true,
+  "local_links_checked": [
+    "README.md",
+    "deliverables/megafon/SUBMISSION.md",
+    "deliverables/megafon/agent-description.md"
+  ],
+  "broken_local_links": [],
+  "credential_scan": {
+    "scope": "private-key blocks, common GitHub tokens, AWS access key ID patterns",
+    "findings": [],
+    "limitation": "Pattern screening, not a guarantee of absence of every possible secret."
+  },
+  "trial_zip_crc": "passed",
+  "trial_extracted_hashes": true,
+  "extracted_verify": {
+    "command": "/Users/dima/mephi/Yablochniki/YablochnikiAIAgent/.venv/bin/python -m tools.case verify cases/megafon-official",
+    "exit_code": 0,
+    "stdout": "{\"sources_available\": 1, \"sources_unavailable\": 0, \"claims\": 28, \"strategy_checked\": true, \"audit_structure\": \"checked\"}\n",
+    "stderr": ""
+  },
+  "extracted_help": {
+    "command": "/Users/dima/mephi/Yablochniki/YablochnikiAIAgent/.venv/bin/python -m tools.case --help",
+    "exit_code": 0,
+    "stdout": "usage: case.py [-h] {init,begin,finish,pause,resume,ingest,verify,log} ...\n\nFile-backed checkpoints and provenance for an editor-hosted agent.\n\npositional arguments:\n  {init,begin,finish,pause,resume,ingest,verify,log}\n\noptions:\n  -h, --help            show this help message and exit\n",
+    "stderr": ""
+  },
+  "extracted_tests": {
+    "command": "/Users/dima/mephi/Yablochniki/YablochnikiAIAgent/.venv/bin/python -m unittest discover -s tests -v",
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "test_composition_shift_without_within_segment_decline (test_analytical_method.AnalyticalMethodTest.test_composition_shift_without_within_segment_decline) ... ok\ntest_endpoints_do_not_establish_period_robustness (test_analytical_method.AnalyticalMethodTest.test_endpoints_do_not_establish_period_robustness) ... ok\ntest_immaturity_and_incomplete_telemetry_are_separate (test_analytical_method.AnalyticalMethodTest.test_immaturity_and_incomplete_telemetry_are_separate) ... ok\ntest_null_power_is_not_probability_of_full_success (test_analytical_method.AnalyticalMethodTest.test_null_power_is_not_probability_of_full_success) ... ok\ntest_undefined_activation_needs_event_sensitivity_and_unknown_group (test_analytical_method.AnalyticalMethodTest.test_undefined_activation_needs_event_sensitivity_and_unknown_group) ... ok\ntest_unknown_segment_is_retained_and_absent_support_is_not_zero (test_analytical_method.AnalyticalMethodTest.test_unknown_segment_is_retained_and_absent_support_is_not_zero) ... ok\ntest_within_segment_decline_without_composition_shift (test_analytical_method.AnalyticalMethodTest.test_within_segment_decline_without_composition_shift) ... ok\ntest_zero_guardrail_events_can_still_be_inconclusive (test_analytical_method.AnalyticalMethodTest.test_zero_guardrail_events_can_still_be_inconclusive) ... ok\ntest_after_run_allows_outputs_but_protects_original_brief (test_benchmark.BenchmarkPackagingTest.test_after_run_allows_outputs_but_protects_original_brief) ... ok\ntest_changed_input_is_detected (test_benchmark.BenchmarkPackagingTest.test_changed_input_is_detected) ... ok\ntest_common_bytes_equal_and_only_b_has_instructions (test_benchmark.BenchmarkPackagingTest.test_common_bytes_equal_and_only_b_has_instructions) ... ok\ntest_existing_workspaces_are_never_overwritten (test_benchmark.BenchmarkPackagingTest.test_existing_workspaces_are_never_overwritten) ... ok\ntest_extra_hidden_file_or_empty_directory_is_detected (test_benchmark.BenchmarkPackagingTest.test_extra_hidden_file_or_empty_directory_is_detected) ... ok\ntest_hardlink_between_copies_is_rejected (test_benchmark.BenchmarkPackagingTest.test_hardlink_between_copies_is_rejected) ... ok\ntest_source_symlink_is_rejected_before_copying (test_benchmark.BenchmarkPackagingTest.test_source_symlink_is_rejected_before_copying) ... ok\ntest_workspace_symlink_is_rejected (test_benchmark.BenchmarkPackagingTest.test_workspace_symlink_is_rejected) ... ok\ntest_changed_manual_capture_requires_new_version (test_prototype.PrototypeTest.test_changed_manual_capture_requires_new_version) ... ok\ntest_csv_multiline_locator (test_prototype.PrototypeTest.test_csv_multiline_locator) ... ok\ntest_decision_requires_recorded_human_confirmation (test_prototype.PrototypeTest.test_decision_requires_recorded_human_confirmation) ... ok\ntest_docx_paragraph_and_table_locators (test_prototype.PrototypeTest.test_docx_paragraph_and_table_locators) ... ok\ntest_duplicate_snapshot_locator_rejected_even_with_updated_digest (test_prototype.PrototypeTest.test_duplicate_snapshot_locator_rejected_even_with_updated_digest) ... ok\ntest_finish_requires_complete_audit_structure (test_prototype.PrototypeTest.test_finish_requires_complete_audit_structure) ... ok\ntest_inputs_symlink_cannot_escape_case (test_prototype.PrototypeTest.test_inputs_symlink_cannot_escape_case) ... ok\ntest_journal_before_state_write_is_reconciled (test_prototype.PrototypeTest.test_journal_before_state_write_is_reconciled) ... ok\ntest_measurement_can_be_added_after_completion (test_prototype.PrototypeTest.test_measurement_can_be_added_after_completion) ... ok\ntest_measurement_requires_provenance (test_prototype.PrototypeTest.test_measurement_requires_provenance) ... ok\ntest_missing_quote_and_changed_source_rejected (test_prototype.PrototypeTest.test_missing_quote_and_changed_source_rejected) ... ok\ntest_partial_step_resumes_same_attempt_and_reuses_source (test_prototype.PrototypeTest.test_partial_step_resumes_same_attempt_and_reuses_source) ... ok\ntest_pdf_page_locator (test_prototype.PrototypeTest.test_pdf_page_locator) ... ok\ntest_pilot_report_and_actual_benchmark_repeat (test_prototype.PrototypeTest.test_pilot_report_and_actual_benchmark_repeat) ... ok\ntest_pilot_revision_preserves_strategy_and_pins_corrected_evidence (test_prototype.PrototypeTest.test_pilot_revision_preserves_strategy_and_pins_corrected_evidence) ... ok\ntest_resume_detects_edited_completed_output (test_prototype.PrototypeTest.test_resume_detects_edited_completed_output) ... ok\ntest_strategy_checkpoint_recovers_and_pins_audit (test_prototype.PrototypeTest.test_strategy_checkpoint_recovers_and_pins_audit) ... ok\ntest_structural_audit_does_not_infer_semantic_support (test_prototype.PrototypeTest.test_structural_audit_does_not_infer_semantic_support) ... ok\ntest_synthetic_source_cannot_be_used_as_fact (test_prototype.PrototypeTest.test_synthetic_source_cannot_be_used_as_fact) ... ok\ntest_t7_review_fixture_reproduces_metrics_without_unrelated_input (test_prototype.PrototypeTest.test_t7_review_fixture_reproduces_metrics_without_unrelated_input) ... ok\ntest_t7_review_resumes_with_pinned_parent_and_explicit_decision_boundary (test_prototype.PrototypeTest.test_t7_review_resumes_with_pinned_parent_and_explicit_decision_boundary) ... ok\ntest_unavailable_file_and_unapproved_web (test_prototype.PrototypeTest.test_unavailable_file_and_unapproved_web) ... ok\ntest_unknown_web_attempt_is_not_repeated (test_prototype.PrototypeTest.test_unknown_web_attempt_is_not_repeated) ... ok\ntest_untrusted_text_stays_data_and_file_escape_fails (test_prototype.PrototypeTest.test_untrusted_text_stays_data_and_file_escape_fails) ... ok\ntest_xlsx_values_and_formula_not_executed (test_prototype.PrototypeTest.test_xlsx_values_and_formula_not_executed) ... ok\ntest_denominator_uses_registered_users_with_complete_target_day (test_retention.RetentionFixtureTest.test_denominator_uses_registered_users_with_complete_target_day) ... ok\ntest_generation_reproduces_all_csv_bytes (test_retention.RetentionFixtureTest.test_generation_reproduces_all_csv_bytes) ... ok\ntest_partially_mature_and_unobserved_cohorts_do_not_get_headline_rates (test_retention.RetentionFixtureTest.test_partially_mature_and_unobserved_cohorts_do_not_get_headline_rates) ... ok\ntest_reference_matches_frozen_results (test_retention.RetentionFixtureTest.test_reference_matches_frozen_results) ... ok\n\n----------------------------------------------------------------------\nRan 45 tests in 6.877s\n\nOK\n"
+  },
+  "runtime_note": "Extracted files tested with existing dependency-equipped Python, no new dependency install or new LLM run.",
+  "pdf_pages": {
+    "description": 8,
+    "strategy": 20
+  },
+  "description_headings_present": true,
+  "visual_review": {
+    "pages": 8,
+    "status": "passed",
+    "method": "Poppler PNG render and visual inspection by primary agent"
+  },
+  "excluded": [
+    ".git",
+    ".venv",
+    "cases/local",
+    ".DS_Store",
+    ".env*",
+    "output",
+    "tmp",
+    "node_modules"
+  ]
+}

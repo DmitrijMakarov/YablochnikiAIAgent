@@ -1,0 +1,32 @@
+[
+  {
+    "id": "01-instructions",
+    "html": "01-instructions.html",
+    "image": "01-instructions.png"
+  },
+  {
+    "id": "02-research",
+    "html": "02-research.html",
+    "image": "02-research.png"
+  },
+  {
+    "id": "03-options",
+    "html": "03-options.html",
+    "image": "03-options.png"
+  },
+  {
+    "id": "04-strategy",
+    "html": "04-strategy.html",
+    "image": "04-strategy.png"
+  },
+  {
+    "id": "05-verify",
+    "html": "05-verify.html",
+    "image": "05-verify.png"
+  },
+  {
+    "id": "06-resume",
+    "html": "06-resume.html",
+    "image": "06-resume.png"
+  }
+]
